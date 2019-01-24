@@ -1,6 +1,6 @@
 [Bodoni*](http://indestructibletype.com/Bodoni.html)
 ========
-![Bodoni* Picture](BodoniAbout.svg)
+![Bodoni* Picture](https://indestructibletype.com/assets/BodoniAbout.svg)
 Bodoni* is an original font created by [indestructible type*](https://indestructibletype.com/Home.html). It is inspired by 
 the designs of Giambattista Bodoni. This is version 1.0.
 
