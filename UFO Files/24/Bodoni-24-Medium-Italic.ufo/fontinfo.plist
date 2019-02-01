@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>familyName</key>
-    <string>Bodoni* 24 Medium</string>
-    <key>styleName</key>
-    <string>24-Medium-Italic</string>
-    <key>styleMapFamilyName</key>
-    <string>Bodoni* 24 Medium Italic</string>
-    <key>styleMapStyleName</key>
-    <string>italic</string>
-    <key>versionMajor</key>
-    <integer>1</integer>
-    <key>versionMinor</key>
-    <integer>0</integer>
-    <key>copyright</key>
-    <string>Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)</string>
-    <key>unitsPerEm</key>
-    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>6400</integer>
     <key>capHeight</key>
     <integer>700</integer>
-    <key>xHeight</key>
-    <integer>460</integer>
-    <key>ascender</key>
-    <integer>800</integer>
+    <key>copyright</key>
+    <string>Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)</string>
     <key>descender</key>
-    <integer>-200</integer>
+    <integer>-1600</integer>
+    <key>familyName</key>
+    <string>Bodoni* 24 Medium</string>
+    <key>guidelines</key>
+    <array/>
     <key>italicAngle</key>
-    <real>-13</real>
+    <real>-13.0</real>
     <key>note</key>
     <string></string>
     <key>openTypeHeadCreated</key>
     <string>2016/04/15 23:15:50</string>
     <key>openTypeHheaAscender</key>
-    <integer>1000</integer>
+    <integer>8000</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-200</integer>
+    <integer>-1600</integer>
     <key>openTypeHheaLineGap</key>
-    <integer>100</integer>
+    <integer>800</integer>
+    <key>openTypeNameDesigner</key>
+    <string></string>
+    <key>openTypeNameDesignerURL</key>
+    <string></string>
     <key>openTypeNameLicense</key>
     <string>Copyright (c) 2019, Owen Earl,,, (&lt;URL|email&gt;),
 with Reserved Font Name Bodoni* 11 Fatface.
@@ -135,16 +127,14 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
-    <key>openTypeNameVersion</key>
-    <string>Version 1.000</string>
+    <key>openTypeNameManufacturer</key>
+    <string></string>
+    <key>openTypeNameManufacturerURL</key>
+    <string></string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Bodoni* 24</string>
-    <key>openTypeOS2WidthClass</key>
-    <integer>5</integer>
-    <key>openTypeOS2WeightClass</key>
-    <integer>500</integer>
-    <key>openTypeOS2VendorID</key>
-    <string>PfEd</string>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.002</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>3</integer>
@@ -153,28 +143,62 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>800</integer>
+    <integer>6400</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-200</integer>
+    <integer>-1600</integer>
     <key>openTypeOS2TypoLineGap</key>
-    <integer>100</integer>
-    <key>openTypeOS2WinAscent</key>
-    <integer>1000</integer>
-    <key>openTypeOS2WinDescent</key>
-    <integer>400</integer>
+    <integer>800</integer>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>
     </array>
+    <key>openTypeOS2VendorID</key>
+    <string>PfEd</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>500</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>8000</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>3200</integer>
+    <key>postscriptBlueValues</key>
+    <array/>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
     <key>postscriptFontName</key>
     <string>Bodoni-24-Medium-Italic</string>
     <key>postscriptFullName</key>
     <string>Bodoni* 24 Medium Italic</string>
+    <key>postscriptOtherBlues</key>
+    <array/>
+    <key>postscriptStemSnapH</key>
+    <array/>
+    <key>postscriptStemSnapV</key>
+    <array/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-800</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>400</integer>
     <key>postscriptWeightName</key>
     <string>Medium</string>
-    <key>postscriptUnderlineThickness</key>
-    <integer>50</integer>
-    <key>postscriptUnderlinePosition</key>
-    <integer>-100</integer>
+    <key>styleMapFamilyName</key>
+    <string>Bodoni* 24 Medium</string>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
+    <key>styleName</key>
+    <string>24-Medium-Italic</string>
+    <key>trademark</key>
+    <string></string>
+    <key>unitsPerEm</key>
+    <integer>8000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>2</integer>
+    <key>xHeight</key>
+    <integer>460</integer>
   </dict>
 </plist>
