@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2116" format="1">
+  <advance width="4939"/>
+  <unicode hex="2116"/>
+  <outline>
+    <contour>
+      <point x="3539" y="1331" type="line"/>
+      <point x="4645" y="1331" type="line"/>
+      <point x="4641" y="1249" type="line"/>
+      <point x="3535" y="1249" type="line"/>
+    </contour>
+    <contour>
+      <point x="4518" y="3113" type="curve" smooth="yes"/>
+      <point x="4903" y="3113"/>
+      <point x="5181" y="2937"/>
+      <point x="5181" y="2556" type="curve" smooth="yes"/>
+      <point x="5181" y="1892"/>
+      <point x="4653" y="1556"/>
+      <point x="4157" y="1556" type="curve" smooth="yes"/>
+      <point x="3772" y="1556"/>
+      <point x="3494" y="1733"/>
+      <point x="3494" y="2114" type="curve" smooth="yes"/>
+      <point x="3494" y="2778"/>
+      <point x="4022" y="3113"/>
+    </contour>
+    <contour>
+      <point x="4043" y="1860" type="curve" smooth="yes"/>
+      <point x="4043" y="1713"/>
+      <point x="4088" y="1638"/>
+      <point x="4178" y="1638" type="curve" smooth="yes"/>
+      <point x="4387" y="1638"/>
+      <point x="4633" y="2384"/>
+      <point x="4633" y="2810" type="curve" smooth="yes"/>
+      <point x="4633" y="2957"/>
+      <point x="4587" y="3031"/>
+      <point x="4497" y="3031" type="curve" smooth="yes"/>
+      <point x="4288" y="3031"/>
+      <point x="4043" y="2286"/>
+    </contour>
+    <component base="N" xOffset="106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1249</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1556</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>3031</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>3293</integer>
+            <key>width</key>
+            <integer>324</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>4415</integer>
+            <key>width</key>
+            <integer>324</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
