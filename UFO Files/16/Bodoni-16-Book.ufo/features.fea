@@ -682,7 +682,7 @@ feature kern {
 	\ebreve \Gbreve \gbreve \Ibreve \ibreve \Ubreve \ubreve \thorn \Thorn \Dcroat 
 	\dcroat \IJ \ij \Lslash \lslash \Obreve \obreve \napostrophe \eth \OE \oe 
 	\germandbls \uni0212 \uni0213 \circumflex \caron \pi \uni1E9E \uni203D \R.alt 
-	\J.alt \four.alt \uni2116 \Euro ];
+	\J.alt \four.alt \uni2116 \Euro \uni0000 \uni000D \uni00A0 \ellipsis ];
 @GDEF_Ligature = [\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 \fj.lig ];
 
 table GDEF {

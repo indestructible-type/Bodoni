@@ -1,9 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dcroat" format="2">
-  <advance width="757"/>
+  <advance width="3102"/>
   <unicode hex="0110"/>
   <outline>
-    <component base="hyphen" xScale="1.44583" xOffset="-69" yOffset="90"/>
-    <component base="D"/>
+    <contour>
+      <point x="440" y="3072" type="line"/>
+      <point x="1075" y="3072" type="line"/>
+      <point x="1075" y="0" type="line"/>
+      <point x="440" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1382" y="0" type="curve" smooth="yes"/>
+      <point x="72" y="0" type="line"/>
+      <point x="72" y="16" type="line"/>
+      <point x="1382" y="16" type="line" smooth="yes"/>
+      <point x="2013" y="16"/>
+      <point x="2222" y="729"/>
+      <point x="2222" y="1536" type="curve" smooth="yes"/>
+      <point x="2222" y="2343"/>
+      <point x="1971" y="3056"/>
+      <point x="1382" y="3056" type="curve" smooth="yes"/>
+      <point x="72" y="3056" type="line"/>
+      <point x="72" y="3072" type="line"/>
+      <point x="1382" y="3072" type="line" smooth="yes"/>
+      <point x="2357" y="3072"/>
+      <point x="2939" y="2449"/>
+      <point x="2939" y="1536" type="curve" smooth="yes"/>
+      <point x="2939" y="623"/>
+      <point x="2316" y="0"/>
+    </contour>
+    <contour>
+      <point x="73.5249" y="1502" type="line"/>
+      <point x="1493.45" y="1502" type="line"/>
+      <point x="1493.45" y="1486" type="line"/>
+      <point x="73.5249" y="1486" type="line"/>
+    </contour>
   </outline>
 </glyph>
