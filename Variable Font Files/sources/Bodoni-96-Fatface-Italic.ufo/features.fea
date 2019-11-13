@@ -1,0 +1,693 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup ss02StyleSet2lookup4 {
+  lookupflag 0;
+    sub \J by \J.alt ;
+} ss02StyleSet2lookup4;
+
+lookup ss03StyleSet3lookup5 {
+  lookupflag 0;
+    sub \four by \four.alt ;
+} ss03StyleSet3lookup5;
+
+lookup ss04StyleSet4lookup5 {
+  lookupflag 0;
+    sub \v by \v.alt ;
+} ss04StyleSet4lookup5;
+
+lookup ss01StyleSet1lookup2 {
+  lookupflag 0;
+    sub \R by \R.alt ;
+} ss01StyleSet1lookup2;
+
+lookup caltContextualAlternateslookup3 {
+  lookupflag 0;
+    @cc4_match_1 = [\R ];
+    @cc4_match_2 = [\R.alt ];
+    @cc4_match_3 = [\A \B \D \E \F \H \I \K \M \N \P \b \f \h \i \k \l \m \n \r ];
+    @cc4_back_1 = [\R ];
+    @cc4_back_2 = [\R.alt ];
+    @cc4_back_3 = [\A \B \D \E \F \H \I \K \M \N \P \b \f \h \i \k \l \m \n \r ];
+    @cc4_ahead_1 = [\R ];
+    @cc4_ahead_2 = [\R.alt ];
+    @cc4_ahead_3 = [\A \B \D \E \F \H \I \K \M \N \P \b \f \h \i \k \l \m \n \r ];
+    sub @cc4_match_1'lookup ss01StyleSet1lookup2  @cc4_match_3' ;
+    sub @cc4_match_1'lookup ss01StyleSet1lookup2  @cc4_match_1' ;
+    sub @cc4_match_1'lookup ss01StyleSet1lookup2  @cc4_match_2' ;
+} caltContextualAlternateslookup3;
+
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \f \f  by \uniFB00;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f \i  by \uniFB03;
+    sub \f \f \l  by \uniFB04;
+    sub \f \j  by \fj.lig;
+} ligaStandardLigatureslookup0;
+
+feature ss04 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss04StyleSet4lookup5;
+
+ script grek;
+     language dflt ;
+      lookup ss04StyleSet4lookup5;
+
+ script latn;
+     language dflt ;
+      lookup ss04StyleSet4lookup5;
+} ss04;
+
+feature ss02 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+
+ script latn;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+} ss02;
+
+feature ss03 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+
+ script grek;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+
+ script latn;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+} ss03;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+} ss01;
+
+feature calt {
+
+ script DFLT;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+
+ script grek;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+
+ script latn;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+} calt;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    @kc6_first_1 = [\A \backslash \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \uni013B 
+	\Lslash ];
+    @kc6_first_2 = [\B ];
+    @kc6_first_3 = [\C \E \Egrave \Eacute \Ecircumflex \Edieresis \Cacute \Ccircumflex \Cdotaccent 
+	\Ccaron \Emacron \Ebreve \Edotaccent \Eogonek \Ecaron ];
+    @kc6_first_4 = [\D \O \Q \Eth \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Dcaron 
+	\Dcroat \Omacron \Obreve ];
+    @kc6_first_5 = [\F \P \Y \Yacute \Ycircumflex \Ydieresis ];
+    @kc6_first_6 = [\G ];
+    @kc6_first_7 = [\H \I \M \N \Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Hcircumflex \Itilde 
+	\Imacron \Ibreve \Iogonek \Idotaccent ];
+    @kc6_first_8 = [\J \U \Ugrave \Uacute \Ucircumflex \Udieresis \IJ \Jcircumflex \Utilde \Umacron 
+	\Ubreve \Uring \Uogonek \J.alt ];
+    @kc6_first_9 = [\K \X \uni0136 ];
+    @kc6_first_10 = [\R \R.alt ];
+    @kc6_first_11 = [\S ];
+    @kc6_first_12 = [\slash \V \W \Wcircumflex ];
+    @kc6_first_13 = [\Z \Zacute \Zdotaccent \Zcaron ];
+    @kc6_first_14 = [\T \uni0162 \Tcaron ];
+    @kc6_first_15 = [\a \h \m \n \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve 
+	\aogonek \hcircumflex \nacute \uni0146 \ncaron \napostrophe ];
+    @kc6_first_16 = [\b \c \e \o \p \thorn \eogonek ];
+    @kc6_first_17 = [\d \l \lacute \uni013C \lslash \uniFB02 \uniFB04 ];
+    @kc6_first_18 = [\f \uniFB00 ];
+    @kc6_first_19 = [\g \r \v \w \y \ydieresis \racute \uni0157 \rcaron \wcircumflex \ycircumflex ];
+    @kc6_first_20 = [\i \j ];
+    @kc6_first_21 = [\k \x \uni0137 \kgreenlandic ];
+    @kc6_first_22 = [\s \sacute \scircumflex \scedilla \scaron ];
+    @kc6_first_23 = [\t \uni0163 ];
+    @kc6_first_24 = [\u \uogonek ];
+    @kc6_first_25 = [\z \zacute \zdotaccent \zcaron ];
+    @kc6_first_26 = [\quotedbl \quotesingle \quoteleft \quoteright \quotedblleft \quotedblright ];
+    @kc6_first_27 = [\comma \period ];
+    @kc6_first_28 = [\L \Lacute ];
+    @kc6_second_1 = [\slash \A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Amacron 
+	\Abreve \Aogonek ];
+    @kc6_second_2 = [\B \D \E \F \H \I \K \L \M \N \P \R \Egrave \Eacute \Ecircumflex \Edieresis \Igrave 
+	\Iacute \Icircumflex \Idieresis \Eth \Ntilde \Thorn \Hcircumflex 
+	\Itilde \Imacron \Ibreve \Iogonek \Idotaccent \IJ \uni0136 \Lacute 
+	\uni013B \Lcaron \Ldot \Lslash \Nacute \Ncaron \Racute \uni0156 \Rcaron 
+	\R.alt ];
+    @kc6_second_3 = [\C \G \O \Q \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Cacute 
+	\Ccircumflex \Cdotaccent \Ccaron \Gcircumflex \Gbreve \Gdotaccent 
+	\uni0122 \Omacron \Obreve \OE ];
+    @kc6_second_4 = [\J ];
+    @kc6_second_5 = [\S ];
+    @kc6_second_6 = [\V \W \Wcircumflex ];
+    @kc6_second_7 = [\U \Utilde \Umacron \Ubreve \Uring \Uogonek ];
+    @kc6_second_8 = [\X ];
+    @kc6_second_9 = [\Y ];
+    @kc6_second_10 = [\Z ];
+    @kc6_second_11 = [\T \uni0162 \Tcaron ];
+    @kc6_second_12 = [\a \ae \aogonek ];
+    @kc6_second_13 = [\h \l \hcircumflex \lacute \uni013C \lcaron \ldot \lslash ];
+    @kc6_second_14 = [\c \d \e \o \q \ccedilla \egrave \eacute \ecircumflex \edieresis \ograve \oacute 
+	\ocircumflex \otilde \odieresis \oslash \cacute \ccircumflex 
+	\cdotaccent \ccaron \dcaron \dcroat \emacron \ebreve \edotaccent 
+	\eogonek \ecaron ];
+    @kc6_second_15 = [\f \uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 ];
+    @kc6_second_16 = [\g \gcircumflex \gbreve \gdotaccent ];
+    @kc6_second_17 = [\i \j \igrave \iacute \icircumflex \idieresis \itilde \imacron \ibreve \iogonek 
+	\dotlessi \ij \jcircumflex ];
+    @kc6_second_18 = [\m \n \p \r \nacute \uni0146 \ncaron \racute \uni0157 \rcaron ];
+    @kc6_second_19 = [\t \uni0163 \tcaron ];
+    @kc6_second_20 = [\u \utilde \umacron \ubreve \uring \uogonek ];
+    @kc6_second_21 = [\v \w \y \wcircumflex \ycircumflex ];
+    @kc6_second_22 = [\x ];
+    @kc6_second_23 = [\z \zacute \zdotaccent \zcaron ];
+    @kc6_second_24 = [\quotedbl \quotesingle \quoteleft \quoteright \quotedblleft \quotedblright ];
+    @kc6_second_25 = [\comma \period ];
+    @kc6_second_26 = [\s \sacute \scircumflex \scedilla \scaron ];
+    @kc6_second_27 = [\b \k ];
+    pos @kc6_first_1 @kc6_second_1 41;
+    pos @kc6_first_1 @kc6_second_3 -369;
+    pos @kc6_first_1 @kc6_second_6 -819;
+    pos @kc6_first_1 @kc6_second_7 -369;
+    pos @kc6_first_1 @kc6_second_8 41;
+    pos @kc6_first_1 @kc6_second_9 -737;
+    pos @kc6_first_1 @kc6_second_10 20;
+    pos @kc6_first_1 @kc6_second_11 -369;
+    pos @kc6_first_1 @kc6_second_12 -82;
+    pos @kc6_first_1 @kc6_second_14 -164;
+    pos @kc6_first_1 @kc6_second_19 -164;
+    pos @kc6_first_1 @kc6_second_20 -164;
+    pos @kc6_first_1 @kc6_second_21 -328;
+    pos @kc6_first_1 @kc6_second_24 -532;
+    pos @kc6_first_2 @kc6_second_1 -287;
+    pos @kc6_first_2 @kc6_second_2 -82;
+    pos @kc6_first_2 @kc6_second_4 -41;
+    pos @kc6_first_2 @kc6_second_5 -41;
+    pos @kc6_first_2 @kc6_second_6 -41;
+    pos @kc6_first_2 @kc6_second_7 -82;
+    pos @kc6_first_2 @kc6_second_8 -287;
+    pos @kc6_first_2 @kc6_second_9 -328;
+    pos @kc6_first_2 @kc6_second_10 -41;
+    pos @kc6_first_2 @kc6_second_16 -41;
+    pos @kc6_first_2 @kc6_second_19 -82;
+    pos @kc6_first_2 @kc6_second_24 -123;
+    pos @kc6_first_2 @kc6_second_26 -41;
+    pos @kc6_first_3 @kc6_second_3 -41;
+    pos @kc6_first_3 @kc6_second_5 -41;
+    pos @kc6_first_3 @kc6_second_19 -123;
+    pos @kc6_first_3 @kc6_second_20 -123;
+    pos @kc6_first_3 @kc6_second_21 -82;
+    pos @kc6_first_4 @kc6_second_1 -492;
+    pos @kc6_first_4 @kc6_second_2 -82;
+    pos @kc6_first_4 @kc6_second_3 41;
+    pos @kc6_first_4 @kc6_second_4 -205;
+    pos @kc6_first_4 @kc6_second_5 -82;
+    pos @kc6_first_4 @kc6_second_6 -205;
+    pos @kc6_first_4 @kc6_second_7 -123;
+    pos @kc6_first_4 @kc6_second_8 -410;
+    pos @kc6_first_4 @kc6_second_9 -492;
+    pos @kc6_first_4 @kc6_second_10 -41;
+    pos @kc6_first_4 @kc6_second_12 -123;
+    pos @kc6_first_4 @kc6_second_13 -82;
+    pos @kc6_first_4 @kc6_second_14 20;
+    pos @kc6_first_4 @kc6_second_21 41;
+    pos @kc6_first_4 @kc6_second_25 -205;
+    pos @kc6_first_5 @kc6_second_1 -614;
+    pos @kc6_first_5 @kc6_second_3 -82;
+    pos @kc6_first_5 @kc6_second_4 -287;
+    pos @kc6_first_5 @kc6_second_5 -82;
+    pos @kc6_first_5 @kc6_second_8 -123;
+    pos @kc6_first_5 @kc6_second_10 -41;
+    pos @kc6_first_5 @kc6_second_12 -492;
+    pos @kc6_first_5 @kc6_second_14 -164;
+    pos @kc6_first_5 @kc6_second_15 -123;
+    pos @kc6_first_5 @kc6_second_16 -492;
+    pos @kc6_first_5 @kc6_second_18 -287;
+    pos @kc6_first_5 @kc6_second_20 -287;
+    pos @kc6_first_5 @kc6_second_21 -164;
+    pos @kc6_first_5 @kc6_second_22 -287;
+    pos @kc6_first_5 @kc6_second_23 -287;
+    pos @kc6_first_5 @kc6_second_25 -532;
+    pos @kc6_first_5 @kc6_second_26 -369;
+    pos @kc6_first_6 @kc6_second_1 -348;
+    pos @kc6_first_6 @kc6_second_2 -82;
+    pos @kc6_first_6 @kc6_second_3 82;
+    pos @kc6_first_6 @kc6_second_4 -143;
+    pos @kc6_first_6 @kc6_second_5 -82;
+    pos @kc6_first_6 @kc6_second_6 -205;
+    pos @kc6_first_6 @kc6_second_7 -164;
+    pos @kc6_first_6 @kc6_second_8 -328;
+    pos @kc6_first_6 @kc6_second_9 -205;
+    pos @kc6_first_6 @kc6_second_10 -123;
+    pos @kc6_first_6 @kc6_second_12 -41;
+    pos @kc6_first_6 @kc6_second_13 -82;
+    pos @kc6_first_6 @kc6_second_14 82;
+    pos @kc6_first_6 @kc6_second_15 -123;
+    pos @kc6_first_6 @kc6_second_17 -82;
+    pos @kc6_first_6 @kc6_second_19 -41;
+    pos @kc6_first_6 @kc6_second_21 -82;
+    pos @kc6_first_6 @kc6_second_22 -123;
+    pos @kc6_first_6 @kc6_second_23 82;
+    pos @kc6_first_6 @kc6_second_24 -123;
+    pos @kc6_first_6 @kc6_second_25 -123;
+    pos @kc6_first_7 @kc6_second_3 -123;
+    pos @kc6_first_7 @kc6_second_5 -41;
+    pos @kc6_first_7 @kc6_second_11 82;
+    pos @kc6_first_7 @kc6_second_12 -41;
+    pos @kc6_first_7 @kc6_second_14 -41;
+    pos @kc6_first_7 @kc6_second_19 -102;
+    pos @kc6_first_7 @kc6_second_20 -123;
+    pos @kc6_first_7 @kc6_second_21 -123;
+    pos @kc6_first_7 @kc6_second_23 41;
+    pos @kc6_first_8 @kc6_second_1 -492;
+    pos @kc6_first_8 @kc6_second_3 -123;
+    pos @kc6_first_8 @kc6_second_4 -205;
+    pos @kc6_first_8 @kc6_second_5 -123;
+    pos @kc6_first_8 @kc6_second_6 82;
+    pos @kc6_first_8 @kc6_second_7 41;
+    pos @kc6_first_8 @kc6_second_8 -123;
+    pos @kc6_first_8 @kc6_second_12 -205;
+    pos @kc6_first_8 @kc6_second_14 -164;
+    pos @kc6_first_8 @kc6_second_15 -123;
+    pos @kc6_first_8 @kc6_second_16 -246;
+    pos @kc6_first_8 @kc6_second_18 -123;
+    pos @kc6_first_8 @kc6_second_19 -123;
+    pos @kc6_first_8 @kc6_second_20 -123;
+    pos @kc6_first_8 @kc6_second_21 -123;
+    pos @kc6_first_8 @kc6_second_22 -123;
+    pos @kc6_first_8 @kc6_second_23 -164;
+    pos @kc6_first_8 @kc6_second_25 -287;
+    pos @kc6_first_8 @kc6_second_26 -205;
+    pos @kc6_first_9 @kc6_second_1 41;
+    pos @kc6_first_9 @kc6_second_3 -410;
+    pos @kc6_first_9 @kc6_second_6 -82;
+    pos @kc6_first_9 @kc6_second_7 -82;
+    pos @kc6_first_9 @kc6_second_8 82;
+    pos @kc6_first_9 @kc6_second_9 -123;
+    pos @kc6_first_9 @kc6_second_12 -20;
+    pos @kc6_first_9 @kc6_second_14 -123;
+    pos @kc6_first_9 @kc6_second_15 41;
+    pos @kc6_first_9 @kc6_second_17 41;
+    pos @kc6_first_9 @kc6_second_18 41;
+    pos @kc6_first_9 @kc6_second_19 -164;
+    pos @kc6_first_9 @kc6_second_20 -205;
+    pos @kc6_first_9 @kc6_second_21 -369;
+    pos @kc6_first_9 @kc6_second_22 82;
+    pos @kc6_first_9 @kc6_second_23 82;
+    pos @kc6_first_9 @kc6_second_24 -123;
+    pos @kc6_first_10 @kc6_second_1 41;
+    pos @kc6_first_10 @kc6_second_2 41;
+    pos @kc6_first_10 @kc6_second_3 -123;
+    pos @kc6_first_10 @kc6_second_6 -205;
+    pos @kc6_first_10 @kc6_second_7 -246;
+    pos @kc6_first_10 @kc6_second_8 41;
+    pos @kc6_first_10 @kc6_second_9 -410;
+    pos @kc6_first_10 @kc6_second_10 41;
+    pos @kc6_first_10 @kc6_second_12 -41;
+    pos @kc6_first_10 @kc6_second_13 20;
+    pos @kc6_first_10 @kc6_second_14 -123;
+    pos @kc6_first_10 @kc6_second_15 20;
+    pos @kc6_first_10 @kc6_second_16 -41;
+    pos @kc6_first_10 @kc6_second_19 -164;
+    pos @kc6_first_10 @kc6_second_20 -164;
+    pos @kc6_first_10 @kc6_second_21 -82;
+    pos @kc6_first_10 @kc6_second_22 41;
+    pos @kc6_first_10 @kc6_second_23 41;
+    pos @kc6_first_10 @kc6_second_24 -123;
+    pos @kc6_first_11 @kc6_second_1 -287;
+    pos @kc6_first_11 @kc6_second_2 -82;
+    pos @kc6_first_11 @kc6_second_5 -82;
+    pos @kc6_first_11 @kc6_second_6 -123;
+    pos @kc6_first_11 @kc6_second_7 -123;
+    pos @kc6_first_11 @kc6_second_8 -205;
+    pos @kc6_first_11 @kc6_second_9 -205;
+    pos @kc6_first_11 @kc6_second_10 -123;
+    pos @kc6_first_11 @kc6_second_12 -41;
+    pos @kc6_first_11 @kc6_second_16 -82;
+    pos @kc6_first_11 @kc6_second_18 -41;
+    pos @kc6_first_11 @kc6_second_19 -82;
+    pos @kc6_first_11 @kc6_second_20 -82;
+    pos @kc6_first_11 @kc6_second_21 -123;
+    pos @kc6_first_11 @kc6_second_22 -123;
+    pos @kc6_first_11 @kc6_second_24 -123;
+    pos @kc6_first_11 @kc6_second_25 -82;
+    pos @kc6_first_12 @kc6_second_1 -819;
+    pos @kc6_first_12 @kc6_second_3 -238;
+    pos @kc6_first_12 @kc6_second_4 -455;
+    pos @kc6_first_12 @kc6_second_5 -90;
+    pos @kc6_first_12 @kc6_second_8 -106;
+    pos @kc6_first_12 @kc6_second_12 -614;
+    pos @kc6_first_12 @kc6_second_14 -573;
+    pos @kc6_first_12 @kc6_second_15 -410;
+    pos @kc6_first_12 @kc6_second_16 -655;
+    pos @kc6_first_12 @kc6_second_17 -41;
+    pos @kc6_first_12 @kc6_second_18 -369;
+    pos @kc6_first_12 @kc6_second_19 -287;
+    pos @kc6_first_12 @kc6_second_20 -369;
+    pos @kc6_first_12 @kc6_second_21 -287;
+    pos @kc6_first_12 @kc6_second_22 -287;
+    pos @kc6_first_12 @kc6_second_23 -410;
+    pos @kc6_first_12 @kc6_second_25 -778;
+    pos @kc6_first_12 @kc6_second_26 -532;
+    pos @kc6_first_13 @kc6_second_3 -82;
+    pos @kc6_first_13 @kc6_second_4 82;
+    pos @kc6_first_13 @kc6_second_5 -82;
+    pos @kc6_first_13 @kc6_second_10 41;
+    pos @kc6_first_13 @kc6_second_16 -82;
+    pos @kc6_first_13 @kc6_second_19 -82;
+    pos @kc6_first_13 @kc6_second_20 -123;
+    pos @kc6_first_13 @kc6_second_21 -205;
+    pos @kc6_first_13 @kc6_second_23 41;
+    pos @kc6_first_13 @kc6_second_24 -82;
+    pos @kc6_first_14 @kc6_second_1 -369;
+    pos @kc6_first_14 @kc6_second_2 82;
+    pos @kc6_first_14 @kc6_second_3 -41;
+    pos @kc6_first_14 @kc6_second_4 -123;
+    pos @kc6_first_14 @kc6_second_6 82;
+    pos @kc6_first_14 @kc6_second_7 41;
+    pos @kc6_first_14 @kc6_second_8 -82;
+    pos @kc6_first_14 @kc6_second_9 82;
+    pos @kc6_first_14 @kc6_second_12 -205;
+    pos @kc6_first_14 @kc6_second_14 -123;
+    pos @kc6_first_14 @kc6_second_20 -287;
+    pos @kc6_first_14 @kc6_second_24 123;
+    pos @kc6_first_14 @kc6_second_25 -369;
+    pos @kc6_first_14 @kc6_second_26 -287;
+    pos @kc6_first_15 @kc6_second_3 -164;
+    pos @kc6_first_15 @kc6_second_4 82;
+    pos @kc6_first_15 @kc6_second_6 -696;
+    pos @kc6_first_15 @kc6_second_7 -205;
+    pos @kc6_first_15 @kc6_second_9 -696;
+    pos @kc6_first_15 @kc6_second_11 -369;
+    pos @kc6_first_15 @kc6_second_12 41;
+    pos @kc6_first_15 @kc6_second_14 41;
+    pos @kc6_first_15 @kc6_second_16 -123;
+    pos @kc6_first_15 @kc6_second_17 -82;
+    pos @kc6_first_15 @kc6_second_18 -82;
+    pos @kc6_first_15 @kc6_second_19 -41;
+    pos @kc6_first_15 @kc6_second_20 -164;
+    pos @kc6_first_15 @kc6_second_21 -123;
+    pos @kc6_first_15 @kc6_second_23 41;
+    pos @kc6_first_15 @kc6_second_24 -410;
+    pos @kc6_first_15 @kc6_second_27 -123;
+    pos @kc6_first_16 @kc6_second_1 -205;
+    pos @kc6_first_16 @kc6_second_2 -123;
+    pos @kc6_first_16 @kc6_second_6 -614;
+    pos @kc6_first_16 @kc6_second_7 -123;
+    pos @kc6_first_16 @kc6_second_8 -123;
+    pos @kc6_first_16 @kc6_second_9 -696;
+    pos @kc6_first_16 @kc6_second_10 -82;
+    pos @kc6_first_16 @kc6_second_11 -410;
+    pos @kc6_first_16 @kc6_second_13 -82;
+    pos @kc6_first_16 @kc6_second_14 41;
+    pos @kc6_first_16 @kc6_second_15 -164;
+    pos @kc6_first_16 @kc6_second_19 20;
+    pos @kc6_first_16 @kc6_second_20 -82;
+    pos @kc6_first_16 @kc6_second_21 82;
+    pos @kc6_first_16 @kc6_second_22 -41;
+    pos @kc6_first_16 @kc6_second_24 -287;
+    pos @kc6_first_16 @kc6_second_25 -123;
+    pos @kc6_first_16 @kc6_second_27 -205;
+    pos @kc6_first_17 @kc6_second_3 -82;
+    pos @kc6_first_17 @kc6_second_6 -123;
+    pos @kc6_first_17 @kc6_second_7 -164;
+    pos @kc6_first_17 @kc6_second_9 -205;
+    pos @kc6_first_17 @kc6_second_11 -123;
+    pos @kc6_first_17 @kc6_second_12 41;
+    pos @kc6_first_17 @kc6_second_14 41;
+    pos @kc6_first_17 @kc6_second_16 -82;
+    pos @kc6_first_17 @kc6_second_19 -82;
+    pos @kc6_first_17 @kc6_second_20 -82;
+    pos @kc6_first_17 @kc6_second_21 -123;
+    pos @kc6_first_17 @kc6_second_24 -123;
+    pos @kc6_first_17 @kc6_second_27 -82;
+    pos @kc6_first_18 @kc6_second_2 287;
+    pos @kc6_first_18 @kc6_second_3 123;
+    pos @kc6_first_18 @kc6_second_4 123;
+    pos @kc6_first_18 @kc6_second_5 246;
+    pos @kc6_first_18 @kc6_second_6 369;
+    pos @kc6_first_18 @kc6_second_7 328;
+    pos @kc6_first_18 @kc6_second_8 246;
+    pos @kc6_first_18 @kc6_second_9 287;
+    pos @kc6_first_18 @kc6_second_10 328;
+    pos @kc6_first_18 @kc6_second_11 369;
+    pos @kc6_first_18 @kc6_second_12 -123;
+    pos @kc6_first_18 @kc6_second_13 287;
+    pos @kc6_first_18 @kc6_second_14 -123;
+    pos @kc6_first_18 @kc6_second_16 -164;
+    pos @kc6_first_18 @kc6_second_21 82;
+    pos @kc6_first_18 @kc6_second_24 287;
+    pos @kc6_first_19 @kc6_second_1 -287;
+    pos @kc6_first_19 @kc6_second_2 -205;
+    pos @kc6_first_19 @kc6_second_4 -369;
+    pos @kc6_first_19 @kc6_second_5 -123;
+    pos @kc6_first_19 @kc6_second_6 -410;
+    pos @kc6_first_19 @kc6_second_7 -164;
+    pos @kc6_first_19 @kc6_second_8 -205;
+    pos @kc6_first_19 @kc6_second_9 -696;
+    pos @kc6_first_19 @kc6_second_10 -164;
+    pos @kc6_first_19 @kc6_second_11 -614;
+    pos @kc6_first_19 @kc6_second_12 41;
+    pos @kc6_first_19 @kc6_second_13 -82;
+    pos @kc6_first_19 @kc6_second_15 41;
+    pos @kc6_first_19 @kc6_second_16 -41;
+    pos @kc6_first_19 @kc6_second_18 41;
+    pos @kc6_first_19 @kc6_second_19 82;
+    pos @kc6_first_19 @kc6_second_21 82;
+    pos @kc6_first_19 @kc6_second_25 -123;
+    pos @kc6_first_19 @kc6_second_27 -82;
+    pos @kc6_first_20 @kc6_second_3 -123;
+    pos @kc6_first_20 @kc6_second_6 -123;
+    pos @kc6_first_20 @kc6_second_7 -123;
+    pos @kc6_first_20 @kc6_second_9 -164;
+    pos @kc6_first_20 @kc6_second_11 -123;
+    pos @kc6_first_20 @kc6_second_12 -41;
+    pos @kc6_first_20 @kc6_second_14 41;
+    pos @kc6_first_20 @kc6_second_15 -164;
+    pos @kc6_first_20 @kc6_second_16 -82;
+    pos @kc6_first_20 @kc6_second_18 -82;
+    pos @kc6_first_20 @kc6_second_19 -41;
+    pos @kc6_first_20 @kc6_second_20 -61;
+    pos @kc6_first_20 @kc6_second_21 -123;
+    pos @kc6_first_20 @kc6_second_24 -164;
+    pos @kc6_first_20 @kc6_second_27 -123;
+    pos @kc6_first_21 @kc6_second_1 82;
+    pos @kc6_first_21 @kc6_second_2 82;
+    pos @kc6_first_21 @kc6_second_4 82;
+    pos @kc6_first_21 @kc6_second_6 -532;
+    pos @kc6_first_21 @kc6_second_7 -205;
+    pos @kc6_first_21 @kc6_second_8 82;
+    pos @kc6_first_21 @kc6_second_9 -614;
+    pos @kc6_first_21 @kc6_second_10 123;
+    pos @kc6_first_21 @kc6_second_11 -410;
+    pos @kc6_first_21 @kc6_second_13 82;
+    pos @kc6_first_21 @kc6_second_15 82;
+    pos @kc6_first_21 @kc6_second_16 -41;
+    pos @kc6_first_21 @kc6_second_19 -41;
+    pos @kc6_first_21 @kc6_second_20 -82;
+    pos @kc6_first_21 @kc6_second_23 82;
+    pos @kc6_first_21 @kc6_second_24 -123;
+    pos @kc6_first_22 @kc6_second_1 -123;
+    pos @kc6_first_22 @kc6_second_2 -123;
+    pos @kc6_first_22 @kc6_second_3 -123;
+    pos @kc6_first_22 @kc6_second_6 -614;
+    pos @kc6_first_22 @kc6_second_7 -164;
+    pos @kc6_first_22 @kc6_second_8 -123;
+    pos @kc6_first_22 @kc6_second_9 -696;
+    pos @kc6_first_22 @kc6_second_11 -410;
+    pos @kc6_first_22 @kc6_second_12 -41;
+    pos @kc6_first_22 @kc6_second_13 -82;
+    pos @kc6_first_22 @kc6_second_16 -41;
+    pos @kc6_first_22 @kc6_second_18 -82;
+    pos @kc6_first_22 @kc6_second_19 -82;
+    pos @kc6_first_22 @kc6_second_20 -82;
+    pos @kc6_first_22 @kc6_second_21 -41;
+    pos @kc6_first_22 @kc6_second_22 -82;
+    pos @kc6_first_22 @kc6_second_23 -41;
+    pos @kc6_first_22 @kc6_second_24 -164;
+    pos @kc6_first_22 @kc6_second_25 -82;
+    pos @kc6_first_22 @kc6_second_27 -123;
+    pos @kc6_first_23 @kc6_second_1 -123;
+    pos @kc6_first_23 @kc6_second_4 123;
+    pos @kc6_first_23 @kc6_second_6 -410;
+    pos @kc6_first_23 @kc6_second_7 -123;
+    pos @kc6_first_23 @kc6_second_9 -532;
+    pos @kc6_first_23 @kc6_second_11 -164;
+    pos @kc6_first_23 @kc6_second_12 41;
+    pos @kc6_first_23 @kc6_second_20 -41;
+    pos @kc6_first_23 @kc6_second_24 -82;
+    pos @kc6_first_24 @kc6_second_3 -123;
+    pos @kc6_first_24 @kc6_second_6 -532;
+    pos @kc6_first_24 @kc6_second_7 -246;
+    pos @kc6_first_24 @kc6_second_9 -655;
+    pos @kc6_first_24 @kc6_second_10 82;
+    pos @kc6_first_24 @kc6_second_11 -287;
+    pos @kc6_first_24 @kc6_second_12 -82;
+    pos @kc6_first_24 @kc6_second_14 -41;
+    pos @kc6_first_24 @kc6_second_19 -123;
+    pos @kc6_first_24 @kc6_second_20 -123;
+    pos @kc6_first_24 @kc6_second_21 -123;
+    pos @kc6_first_24 @kc6_second_24 -287;
+    pos @kc6_first_24 @kc6_second_27 -123;
+    pos @kc6_first_25 @kc6_second_6 -492;
+    pos @kc6_first_25 @kc6_second_7 -123;
+    pos @kc6_first_25 @kc6_second_9 -614;
+    pos @kc6_first_25 @kc6_second_11 -287;
+    pos @kc6_first_25 @kc6_second_12 82;
+    pos @kc6_first_25 @kc6_second_21 41;
+    pos @kc6_first_25 @kc6_second_22 82;
+    pos @kc6_first_26 @kc6_second_1 -696;
+    pos @kc6_first_26 @kc6_second_3 -123;
+    pos @kc6_first_26 @kc6_second_4 -205;
+    pos @kc6_first_26 @kc6_second_5 -82;
+    pos @kc6_first_26 @kc6_second_8 -82;
+    pos @kc6_first_26 @kc6_second_12 -287;
+    pos @kc6_first_26 @kc6_second_14 -205;
+    pos @kc6_first_26 @kc6_second_16 -205;
+    pos @kc6_first_26 @kc6_second_23 -123;
+    pos @kc6_first_26 @kc6_second_25 -123;
+    pos @kc6_first_26 @kc6_second_26 -164;
+    pos @kc6_first_27 @kc6_second_3 -123;
+    pos @kc6_first_27 @kc6_second_4 123;
+    pos @kc6_first_27 @kc6_second_6 -696;
+    pos @kc6_first_27 @kc6_second_7 -123;
+    pos @kc6_first_27 @kc6_second_9 -696;
+    pos @kc6_first_27 @kc6_second_11 -410;
+    pos @kc6_first_27 @kc6_second_14 -123;
+    pos @kc6_first_27 @kc6_second_19 -205;
+    pos @kc6_first_27 @kc6_second_20 -123;
+    pos @kc6_first_27 @kc6_second_21 -410;
+    pos @kc6_first_27 @kc6_second_24 -123;
+    pos @kc6_first_28 @kc6_second_3 -82;
+    pos @kc6_first_28 @kc6_second_4 123;
+    pos @kc6_first_28 @kc6_second_6 -492;
+    pos @kc6_first_28 @kc6_second_7 -82;
+    pos @kc6_first_28 @kc6_second_9 -492;
+    pos @kc6_first_28 @kc6_second_10 123;
+    pos @kc6_first_28 @kc6_second_11 -287;
+    pos @kc6_first_28 @kc6_second_13 -82;
+    pos @kc6_first_28 @kc6_second_15 -205;
+    pos @kc6_first_28 @kc6_second_16 -164;
+    pos @kc6_first_28 @kc6_second_17 -123;
+    pos @kc6_first_28 @kc6_second_18 -82;
+    pos @kc6_first_28 @kc6_second_19 -164;
+    pos @kc6_first_28 @kc6_second_20 -123;
+    pos @kc6_first_28 @kc6_second_21 -246;
+    pos @kc6_first_28 @kc6_second_24 -614;
+    pos @kc6_first_28 @kc6_second_27 -164;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script grek;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven 
+	\eight \nine \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \space \comma \quotedbl \exclam 
+	\semicolon \colon \quotesingle \quoteleft \quotedblleft \quotedblright 
+	\quoteright \question \parenleft \parenright \asterisk \at \dollar \numbersign 
+	\slash \percent \macron \hyphen \underscore \plus \equal \less \greater 
+	\backslash \bracketleft \braceleft \bracketright \braceright \bar \exclamdown 
+	\cent \sterling \yen \section \brokenbar \dieresis \asciitilde \copyright 
+	\registered \logicalnot \guillemotleft \guillemotright \uni00AD \mu \plusminus 
+	\asciicircum \periodcentered \degree \ordfeminine \uni00B2 \uni00B3 
+	\onequarter \onehalf \threequarters \uni00B9 \grave \acute \ordmasculine 
+	\questiondown \multiply \cedilla \Agrave \Aacute \divide \Acircumflex \Atilde 
+	\Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave 
+	\Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex \Otilde 
+	\Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute \ecircumflex 
+	\edieresis \igrave \iacute \icircumflex \idieresis \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex \udieresis \yacute 
+	\ydieresis \Amacron \amacron \Cacute \cacute \Ccircumflex \ccircumflex 
+	\Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Emacron \emacron 
+	\Edotaccent \edotaccent \Ecaron \ecaron \Gcircumflex \gcircumflex \Gdotaccent 
+	\gdotaccent \uni0122 \Hcircumflex \hcircumflex \Itilde \itilde \Imacron 
+	\imacron \Idotaccent \Jcircumflex \jcircumflex \uni0136 \uni0137 \Lacute 
+	\lacute \uni013B \uni013C \Lcaron \lcaron \Ldot \ldot \Nacute \nacute \uni0145 
+	\uni0146 \Ncaron \ncaron \Omacron \omacron \Racute \racute \uni0156 \uni0157 
+	\Rcaron \rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla 
+	\Scaron \scaron \uni0162 \uni0163 \Tcaron \tcaron \Utilde \utilde \Umacron 
+	\umacron \Uring \uring \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex 
+	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \uni0218 
+	\uni0219 \dotaccent \ring \tilde \uni203E \AE \Eth \Oslash \ae \oslash \uni2010 
+	\uni2011 \endash \figuredash \emdash \uni2015 \perthousand \uni2031 \uniF8E8 
+	\uniF8E9 \uniF8EA \ogonek \dotlessi \uni0237 \Aogonek \aogonek \Eogonek \eogonek 
+	\Iogonek \iogonek \Uogonek \uogonek \kgreenlandic \breve \Abreve \abreve \Ebreve 
+	\ebreve \Gbreve \gbreve \Ibreve \ibreve \Ubreve \ubreve \thorn \Thorn \Dcroat 
+	\dcroat \IJ \ij \Lslash \lslash \Obreve \obreve \napostrophe \eth \OE \oe 
+	\germandbls \uni0212 \uni0213 \circumflex \caron \pi \uni1E9E \uni203D \R.alt 
+	\J.alt \four.alt \v.alt \uni2116 \Euro \uni0000 \uni000D \uni00A0 \ellipsis ];
+@GDEF_Ligature = [\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 \fj.lig ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

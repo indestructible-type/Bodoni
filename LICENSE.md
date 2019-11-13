@@ -24,9 +24,6 @@ DEFINITIONS
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
 
-"Reserved Font Name" refers to any names specified as such after the
-copyright statement(s).
-
 "Original Version" refers to the collection of Font Software components as
 distributed by the Copyright Holder(s).
 
@@ -53,11 +50,6 @@ contains the above copyright notice and this license. These can be
 included either as stand-alone text files, human-readable headers or
 in the appropriate machine-readable metadata fields within text or
 binary files as long as those fields can be easily viewed by the user.
-
-3) No Modified Version of the Font Software may use the Reserved Font
-Name(s) unless explicit written permission is granted by the corresponding
-Copyright Holder. This restriction only applies to the primary font name as
-presented to the users.
 
 4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
 Software shall not be used to promote, endorse or advertise any

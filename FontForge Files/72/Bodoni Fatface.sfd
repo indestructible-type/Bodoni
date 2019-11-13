@@ -21,29 +21,29 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1565635565
+ModificationTime: 1573677394
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
-LineGap: 410
+LineGap: 0
 VLineGap: 0
-OS2TypoAscent: 3276
+OS2TypoAscent: 4194
 OS2TypoAOffset: 0
 OS2TypoDescent: -820
 OS2TypoDOffset: 0
-OS2TypoLinegap: 410
+OS2TypoLinegap: 0
 OS2WinAscent: 4096
 OS2WinAOffset: 0
 OS2WinDescent: 1638
 OS2WinDOffset: 0
-HheadAscent: 4096
+HheadAscent: 4194
 HheadAOffset: 0
 HheadDescent: -820
 HheadDOffset: 0
-OS2CapHeight: 700
-OS2XHeight: 460
+OS2CapHeight: 3072
+OS2XHeight: 1884
 OS2FamilyClass: 768
-OS2Vendor: 'PfEd'
+OS2Vendor: 'it* '
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
 Lookup: 1 0 0 "'ss02' Style Set 2 lookup 4" { "'ss02' Style Set 2 lookup 4-1"  } ['ss02' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Style Set 3 lookup 5" { "'ss03' Style Set 3 lookup 5-1"  } ['ss03' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -149,7 +149,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 96 16 4
+WinInfo: 0 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -172,7 +172,7 @@ Grid
   Named: "CAPITAL HIGHT"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65540 346
+BeginChars: 65540 352
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -182,17 +182,10 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2556 1884 m 1
- 3538 1884 l 1
- 3538 1872 l 1
- 2556 1872 l 1
- 2556 1884 l 1
-3108 1884 m 1
- 3022 970 2466 -40 1224 -40 c 0
- 474 -40 164 316 164 738 c 0
- 164 1450 1236 1626 1458 1790 c 0
- 1770 2024 1970 1910 1970 2622 c 0
- 1970 2896 1930 3100 1778 3100 c 0
+1870 2045 m 9
+ 1869 2048 l 1
+ 1906 2085 1970 2129 1970 2642 c 0
+ 1970 2916 1930 3100 1778 3100 c 0
  1646 3100 1582 2920 1582 2744 c 0
  1582 2560 1724 2270 1900 2008 c 2
  3204 12 l 1
@@ -203,11 +196,21 @@ SplineSet
  770 2164 688 2366 688 2510 c 0
  688 2878 1118 3112 1798 3112 c 0
  2442 3112 2806 2936 2806 2650 c 0
- 2806 2138 2098 2266 1418 1754 c 0
- 1176 1574 1064 1700 1064 1106 c 0
- 1064 566 1372 98 1758 98 c 0
- 2360 98 3010 896 3096 1884 c 1
+ 2806 2335 2366 2156 1870 2045 c 9
+1071 1731 m 1
+ 1085 1726 l 1
+ 1044 1699 984 1637 984 1426 c 0
+ 984 786 1242 105 1758 105 c 0
+ 2320 105 2990 828 3096 1884 c 1
  3108 1884 l 1
+ 3022 1000 2496 -40 1224 -40 c 0
+ 474 -40 154 316 154 738 c 0
+ 154 1429 873 1644 1071 1731 c 1
+2556 1884 m 1
+ 3538 1884 l 1
+ 3538 1872 l 1
+ 2556 1872 l 1
+ 2556 1884 l 1
 EndSplineSet
 EndChar
 
@@ -2001,7 +2004,7 @@ Encoding: 115 115 56
 GlifName: s
 Width: 1884
 VWidth: 4730
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -3414,9 +3417,23 @@ Width: 2702
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 46 N 1 0 0 1 696 1986 2
-Refer: 1 46 N 1 0 0 1 696 286 2
-Refer: 85 45 N 2.41593 0 0 1 -430 492 2
+SplineSet
+164 1622 m 1
+ 2537 1622 l 1
+ 2537 1614 l 1
+ 164 1614 l 1
+ 164 1622 l 1
+860 736 m 0
+ 860 1006 1082 1228 1352 1228 c 0
+ 1622 1228 1842 1006 1842 736 c 0
+ 1842 466 1622 246 1352 246 c 0
+ 1082 246 860 466 860 736 c 0
+860 2436 m 0
+ 860 2706 1082 2928 1352 2928 c 0
+ 1622 2928 1842 2706 1842 2436 c 0
+ 1842 2166 1622 1946 1352 1946 c 0
+ 1082 1946 860 2166 860 2436 c 0
+EndSplineSet
 EndChar
 
 StartChar: Acircumflex
@@ -5209,75 +5226,57 @@ Width: 1474
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-246 1130 m 1
- 1228 1130 l 1
- 1228 1122 l 1
- 246 1122 l 1
- 246 1130 l 1
-EndSplineSet
+Refer: 85 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 280
 GlifName: uni2011
-Width: 1174
+Width: 1474
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-246 1130 m 1
- 930 1130 l 1
- 930 1122 l 1
- 246 1122 l 1
- 246 1130 l 1
-EndSplineSet
+Refer: 85 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: endash
 Encoding: 8211 8211 281
 GlifName: endash
-Width: 1646
+Width: 2215
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 85 45 S 1.17647 0 0 1 -46 0 2
+Refer: 85 45 N 1.7528 0 0 1 -185.188 0 2
 EndChar
 
 StartChar: figuredash
 Encoding: 8210 8210 282
 GlifName: figuredash
-Width: 1822
+Width: 1915
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-246 1130 m 1
- 1576 1130 l 1
- 1576 1122 l 1
- 246 1122 l 1
- 246 1130 l 1
-EndSplineSet
+Refer: 85 45 N 1.44761 0 0 1 -110.112 0 2
 EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 283
 GlifName: emdash
-Width: 2166
+Width: 3215
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 85 45 S 1.70588 0 0 1 -176 0 2
+Refer: 85 45 N 2.77009 0 0 1 -435.443 0 2
 EndChar
 
 StartChar: uni2015
 Encoding: 8213 8213 284
 GlifName: uni2015
-Width: 2342
+Width: 3515
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 85 45 N 1.88235 0 0 1 -218 0 2
+Refer: 85 45 N 3.07528 0 0 1 -510.519 0 2
 EndChar
 
 StartChar: perthousand
@@ -6060,8 +6059,29 @@ Width: 3338
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 85 45 S 1.675 0 0 1 -368 368 2
-Refer: 15 68 N 1 0 0 1 0 0 2
+SplineSet
+430 3072 m 1
+ 1310 3072 l 1
+ 1310 0 l 1
+ 430 0 l 1
+ 430 3072 l 1
+1536 0 m 2
+ 62 0 l 1
+ 62 12 l 1
+ 1536 12 l 2
+ 2044 12 2212 668 2212 1536 c 0
+ 2212 2404 2002 3060 1536 3060 c 2
+ 62 3060 l 1
+ 62 3072 l 1
+ 1536 3072 l 2
+ 2572 3072 3174 2490 3174 1536 c 0
+ 3174 582 2532 0 1536 0 c 2
+44 1498 m 1
+ 1689 1498 l 1
+ 1689 1490 l 1
+ 44 1490 l 1
+ 44 1498 l 1
+EndSplineSet
 EndChar
 
 StartChar: dcroat
@@ -6628,6 +6648,63 @@ SplineSet
  2606 2846 2748 2762 2798 2696 c 1
 EndSplineSet
 Refer: 88 61 N 1 0 0 1 -122 -286 2
+EndChar
+
+StartChar: uni0000
+Encoding: 0 0 346
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni000D
+Encoding: 13 13 347
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 348
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni021A
+Encoding: 538 538 349
+Width: 2968
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 799 -1179 2
+Refer: 31 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B
+Encoding: 539 539 350
+Width: 1638
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 190 -1207 2
+Refer: 57 116 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ellipsis
+Encoding: 8230 8230 351
+Width: 3933
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 46 S 1 0 0 1 2622 0 2
+Refer: 1 46 N 1 0 0 1 1311 0 2
+Refer: 1 46 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
