@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pi" format="1">
-  <advance width="2584"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
+  <advance width="2583"/>
   <unicode hex="03C0"/>
   <outline>
     <contour>
       <point x="2441" y="422" type="line"/>
       <point x="2347" y="135"/>
-      <point x="2174" y="-41"/>
+      <point x="2184" y="-41"/>
       <point x="1896" y="-41" type="curve" smooth="yes"/>
       <point x="1622" y="-41"/>
       <point x="1417" y="78"/>
       <point x="1417" y="340" type="curve" smooth="yes"/>
       <point x="1417" y="1720" type="line"/>
-      <point x="1990" y="1720" type="line"/>
-      <point x="1990" y="394" type="line" smooth="yes"/>
-      <point x="1990" y="312"/>
-      <point x="2044" y="246"/>
-      <point x="2142" y="246" type="curve" smooth="yes"/>
-      <point x="2216" y="246"/>
-      <point x="2302" y="316"/>
-      <point x="2380" y="455" type="curve"/>
+      <point x="1991" y="1720" type="line"/>
+      <point x="1991" y="378" type="line" smooth="yes"/>
+      <point x="1991" y="296"/>
+      <point x="2038" y="223"/>
+      <point x="2146" y="223" type="curve" smooth="yes"/>
+      <point x="2237" y="223"/>
+      <point x="2303" y="284"/>
+      <point x="2383" y="456" type="curve"/>
     </contour>
     <contour>
       <point x="508" y="-41" type="curve" smooth="yes"/>
@@ -38,9 +38,9 @@
     <contour>
       <point x="2359" y="1884" type="line"/>
       <point x="2359" y="1311" type="line"/>
-      <point x="250" y="1311" type="line"/>
-      <point x="250" y="1004" type="line"/>
-      <point x="168" y="1004" type="line"/>
+      <point x="249" y="1311" type="line"/>
+      <point x="249" y="1003" type="line"/>
+      <point x="168" y="1003" type="line"/>
       <point x="168" y="1884" type="line"/>
     </contour>
   </outline>

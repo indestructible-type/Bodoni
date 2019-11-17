@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Euro" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
   <advance width="2908"/>
   <unicode hex="20AC"/>
   <outline>
@@ -44,53 +44,4 @@
     </contour>
     <component base="equal" xOffset="-123" yOffset="-287"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-41</integer>
-            <key>width</key>
-            <integer>162</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>2269</integer>
-            <key>width</key>
-            <integer>455</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>2959</integer>
-            <key>width</key>
-            <integer>154</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>512</integer>
-            <key>width</key>
-            <integer>471</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>2216</integer>
-            <key>width</key>
-            <integer>467</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>2517</integer>
-            <key>width</key>
-            <integer>158</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

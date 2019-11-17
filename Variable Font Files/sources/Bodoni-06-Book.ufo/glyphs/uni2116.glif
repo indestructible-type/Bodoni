@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2116" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2116" format="2">
   <advance width="4608"/>
   <unicode hex="2116"/>
   <outline>
@@ -34,41 +34,4 @@
     <component base="hyphen" xOffset="3064" yOffset="164"/>
     <component base="N"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>1556</integer>
-            <key>width</key>
-            <integer>82</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>3031</integer>
-            <key>width</key>
-            <integer>82</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>3109</integer>
-            <key>width</key>
-            <integer>348</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>4145</integer>
-            <key>width</key>
-            <integer>349</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
