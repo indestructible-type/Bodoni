@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
+  <advance width="4066"/>
+  <unicode hex="0152"/>
+  <outline>
+    <contour>
+      <point x="1649" y="3059" type="move"/>
+    </contour>
+    <contour>
+      <point x="880" y="1536" type="curve" smooth="yes"/>
+      <point x="880" y="729"/>
+      <point x="1079" y="13"/>
+      <point x="1649" y="13" type="curve"/>
+      <point x="1566" y="0" type="line"/>
+      <point x="734" y="0"/>
+      <point x="164" y="622"/>
+      <point x="164" y="1536" type="curve" smooth="yes"/>
+      <point x="164" y="2450"/>
+      <point x="734" y="3072"/>
+      <point x="1566" y="3072" type="curve"/>
+      <point x="1649" y="3059" type="line"/>
+      <point x="1079" y="3059"/>
+      <point x="880" y="2343"/>
+    </contour>
+    <component base="E" xOffset="1494"/>
+  </outline>
+</glyph>
