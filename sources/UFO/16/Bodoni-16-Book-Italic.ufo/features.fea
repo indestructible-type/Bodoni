@@ -521,6 +521,7 @@ lookup kernHorizontalKerninglookup0 {
     pos @kc6_first_20 @kc6_second_14 41;
     pos @kc6_first_20 @kc6_second_15 -82;
     pos @kc6_first_20 @kc6_second_16 -82;
+    pos @kc6_first_20 @kc6_second_18 -100;
     pos @kc6_first_20 @kc6_second_19 -41;
     pos @kc6_first_20 @kc6_second_20 -61;
     pos @kc6_first_20 @kc6_second_21 -123;
@@ -685,8 +686,8 @@ feature kern {
 	\ebreve \Gbreve \gbreve \Ibreve \ibreve \Ubreve \ubreve \thorn \Thorn \Dcroat 
 	\dcroat \IJ \ij \Lslash \lslash \Obreve \obreve \napostrophe \eth \OE \oe 
 	\germandbls \uni0212 \uni0213 \circumflex \caron \pi \uni1E9E \uni203D \R.alt 
-	\J.alt \four.alt \v.alt \uni2116 \Euro \uni021A \uni021B \uni0000 \uni000D 
-	\uni00A0 \ellipsis ];
+	\J.alt \four.alt \v.alt \uni2116 \Euro \uni0000 \uni000D \uni00A0 \uni021A 
+	\uni021B \ellipsis ];
 @GDEF_Ligature = [\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 \fj.lig ];
 
 table GDEF {

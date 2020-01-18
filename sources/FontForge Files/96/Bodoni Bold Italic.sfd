@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1573686963
+ModificationTime: 1579349692
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -147,10 +147,10 @@ LangName: 1033 "" "" "Bold Italic" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 3
+WinInfo: 496 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -173,7 +173,7 @@ Grid
   Named: "CAPITAL HIGHT"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65541 351
+BeginChars: 65541 353
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -6873,6 +6873,28 @@ Fore
 Refer: 1 46 N 1 0 0 1 2130 0 2
 Refer: 1 46 N 1 0 0 1 1065 0 2
 Refer: 1 46 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni021A
+Encoding: 538 538 351
+Width: 2751
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 507.234 -933 2
+Refer: 31 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B
+Encoding: 539 539 352
+Width: 1496
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 -65.7656 -973 2
+Refer: 57 116 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

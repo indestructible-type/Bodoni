@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1573651940
+ModificationTime: 1579349680
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -150,7 +150,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 272 16 4
+WinInfo: 512 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -173,7 +173,7 @@ Grid
   Named: "CAPITAL HIGHT"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65541 351
+BeginChars: 65541 353
 
 StartChar: ampersand
 Encoding: 38 38 0
@@ -214,7 +214,7 @@ SplineSet
  721 -41 82 28 82 614 c 0
  82 1074 574 1427 1185 1670 c 9
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: period
@@ -3198,7 +3198,7 @@ SplineSet
  1266 3105 356 2199 356 1249 c 0
 EndSplineSet
 Refer: 14 67 N 0.6 0 0 0.6 868 614 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: registered
@@ -3221,7 +3221,7 @@ SplineSet
  1266 3105 356 2199 356 1249 c 0
 EndSplineSet
 Refer: 29 82 S 0.6 0 0 0.6 934 606 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: logicalnot
@@ -3435,7 +3435,7 @@ SplineSet
 EndSplineSet
 Refer: 6 52 N 0.6 0 0 0.6 983 -422 2
 Refer: 3 49 N 0.6 0 0 0.6 418 1458 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: onehalf
@@ -3454,7 +3454,7 @@ SplineSet
 EndSplineSet
 Refer: 4 50 N 0.6 0 0 0.6 1397 -414 2
 Refer: 3 49 N 0.6 0 0 0.6 418 1458 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: threequarters
@@ -3473,7 +3473,7 @@ SplineSet
 EndSplineSet
 Refer: 5 51 N 0.6 0 0 0.6 348 1450 2
 Refer: 6 52 N 0.6 0 0 0.6 1229 -422 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni00B9
@@ -6019,7 +6019,7 @@ SplineSet
  872 2892 1463 3113 2077 3113 c 0
  2511 3113 2802 2851 2802 2585 c 0
 EndSplineSet
-Validated: 524293
+Validated: 5
 Ligature2: "'liga' Standard Ligatures lookup 0-1" f l
 LCarets2: 1 0
 EndChar
@@ -7267,7 +7267,7 @@ SplineSet
  3199 2806 3342 2695 3412 2568 c 5
 EndSplineSet
 Refer: 88 61 N 1 0 0 1 -123 -287 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: uni0000
@@ -7314,6 +7314,28 @@ Refer: 1 46 N 1 0 0 1 2622 0 2
 Refer: 1 46 N 1 0 0 1 1311 0 2
 Refer: 1 46 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: uni021A
+Encoding: 538 538 351
+Width: 2957
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 423.908 -1179 2
+Refer: 31 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni021B
+Encoding: 539 539 352
+Width: 1699
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 65 44 N 1 0 0 1 -172.092 -1220 2
+Refer: 57 116 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

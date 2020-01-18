@@ -39,6 +39,11 @@ lookup caltContextualAlternateslookup3 {
 
 lookup ligaStandardLigatureslookup0 {
   lookupflag 0;
+    sub \f \f  by \uniFB00;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f \i  by \uniFB03;
+    sub \f \f \l  by \uniFB04;
     sub \f \j  by \fj.lig;
 } ligaStandardLigatureslookup0;
 
@@ -408,7 +413,7 @@ lookup kernHorizontalKerninglookup0 {
     pos @kc5_first_15 @kc5_second_14 -61;
     pos @kc5_first_15 @kc5_second_16 -41;
     pos @kc5_first_15 @kc5_second_19 -41;
-    pos @kc5_first_15 @kc5_second_20 -164;
+    pos @kc5_first_15 @kc5_second_20 -100;
     pos @kc5_first_15 @kc5_second_21 -123;
     pos @kc5_first_15 @kc5_second_23 41;
     pos @kc5_first_15 @kc5_second_24 -123;
@@ -662,16 +667,15 @@ feature kern {
 	\umacron \Uring \uring \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex 
 	\Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \uni0218 
 	\uni0219 \dotaccent \ring \tilde \uni203E \AE \Eth \Oslash \ae \oslash \uni2010 
-	\uni2011 \endash \figuredash \emdash \uni2015 \perthousand \uni2031 \ogonek 
-	\dotlessi \uni0237 \Aogonek \aogonek \Eogonek \eogonek \Iogonek \iogonek 
-	\Uogonek \uogonek \kgreenlandic \breve \Abreve \abreve \Ebreve \ebreve \Gbreve 
-	\gbreve \Ibreve \ibreve \Ubreve \ubreve \thorn \Thorn \Dcroat \dcroat \IJ \ij 
-	\Lslash \lslash \Obreve \obreve \napostrophe \eth \OE \oe \germandbls \uni0212 
-	\uni0213 \circumflex \caron \pi \uni1E9E \uni203D \R.alt \J.alt \four.alt 
-	\uni2116 \Euro \uni0000 \uni000D \uni00A0 \uni021A \uni021B \ellipsis \currency 
-	\paragraph \longs \quotesinglbase \quotereversed \uniF8E8 \uniF8E9 \uniF8EA 
-	\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 ];
-@GDEF_Ligature = [\fj.lig ];
+	\uni2011 \endash \figuredash \emdash \uni2015 \perthousand \uni2031 \uniF8E8 
+	\uniF8E9 \uniF8EA \ogonek \dotlessi \uni0237 \Aogonek \aogonek \Eogonek \eogonek 
+	\Iogonek \iogonek \Uogonek \uogonek \kgreenlandic \breve \Abreve \abreve \Ebreve 
+	\ebreve \Gbreve \gbreve \Ibreve \ibreve \Ubreve \ubreve \thorn \Thorn \Dcroat 
+	\dcroat \IJ \ij \Lslash \lslash \Obreve \obreve \napostrophe \eth \OE \oe 
+	\germandbls \uni0212 \uni0213 \circumflex \caron \pi \uni1E9E \uni203D \R.alt 
+	\J.alt \four.alt \uni2116 \Euro \uni0000 \uni000D \uni00A0 \uni021A \uni021B 
+	\ellipsis ];
+@GDEF_Ligature = [\uniFB00 \uniFB01 \uniFB02 \uniFB03 \uniFB04 \fj.lig ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
