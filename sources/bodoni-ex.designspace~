@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<designspace format="3">
+
+  <axes>
+      <axis minimum="400" maximum="900" default="400" name="Weight" tag="wght">
+      </axis>
+      <axis minimum="6" maximum="96" default="11" name="Optical Size" tag="opsz">
+      </axis>
+  </axes>
+  <sources>
+    <source familyname="Bodoni" filename="UFO/11/Bodoni-11-Book.ufo" name="11">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <kerning copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="11"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/11/Bodoni-11-Fatface.ufo" name="11F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="11"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/11/Bodoni-11-Medium.ufo" name="11M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="11"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/11/Bodoni-11-Bold.ufo" name="11B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="11"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/06/Bodoni-06-Book.ufo" name="06">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="6"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/06/Bodoni-06-Fatface.ufo" name="06F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="6"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/06/Bodoni-06-Medium.ufo" name="06M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="6"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/06/Bodoni-06-Bold.ufo" name="06B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="06"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/16/Bodoni-16-Book.ufo" name="16">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="16"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/16/Bodoni-16-Fatface.ufo" name="16F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="16"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/16/Bodoni-16-Medium.ufo" name="16M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="16"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/16/Bodoni-16-Bold.ufo" name="16B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="16"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/24/Bodoni-24-Book.ufo" name="24">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="24"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/24/Bodoni-24-Fatface.ufo" name="24F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="24"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/24/Bodoni-24-Medium.ufo" name="24M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="24"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/24/Bodoni-24-Bold.ufo" name="24B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="24"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/36/Bodoni-36-Book.ufo" name="36">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/36/Bodoni-36-Fatface.ufo" name="36F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/36/Bodoni-36-Medium.ufo" name="36M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/36/Bodoni-36-Bold.ufo" name="36B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/48/Bodoni-48-Book.ufo" name="48">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="48"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/48/Bodoni-48-Fatface.ufo" name="48F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="48"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/48/Bodoni-48-Medium.ufo" name="48M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="48"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/48/Bodoni-48-Bold.ufo" name="48B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="48"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/72/Bodoni-72-Book.ufo" name="72">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="72"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/72/Bodoni-72-Fatface.ufo" name="72F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="72"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/72/Bodoni-72-Medium.ufo" name="72M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="72"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/72/Bodoni-72-Bold.ufo" name="72B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="72"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/96/Bodoni-96-Book.ufo" name="96">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/96/Bodoni-96-Fatface.ufo" name="96F">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/96/Bodoni-96-Medium.ufo" name="96M">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="UFO/96/Bodoni-96-Bold.ufo" name="96B">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

@@ -3,13 +3,13 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>3276</integer>
+    <integer>1600</integer>
     <key>capHeight</key>
-    <integer>3072</integer>
+    <integer>1500</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2017, Owen Earl,,, (EwonRael@yahoo.com)</string>
+    <string>Copyright (c) 2020, indestructible type* (https://github.com/indestructible-type)</string>
     <key>descender</key>
-    <integer>-820</integer>
+    <integer>-400</integer>
     <key>familyName</key>
     <string>Bodoni* 96</string>
     <key>guidelines</key>
@@ -21,9 +21,9 @@
     <key>openTypeHeadCreated</key>
     <string>2016/04/15 23:15:50</string>
     <key>openTypeHheaAscender</key>
-    <integer>4194</integer>
+    <integer>2000</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-820</integer>
+    <integer>-800</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
@@ -31,14 +31,7 @@
     <key>openTypeNameDesignerURL</key>
     <string></string>
     <key>openTypeNameLicense</key>
-    <string>Copyright (c) 2018, indestructible type*,,, (&lt;indestructibletype.com&gt;),
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
-
-
------------------------------------------------------------
+    <string>-----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 -----------------------------------------------------------
 
@@ -62,9 +55,6 @@ DEFINITIONS
 "Font Software" refers to the set of files released by the Copyright
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
-
-"Reserved Font Name" refers to any names specified as such after the
-copyright statement(s).
 
 "Original Version" refers to the collection of Font Software components as
 distributed by the Copyright Holder(s).
@@ -92,11 +82,6 @@ contains the above copyright notice and this license. These can be
 included either as stand-alone text files, human-readable headers or
 in the appropriate machine-readable metadata fields within text or
 binary files as long as those fields can be easily viewed by the user.
-
-3) No Modified Version of the Font Software may use the Reserved Font
-Name(s) unless explicit written permission is granted by the corresponding
-Copyright Holder. This restriction only applies to the primary font name as
-presented to the users.
 
 4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
 Software shall not be used to promote, endorse or advertise any
@@ -133,7 +118,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Bodoni* 96</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.000</string>
+    <string>Version 2.001</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>3</integer>
@@ -142,9 +127,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>4194</integer>
+    <integer>2000</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-820</integer>
+    <integer>-800</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2UnicodeRanges</key>
@@ -158,9 +143,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>4096</integer>
+    <integer>2000</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>1638</integer>
+    <integer>800</integer>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
@@ -178,9 +163,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>postscriptStemSnapV</key>
     <array/>
     <key>postscriptUnderlinePosition</key>
-    <integer>-408</integer>
+    <integer>-200</integer>
     <key>postscriptUnderlineThickness</key>
-    <integer>204</integer>
+    <integer>0</integer>
     <key>postscriptWeightName</key>
     <string>Bold</string>
     <key>styleMapFamilyName</key>
@@ -192,12 +177,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>trademark</key>
     <string></string>
     <key>unitsPerEm</key>
-    <integer>4096</integer>
+    <integer>2000</integer>
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>xHeight</key>
-    <integer>1884</integer>
+    <integer>920</integer>
   </dict>
 </plist>
