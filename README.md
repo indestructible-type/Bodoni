@@ -29,6 +29,8 @@ Corrected metadata to include better style links and include ligatures in .ttf f
 Created 6 pt. size and variable font versions.<br>
 <b>2.1</b>
 Fixed up source files<br>
+<b>2.2</b>
+Small caps & math symbols<br>
 
 Web Use
 -------
