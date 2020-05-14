@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
-  <advance width="703"/>
-  <unicode hex="006C"/>
-  <anchor x="356" y="0" name="cedilla"/>
-  <anchor x="354" y="0" name="bottom"/>
-  <anchor x="348" y="1500" name="top"/>
-  <outline>
-    <contour>
-      <point x="82" y="73" type="line"/>
-      <point x="621" y="73" type="line"/>
-      <point x="621" y="0" type="line"/>
-      <point x="82" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="262" y="1427" type="line"/>
-      <point x="82" y="1427" type="line"/>
-      <point x="82" y="1500" type="line"/>
-      <point x="441" y="1500" type="line"/>
-      <point x="441" y="0" type="line"/>
-      <point x="262" y="0" type="line"/>
-    </contour>
-  </outline>
+	<advance width="703"/>
+	<unicode hex="006C"/>
+	<anchor x="356" y="0" name="cedilla"/>
+	<anchor x="354" y="0" name="bottom"/>
+	<anchor x="348" y="1500" name="top"/>
+	<outline>
+		<contour>
+			<point x="262" y="0" type="line"/>
+			<point x="441" y="0" type="line"/>
+			<point x="441" y="1500" type="line"/>
+			<point x="82" y="1500" type="line"/>
+			<point x="82" y="1427" type="line"/>
+			<point x="262" y="1427" type="line"/>
+		</contour>
+		<contour>
+			<point x="82" y="0" type="line"/>
+			<point x="621" y="0" type="line"/>
+			<point x="621" y="73" type="line"/>
+			<point x="82" y="73" type="line"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.smcp" format="2">
+	<advance width="989"/>
+	<anchor x="313" y="1020" name="top"/>
+	<anchor x="565" y="0" name="bottom"/>
+	<anchor x="565" y="0" name="cedilla"/>
+	<outline>
+		<contour>
+			<point x="85" y="0" type="line"/>
+			<point x="969" y="0" type="line"/>
+			<point x="969" y="350" type="line"/>
+			<point x="965" y="350" type="line"/>
+			<point x="965" y="156"/>
+			<point x="880" y="4"/>
+			<point x="566" y="4" type="curve" smooth="yes"/>
+			<point x="85" y="4" type="line"/>
+		</contour>
+		<contour>
+			<point x="216" y="0" type="line"/>
+			<point x="406" y="0" type="line"/>
+			<point x="406" y="1020" type="line"/>
+			<point x="216" y="1020" type="line"/>
+		</contour>
+		<contour>
+			<point x="85" y="1016" type="line"/>
+			<point x="536" y="1016" type="line"/>
+			<point x="536" y="1020" type="line"/>
+			<point x="85" y="1020" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-05-13 19:46:32 +0000</string>
+		</dict>
+	</lib>
+</glyph>

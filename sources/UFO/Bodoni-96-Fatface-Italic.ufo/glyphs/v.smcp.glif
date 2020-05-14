@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="v.smcp" format="2">
-  <advance width="1318"/>
-  <anchor x="538" y="0" name="cedilla"/>
-  <anchor x="536" y="0" name="bottom"/>
-  <anchor x="819.485" y="1020" name="top"/>
-  <outline>
-    <contour>
-      <point x="1342.56" y="1016" type="line"/>
-      <point x="1049.56" y="1016" type="line"/>
-      <point x="1050.49" y="1020" type="line"/>
-      <point x="1343.49" y="1020" type="line"/>
-    </contour>
-    <contour>
-      <point x="864.562" y="1016" type="line"/>
-      <point x="104.562" y="1016" type="line"/>
-      <point x="105.485" y="1020" type="line"/>
-      <point x="865.485" y="1020" type="line"/>
-    </contour>
-    <contour>
-      <point x="825.27" y="391" type="line"/>
-      <point x="1242.49" y="1020" type="line"/>
-      <point x="1247.49" y="1020" type="line"/>
-      <point x="553.536" y="-28" type="line"/>
-      <point x="396.536" y="-28" type="line"/>
-      <point x="195.485" y="1020" type="line"/>
-      <point x="695.485" y="1020" type="line"/>
-    </contour>
-  </outline>
+	<advance width="1318"/>
+	<anchor x="538" y="0" name="cedilla"/>
+	<anchor x="536" y="0" name="bottom"/>
+	<anchor x="819.485" y="1020" name="top"/>
+	<outline>
+		<contour>
+			<point x="396.536" y="-28" type="line"/>
+			<point x="553.536" y="-28" type="line"/>
+			<point x="1247.49" y="1020" type="line"/>
+			<point x="1242.49" y="1020" type="line"/>
+			<point x="825.27" y="391" type="line"/>
+			<point x="695.485" y="1020" type="line"/>
+			<point x="195.485" y="1020" type="line"/>
+		</contour>
+		<contour>
+			<point x="104.562" y="1016" type="line"/>
+			<point x="864.562" y="1016" type="line"/>
+			<point x="865.485" y="1020" type="line"/>
+			<point x="105.485" y="1020" type="line"/>
+		</contour>
+		<contour>
+			<point x="1049.56" y="1016" type="line"/>
+			<point x="1342.56" y="1016" type="line"/>
+			<point x="1343.49" y="1020" type="line"/>
+			<point x="1050.49" y="1020" type="line"/>
+		</contour>
+	</outline>
 </glyph>

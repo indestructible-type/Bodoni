@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf" format="2">
+	<advance width="1339"/>
+	<unicode hex="00BD"/>
+	<outline>
+		<contour>
+			<point x="-34" y="-200" type="line"/>
+			<point x="-30" y="-200" type="line"/>
+			<point x="1272" y="1300" type="line"/>
+			<point x="1268" y="1300" type="line"/>
+		</contour>
+		<component base="two" xScale="0.6" yScale="0.6" xOffset="682" yOffset="-202"/>
+		<component base="one" xScale="0.6" yScale="0.6" xOffset="204" yOffset="712"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-05-13 19:45:48 +0000</string>
+		</dict>
+	</lib>
+</glyph>

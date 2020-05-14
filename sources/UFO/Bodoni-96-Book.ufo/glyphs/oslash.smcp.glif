@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash.smcp" format="2">
-  <advance width="1239"/>
-  <outline>
-    <contour>
-      <point x="1126" y="1081" type="line"/>
-      <point x="1133" y="1081" type="line"/>
-      <point x="106" y="-60" type="line"/>
-      <point x="100" y="-60" type="line"/>
-    </contour>
-    <component base="o.smcp"/>
-  </outline>
+	<advance width="1239"/>
+	<outline>
+		<contour>
+			<point x="100" y="-60" type="line"/>
+			<point x="106" y="-60" type="line"/>
+			<point x="1133" y="1081" type="line"/>
+			<point x="1126" y="1081" type="line"/>
+		</contour>
+		<component base="o.smcp"/>
+	</outline>
 </glyph>

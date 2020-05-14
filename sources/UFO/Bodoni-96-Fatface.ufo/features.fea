@@ -1,11 +1,10 @@
+# Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
 
-
+# Prefix: Prefix
 # GSUB 
-
-
 lookup smcpLowercasetoSmallCapitalslookup8 {
   lookupflag 0;
     sub \a by \a.smcp ;
@@ -300,144 +299,7 @@ lookup TabularNumberslookup {
     sub \nine.oldstyle by \nine.oldtab ;
 } TabularNumberslookup;
 
-feature smcp {
-
- script DFLT;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalslookup8;
-
- script grek;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalslookup8;
-
- script latn;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalslookup8;
-} smcp;
-
-feature c2sc {
-
- script DFLT;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslookup7;
-
- script grek;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslookup7;
-
- script latn;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslookup7;
-} c2sc;
-
-feature onum {
-
- script DFLT;
-     language dflt ;
-      lookup onumOldstyleFigureslookup6;
-
- script grek;
-     language dflt ;
-      lookup onumOldstyleFigureslookup6;
-
- script latn;
-     language dflt ;
-      lookup onumOldstyleFigureslookup6;
-} onum;
-
-feature ss02 {
-
- script DFLT;
-     language dflt ;
-      lookup ss02StyleSet2lookup4;
-
- script grek;
-     language dflt ;
-      lookup ss02StyleSet2lookup4;
-
- script latn;
-     language dflt ;
-      lookup ss02StyleSet2lookup4;
-} ss02;
-
-feature ss03 {
-
- script DFLT;
-     language dflt ;
-      lookup ss03StyleSet3lookup5;
-
- script grek;
-     language dflt ;
-      lookup ss03StyleSet3lookup5;
-
- script latn;
-     language dflt ;
-      lookup ss03StyleSet3lookup5;
-} ss03;
-
-feature ss01 {
-
- script DFLT;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-
- script grek;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-
- script latn;
-     language dflt ;
-      lookup ss01StyleSet1lookup2;
-} ss01;
-
-feature calt {
-
- script DFLT;
-     language dflt ;
-      lookup caltContextualAlternateslookup3;
-
- script grek;
-     language dflt ;
-      lookup caltContextualAlternateslookup3;
-
- script latn;
-     language dflt ;
-      lookup caltContextualAlternateslookup3;
-} calt;
-
-feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script grek;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-
- script latn;
-     language dflt ;
-      lookup ligaStandardLigatureslookup0;
-} liga;
-
-feature tnum {
-
- script DFLT;
-     language dflt ;
-      lookup TabularNumberslookup;
-
- script grek;
-     language dflt ;
-      lookup TabularNumberslookup;
-
- script latn;
-     language dflt ;
-      lookup TabularNumberslookup;
-} tnum;
-
 # GPOS 
-
-
 lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     @kc9_first_1 = [\A \backslash \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \uni013B ];
@@ -934,20 +796,6 @@ lookup kernHorizontalKerninglookup0 {
     pos @kc9_first_30 @kc9_second_26 -240;
 } kernHorizontalKerninglookup0;
 
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script grek;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script latn;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-} kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\ampersand \period \zero \one \two \three \four \five \six \seven 
@@ -1025,4 +873,144 @@ table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
+
+feature smcp {
+ script DFLT;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup8;
+
+ script grek;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup8;
+
+ script latn;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup8;
+} smcp;
+
+feature c2sc {
+ script DFLT;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup7;
+
+ script grek;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup7;
+
+ script latn;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup7;
+} c2sc;
+
+feature onum {
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFigureslookup6;
+
+ script grek;
+     language dflt ;
+      lookup onumOldstyleFigureslookup6;
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFigureslookup6;
+} onum;
+
+feature ss02 {
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+
+ script latn;
+     language dflt ;
+      lookup ss02StyleSet2lookup4;
+} ss02;
+
+feature ss03 {
+ script DFLT;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+
+ script grek;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+
+ script latn;
+     language dflt ;
+      lookup ss03StyleSet3lookup5;
+} ss03;
+
+feature ss01 {
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup2;
+} ss01;
+
+feature calt {
+ script DFLT;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+
+ script grek;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+
+ script latn;
+     language dflt ;
+      lookup caltContextualAlternateslookup3;
+} calt;
+
+feature liga {
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
+
+feature tnum {
+ script DFLT;
+     language dflt ;
+      lookup TabularNumberslookup;
+
+ script grek;
+     language dflt ;
+      lookup TabularNumberslookup;
+
+ script latn;
+     language dflt ;
+      lookup TabularNumberslookup;
+} tnum;
+
+feature kern {
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script grek;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="2">
+	<advance width="1401"/>
+	<unicode hex="00BE"/>
+	<outline>
+		<contour>
+			<point x="86" y="-200" type="line"/>
+			<point x="154" y="-200" type="line"/>
+			<point x="1393" y="1300" type="line"/>
+			<point x="1324" y="1300" type="line"/>
+		</contour>
+		<component base="three" xScale="0.6" yScale="0.6" xOffset="170" yOffset="708"/>
+		<component base="four" xScale="0.6" yScale="0.6" xOffset="600" yOffset="-206"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-05-13 19:42:54 +0000</string>
+		</dict>
+	</lib>
+</glyph>

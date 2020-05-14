@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e.smcp" format="2">
+	<advance width="1298"/>
+	<anchor x="768.485" y="1020" name="top"/>
+	<anchor x="605" y="0" name="bottom"/>
+	<anchor x="855" y="0" name="cedilla"/>
+	<outline>
+		<contour>
+			<point x="86" y="0" type="line"/>
+			<point x="516" y="0" type="line"/>
+			<point x="751.485" y="1020" type="line"/>
+			<point x="321.485" y="1020" type="line"/>
+		</contour>
+		<contour>
+			<point x="-45" y="0" type="line"/>
+			<point x="978" y="0" type="line"/>
+			<point x="1058.8" y="350" type="line"/>
+			<point x="1053.8" y="350" type="line"/>
+			<point x="956.707" y="146"/>
+			<point x="788.924" y="4"/>
+			<point x="615.924" y="4" type="curve" smooth="yes"/>
+			<point x="-44.0762" y="4" type="line"/>
+		</contour>
+		<contour>
+			<point x="832.037" y="377" type="curve"/>
+			<point x="836.037" y="377" type="line"/>
+			<point x="911.993" y="706" type="line"/>
+			<point x="907.993" y="706" type="line"/>
+			<point x="843.982" y="602"/>
+			<point x="714.285" y="547"/>
+			<point x="661.285" y="547" type="curve" smooth="yes"/>
+			<point x="551.285" y="547" type="line"/>
+			<point x="550.361" y="543" type="line"/>
+			<point x="660.361" y="543" type="line" smooth="yes"/>
+			<point x="713.361" y="543"/>
+			<point x="816.048" y="481"/>
+		</contour>
+		<contour>
+			<point x="1127.92" y="710" type="curve"/>
+			<point x="1132.92" y="710" type="line"/>
+			<point x="1204.49" y="1020" type="line"/>
+			<point x="190.485" y="1020" type="line"/>
+			<point x="189.562" y="1016" type="line"/>
+			<point x="880.562" y="1016" type="line" smooth="yes"/>
+			<point x="1014.56" y="1016"/>
+			<point x="1115.78" y="874"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-05-13 19:48:02 +0000</string>
+		</dict>
+	</lib>
+</glyph>
