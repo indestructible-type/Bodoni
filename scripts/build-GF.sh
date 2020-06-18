@@ -34,8 +34,8 @@ sed -i 's/UFO\/Bodoni-96-Black/UFO\/Bodoni-96-Fatface/g' ../sources-GF/bodoni-it
 
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
-fontmake -o variable -m ../sources-GF/bodoni.designspace --output-path ../fonts/variable/Bodoni-VF.ttf
-fontmake -o variable -m ../sources-GF/bodoni-italic.designspace --output-path ../fonts/variable/Bodoni-Italic-VF.ttf
+fontmake -o variable -m ../sources-GF/bodoni.designspace --output-path ../fonts/variable/BodoniModa[opsz,wght].ttf
+fontmake -o variable -m ../sources-GF/bodoni-italic.designspace --output-path ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
 
 echo "Editing Designspace Metadata"
 sed -i 's/stylename\=\"06 Regular/stylename\=\"Regular/g' ../sources-GF/bodoni.designspace
