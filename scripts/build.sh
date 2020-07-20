@@ -6,8 +6,8 @@ set -e
 
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
-fontmake -o variable -m ../sources/bodoni.designspace --output-path ../fonts/variable/Bodoni-VF2.ttf
-fontmake -o variable -m ../sources/bodoni-italic.designspace --output-path ../fonts/variable/Bodoni-Italic-VF2.ttf
+fontmake -o variable -m ../sources/Designspace/bodoni.designspace --output-path ../fonts/variable/Bodoni-VF2.ttf
+fontmake -o variable -m ../sources/Designspace/bodoni-italic.designspace --output-path ../fonts/variable/Bodoni-Italic-VF2.ttf
 
 echo "Hot Fixes for Variable Font"
 gftools fix-dsig -f ../fonts/variable/*.ttf
@@ -20,7 +20,7 @@ mv ../fonts/variable/Bodoni-VF.ttf.fix ../fonts/variable/Bodoni-VF.ttf
 mv ../fonts/variable/Bodoni-Italic-VF.ttf.fix ../fonts/variable/Bodoni-Italic-VF.ttf
 
 echo "Editing Designspace Metadata"
-cp -a ../sources/bodoni.designspace ../sources/bodoni2.designspace
+cp -a ../sources/Designspace/bodoni.designspace ../sources/bodoni2.designspace
 sed -i 's/stylename\=\"06 Book/stylename\=\"Book/g' ../sources/bodoni2.designspace
 sed -i 's/stylename\=\"06 Medium/stylename\=\"Medium/g' ../sources/bodoni2.designspace
 sed -i 's/stylename\=\"06 Bold/stylename\=\"Bold/g' ../sources/bodoni2.designspace
@@ -54,7 +54,7 @@ sed -i 's/stylename\=\"96 Medium/stylename\=\"Medium/g' ../sources/bodoni2.desig
 sed -i 's/stylename\=\"96 Bold/stylename\=\"Bold/g' ../sources/bodoni2.designspace
 sed -i 's/stylename\=\"96 Fatface/stylename\=\"Fatface/g' ../sources/bodoni2.designspace
 
-cp -a ../sources/bodoni-italic.designspace ../sources/bodoni-italic2.designspace
+cp -a ../sources/Designspace/bodoni-italic.designspace ../sources/bodoni-italic2.designspace
 sed -i 's/stylename\=\"06 Book/stylename\=\"Book/g' ../sources/bodoni-italic2.designspace
 sed -i 's/stylename\=\"06 Medium/stylename\=\"Medium/g' ../sources/bodoni-italic2.designspace
 sed -i 's/stylename\=\"06 Bold/stylename\=\"Bold/g' ../sources/bodoni-italic2.designspace
@@ -153,41 +153,6 @@ fontmake -o ufo -i "96 Book Italic" -m ../sources/bodoni-italic2.designspace
 fontmake -o ufo -i "96 Medium Italic" -m ../sources/bodoni-italic2.designspace
 fontmake -o ufo -i "96 Bold Italic" -m ../sources/bodoni-italic2.designspace
 fontmake -o ufo -i "96 Fatface Italic" -m ../sources/bodoni-italic2.designspace
-
-echo "Cleaning Up UFO files"
-sed -i 's/740/700/g' ../sources/instances/Bodoni-06-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-06-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-11-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-11-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-16-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-16-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-24-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-24-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-36-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-36-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-48-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-48-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-72-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-72-Medium.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-96-Bold.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-96-Medium.ufo/fontinfo.plist
-
-sed -i 's/740/700/g' ../sources/instances/Bodoni-06-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-06-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-11-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-11-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-16-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-16-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-24-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-24-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-36-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-36-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-48-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-48-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-72-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-72-Medium-Italic.ufo/fontinfo.plist
-sed -i 's/740/700/g' ../sources/instances/Bodoni-96-Bold-Italic.ufo/fontinfo.plist
-sed -i 's/480/500/g' ../sources/instances/Bodoni-96-Medium-Italic.ufo/fontinfo.plist
 
 echo "Generating TrueType Fonts"
 fontmake -o ttf --output-dir ../fonts/ttf2/ -u ../sources/instances/Bodoni-06-Bold.ufo ../sources/instances/Bodoni-06-Bold-Italic.ufo ../sources/instances/Bodoni-06-Book.ufo ../sources/instances/Bodoni-06-Book-Italic.ufo ../sources/instances/Bodoni-06-Fatface.ufo ../sources/instances/Bodoni-06-Fatface-Italic.ufo ../sources/instances/Bodoni-06-Medium.ufo ../sources/instances/Bodoni-06-Medium-Italic.ufo ../sources/instances/Bodoni-11-Bold.ufo ../sources/instances/Bodoni-11-Bold-Italic.ufo ../sources/instances/Bodoni-11-Book.ufo ../sources/instances/Bodoni-11-Book-Italic.ufo ../sources/instances/Bodoni-11-Fatface.ufo ../sources/instances/Bodoni-11-Fatface-Italic.ufo ../sources/instances/Bodoni-11-Medium.ufo ../sources/instances/Bodoni-11-Medium-Italic.ufo ../sources/instances/Bodoni-16-Bold.ufo ../sources/instances/Bodoni-16-Bold-Italic.ufo ../sources/instances/Bodoni-16-Book.ufo ../sources/instances/Bodoni-16-Book-Italic.ufo ../sources/instances/Bodoni-16-Fatface.ufo ../sources/instances/Bodoni-16-Fatface-Italic.ufo ../sources/instances/Bodoni-16-Medium.ufo ../sources/instances/Bodoni-16-Medium-Italic.ufo ../sources/instances/Bodoni-24-Bold.ufo ../sources/instances/Bodoni-24-Bold-Italic.ufo ../sources/instances/Bodoni-24-Book.ufo ../sources/instances/Bodoni-24-Book-Italic.ufo ../sources/instances/Bodoni-24-Fatface.ufo ../sources/instances/Bodoni-24-Fatface-Italic.ufo ../sources/instances/Bodoni-24-Medium.ufo ../sources/instances/Bodoni-24-Medium-Italic.ufo ../sources/instances/Bodoni-36-Bold.ufo ../sources/instances/Bodoni-36-Bold-Italic.ufo ../sources/instances/Bodoni-36-Book.ufo ../sources/instances/Bodoni-36-Book-Italic.ufo ../sources/instances/Bodoni-36-Fatface.ufo ../sources/instances/Bodoni-36-Fatface-Italic.ufo ../sources/instances/Bodoni-36-Medium.ufo ../sources/instances/Bodoni-36-Medium-Italic.ufo ../sources/instances/Bodoni-48-Bold.ufo ../sources/instances/Bodoni-48-Bold-Italic.ufo ../sources/instances/Bodoni-48-Book.ufo ../sources/instances/Bodoni-48-Book-Italic.ufo ../sources/instances/Bodoni-48-Fatface.ufo ../sources/instances/Bodoni-48-Fatface-Italic.ufo ../sources/instances/Bodoni-48-Medium.ufo ../sources/instances/Bodoni-48-Medium-Italic.ufo ../sources/instances/Bodoni-72-Bold.ufo ../sources/instances/Bodoni-72-Bold-Italic.ufo ../sources/instances/Bodoni-72-Book.ufo ../sources/instances/Bodoni-72-Book-Italic.ufo ../sources/instances/Bodoni-72-Fatface.ufo ../sources/instances/Bodoni-72-Fatface-Italic.ufo ../sources/instances/Bodoni-72-Medium.ufo ../sources/instances/Bodoni-72-Medium-Italic.ufo ../sources/instances/Bodoni-96-Bold.ufo ../sources/instances/Bodoni-96-Bold-Italic.ufo ../sources/instances/Bodoni-96-Book.ufo ../sources/instances/Bodoni-96-Book-Italic.ufo ../sources/instances/Bodoni-96-Fatface.ufo ../sources/instances/Bodoni-96-Fatface-Italic.ufo ../sources/instances/Bodoni-96-Medium.ufo ../sources/instances/Bodoni-96-Medium-Italic.ufo
