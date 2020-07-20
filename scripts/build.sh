@@ -6,8 +6,18 @@ set -e
 
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
-fontmake -o variable -m ../sources/bodoni.designspace --output-path ../fonts/variable/Bodoni-VF.ttf
-fontmake -o variable -m ../sources/bodoni-italic.designspace --output-path ../fonts/variable/Bodoni-Italic-VF.ttf
+fontmake -o variable -m ../sources/bodoni.designspace --output-path ../fonts/variable/Bodoni-VF2.ttf
+fontmake -o variable -m ../sources/bodoni-italic.designspace --output-path ../fonts/variable/Bodoni-Italic-VF2.ttf
+
+echo "Hot Fixes for Variable Font"
+gftools fix-dsig -f ../fonts/variable/*.ttf
+ttfautohint -n ../fonts/variable/Bodoni-VF2.ttf ../fonts/variable/Bodoni-VF.ttf
+ttfautohint -n ../fonts/variable/Bodoni-Italic-VF2.ttf ../fonts/variable/Bodoni-Italic-VF.ttf
+gftools fix-hinting ../fonts/variable/Bodoni-VF.ttf
+gftools fix-hinting ../fonts/variable/Bodoni-Italic-VF.ttf
+rm ../fonts/variable/*.ttf
+mv ../fonts/variable/Bodoni-VF.ttf.fix ../fonts/variable/Bodoni-VF.ttf
+mv ../fonts/variable/Bodoni-Italic-VF.ttf.fix ../fonts/variable/Bodoni-Italic-VF.ttf
 
 echo "Editing Designspace Metadata"
 cp -a ../sources/bodoni.designspace ../sources/bodoni2.designspace
