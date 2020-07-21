@@ -21,7 +21,7 @@
       </axis>
   </axes>
   <sources>
-    <source familyname="Bodoni" filename="UFO/Bodoni-06-Book-Italic.ufo" name="11" stylename="Default">
+    <source familyname="Bodoni" filename="../UFO/Bodoni-06-Book.ufo" name="11" stylename="Default">
       <lib copy="1"/>
       <info copy="1"/>
       <kerning copy="1"/>
@@ -30,19 +30,19 @@
         <dimension name="Optical Size" xvalue="0"/>
       </location>
     </source>
-    <source familyname="Bodoni" filename="UFO/Bodoni-06-Fatface-Italic.ufo" name="11F" stylename="Fatface">
+    <source familyname="Bodoni" filename="../UFO/Bodoni-06-Fatface.ufo" name="11F" stylename="Fatface">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="0"/>
       </location>
     </source>
-    <source familyname="Bodoni" filename="UFO/Bodoni-96-Book-Italic.ufo" name="96" stylename="Book 96">
+    <source familyname="Bodoni" filename="../UFO/Bodoni-96-Book.ufo" name="96" stylename="Book 96">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="10000"/>
       </location>
     </source>
-    <source familyname="Bodoni" filename="UFO/Bodoni-96-Fatface-Italic.ufo" name="96F" stylename="Fatface 96">
+    <source familyname="Bodoni" filename="../UFO/Bodoni-96-Fatface.ufo" name="96F" stylename="Fatface 96">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="10000"/>
@@ -50,7 +50,7 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Bodoni* 06" stylename="06 Book Italic" name="06 Book Italic" filename="instances/Bodoni-06-Book-Italic.ufo" postscriptfontname="BodoniModa06-BookItalic" stylemapfamilyname="Bodoni* 06" stylemapstylename="italic">
+    <instance familyname="Bodoni* 06" stylename="06 Book" name="06 Book" filename="../instances/Bodoni-06-Book.ufo" postscriptfontname="BodoniModa06-Book" stylemapfamilyname="Bodoni* 06" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="0"/>
@@ -67,7 +67,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 06 Book Italic</string>
+              <string>Bodoni* 06 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -77,7 +77,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 06 Medium" stylename="06 Medium Italic" name="06 Medium Italic" filename="instances/Bodoni-06-Medium-Italic.ufo" postscriptfontname="BodoniModa06-MediumItalic" stylemapfamilyname="Bodoni* 06 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 06 Medium" stylename="06 Medium" name="06 Medium" filename="../instances/Bodoni-06-Medium.ufo" postscriptfontname="BodoniModa06-Medium" stylemapfamilyname="Bodoni* 06 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="0"/>
@@ -94,17 +94,21 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 06 Medium Italic</string>
+              <string>Bodoni* 06 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
               <string>Medium</string>
             </array>
+            <array>
+              <string>openTypeOS2WeightClass</string>
+              <integer>525</integer>
+            </array>
           </array>
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 06" stylename="06 Bold Italic" name="06 Bold Italic" filename="instances/Bodoni-06-Bold-Italic.ufo" postscriptfontname="BodoniModa06-BoldItalic" stylemapfamilyname="Bodoni* 06" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 06" stylename="06 Bold" name="06 Bold" filename="../instances/Bodoni-06-Bold.ufo" postscriptfontname="BodoniModa06-Bold" stylemapfamilyname="Bodoni* 06" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="0"/>
@@ -121,7 +125,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 06 Bold Italic</string>
+              <string>Bodoni* 06 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -131,7 +135,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 06 Fatface" stylename="06 Fatface Italic" name="06 Fatface Italic" filename="instances/Bodoni-06-Fatface-Italic.ufo" postscriptfontname="BodoniModa06-FatfaceItalic" stylemapfamilyname="Bodoni* 06 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 06 Fatface" stylename="06 Fatface" name="06 Fatface" filename="../instances/Bodoni-06-Fatface.ufo" postscriptfontname="BodoniModa06-Fatface" stylemapfamilyname="Bodoni* 06 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="0"/>
@@ -148,7 +152,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 06 Fatface Italic</string>
+              <string>Bodoni* 06 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -159,7 +163,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 11" stylename="11 Book Italic" name="11 Book Italic" filename="instances/Bodoni-11-Book-Italic.ufo" postscriptfontname="BodoniModa11-BookItalic" stylemapfamilyname="Bodoni* 11" stylemapstylename="italic">
+    <instance familyname="Bodoni* 11" stylename="11 Book" name="11 Book" filename="../instances/Bodoni-11-Book.ufo" postscriptfontname="BodoniModa11-Book" stylemapfamilyname="Bodoni* 11" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="4880"/>
@@ -176,7 +180,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 11 Book Italic</string>
+              <string>Bodoni* 11 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -186,7 +190,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 11 Medium" stylename="11 Medium Italic" name="11 Medium Italic" filename="instances/Bodoni-11-Medium-Italic.ufo" postscriptfontname="BodoniModa11-MediumItalic" stylemapfamilyname="Bodoni* 11 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 11 Medium" stylename="11 Medium" name="11 Medium" filename="../instances/Bodoni-11-Medium.ufo" postscriptfontname="BodoniModa11-Medium" stylemapfamilyname="Bodoni* 11 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="4880"/>
@@ -203,7 +207,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 11 Medium Italic</string>
+              <string>Bodoni* 11 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -213,7 +217,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 11" stylename="11 Bold Italic" name="11 Bold Italic" filename="instances/Bodoni-11-Bold-Italic.ufo" postscriptfontname="BodoniModa11-BoldItalic" stylemapfamilyname="Bodoni* 11" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 11" stylename="11 Bold" name="11 Bold" filename="../instances/Bodoni-11-Bold.ufo" postscriptfontname="BodoniModa11-Bold" stylemapfamilyname="Bodoni* 11" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="4880"/>
@@ -230,7 +234,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 11 Bold Italic</string>
+              <string>Bodoni* 11 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -240,7 +244,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 11 Fatface" stylename="11 Fatface Italic" name="11 Fatface Italic" filename="instances/Bodoni-11-Fatface-Italic.ufo" postscriptfontname="BodoniModa11-FatfaceItalic" stylemapfamilyname="Bodoni* 11 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 11 Fatface" stylename="11 Fatface" name="11 Fatface" filename="../instances/Bodoni-11-Fatface.ufo" postscriptfontname="BodoniModa11-Fatface" stylemapfamilyname="Bodoni* 11 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="4880"/>
@@ -257,7 +261,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 11 Fatface Italic</string>
+              <string>Bodoni* 11 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -268,7 +272,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 16" stylename="16 Book Italic" name="16 Book Italic" filename="instances/Bodoni-16-Book-Italic.ufo" postscriptfontname="BodoniModa16-BookItalic" stylemapfamilyname="Bodoni* 16" stylemapstylename="italic">
+    <instance familyname="Bodoni* 16" stylename="16 Book" name="16 Book" filename="../instances/Bodoni-16-Book.ufo" postscriptfontname="BodoniModa16-Book" stylemapfamilyname="Bodoni* 16" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="6653.056"/>
@@ -285,7 +289,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 16 Book Italic</string>
+              <string>Bodoni* 16 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -295,7 +299,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 16 Medium" stylename="16 Medium Italic" name="16 Medium Italic" filename="instances/Bodoni-16-Medium-Italic.ufo" postscriptfontname="BodoniModa16-MediumItalic" stylemapfamilyname="Bodoni* 16 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 16 Medium" stylename="16 Medium" name="16 Medium" filename="../instances/Bodoni-16-Medium.ufo" postscriptfontname="BodoniModa16-Medium" stylemapfamilyname="Bodoni* 16 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="6653.056"/>
@@ -312,7 +316,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 16 Medium Italic</string>
+              <string>Bodoni* 16 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -322,7 +326,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 16" stylename="16 Bold Italic" name="16 Bold Italic" filename="instances/Bodoni-16-Bold-Italic.ufo" postscriptfontname="BodoniModa16-BoldItalic" stylemapfamilyname="Bodoni* 16" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 16" stylename="16 Bold" name="16 Bold" filename="../instances/Bodoni-16-Bold.ufo" postscriptfontname="BodoniModa16-Bold" stylemapfamilyname="Bodoni* 16" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="6653.056"/>
@@ -339,7 +343,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 16 Bold Italic</string>
+              <string>Bodoni* 16 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -349,7 +353,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 16 Fatface" stylename="16 Fatface Italic" name="16 Fatface Italic" filename="instances/Bodoni-16-Fatface-Italic.ufo" postscriptfontname="BodoniModa16-FatfaceItalic" stylemapfamilyname="Bodoni* 16 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 16 Fatface" stylename="16 Fatface" name="16 Fatface" filename="../instances/Bodoni-16-Fatface.ufo" postscriptfontname="BodoniModa16-Fatface" stylemapfamilyname="Bodoni* 16 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="6653.056"/>
@@ -366,7 +370,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 16 Fatface Italic</string>
+              <string>Bodoni* 16 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -377,7 +381,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 24" stylename="24 Book Italic" name="24 Book Italic" filename="instances/Bodoni-24-Book-Italic.ufo" postscriptfontname="BodoniModa24-BookItalic" stylemapfamilyname="Bodoni* 24" stylemapstylename="italic">
+    <instance familyname="Bodoni* 24" stylename="24 Book" name="24 Book" filename="../instances/Bodoni-24-Book.ufo" postscriptfontname="BodoniModa24-Book" stylemapfamilyname="Bodoni* 24" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="7953.67844"/>
@@ -394,7 +398,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 24 Book Italic</string>
+              <string>Bodoni* 24 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -404,7 +408,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 24 Medium" stylename="24 Medium Italic" name="24 Medium Italic" filename="instances/Bodoni-24-Medium-Italic.ufo" postscriptfontname="BodoniModa24-MediumItalic" stylemapfamilyname="Bodoni* 24 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 24 Medium" stylename="24 Medium" name="24 Medium" filename="../instances/Bodoni-24-Medium.ufo" postscriptfontname="BodoniModa24-Medium" stylemapfamilyname="Bodoni* 24 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="7953.67844"/>
@@ -421,7 +425,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 24 Medium Italic</string>
+              <string>Bodoni* 24 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -431,7 +435,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 24" stylename="24 Bold Italic" name="24 Bold Italic" filename="instances/Bodoni-24-Bold-Italic.ufo" postscriptfontname="BodoniModa24-BoldItalic" stylemapfamilyname="Bodoni* 24" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 24" stylename="24 Bold" name="24 Bold" filename="../instances/Bodoni-24-Bold.ufo" postscriptfontname="BodoniModa24-Bold" stylemapfamilyname="Bodoni* 24" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="7953.67844"/>
@@ -448,7 +452,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 24 Bold Italic</string>
+              <string>Bodoni* 24 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -458,7 +462,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 24 Fatface" stylename="24 Fatface Italic" name="24 Fatface Italic" filename="instances/Bodoni-24-Fatface-Italic.ufo" postscriptfontname="BodoniModa24-FatfaceItalic" stylemapfamilyname="Bodoni* 24 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 24 Fatface" stylename="24 Fatface" name="24 Fatface" filename="../instances/Bodoni-24-Fatface.ufo" postscriptfontname="BodoniModa24-Fatface" stylemapfamilyname="Bodoni* 24 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="7953.67844"/>
@@ -475,7 +479,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 24 Fatface Italic</string>
+              <string>Bodoni* 24 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -486,7 +490,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 36" stylename="36 Book Italic" name="36 Book Italic" filename="instances/Bodoni-36-Book-Italic.ufo" postscriptfontname="BodoniModa36-BookItalic" stylemapfamilyname="Bodoni* 36" stylemapstylename="italic">
+    <instance familyname="Bodoni* 36" stylename="36 Book" name="36 Book" filename="../instances/Bodoni-36-Book.ufo" postscriptfontname="BodoniModa36-Book" stylemapfamilyname="Bodoni* 36" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="9265.16593"/>
@@ -503,7 +507,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 36 Book Italic</string>
+              <string>Bodoni* 36 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -513,7 +517,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 36 Medium" stylename="36 Medium Italic" name="36 Medium Italic" filename="instances/Bodoni-36-Medium-Italic.ufo" postscriptfontname="BodoniModa36-MediumItalic" stylemapfamilyname="Bodoni* 36 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 36 Medium" stylename="36 Medium" name="36 Medium" filename="../instances/Bodoni-36-Medium.ufo" postscriptfontname="BodoniModa36-Medium" stylemapfamilyname="Bodoni* 36 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="9265.16593"/>
@@ -530,7 +534,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 36 Medium Italic</string>
+              <string>Bodoni* 36 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -540,7 +544,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 36" stylename="36 Bold Italic" name="36 Bold Italic" filename="instances/Bodoni-36-Bold-Italic.ufo" postscriptfontname="BodoniModa36-BoldItalic" stylemapfamilyname="Bodoni* 36" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 36" stylename="36 Bold" name="36 Bold" filename="../instances/Bodoni-36-Bold.ufo" postscriptfontname="BodoniModa36-Bold" stylemapfamilyname="Bodoni* 36" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="9265.16593"/>
@@ -557,7 +561,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 36 Bold Italic</string>
+              <string>Bodoni* 36 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -567,7 +571,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 36 Fatface" stylename="36 Fatface Italic" name="36 Fatface Italic" filename="instances/Bodoni-36-Fatface-Italic.ufo" postscriptfontname="BodoniModa36-FatfaceItalic" stylemapfamilyname="Bodoni* 36 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 36 Fatface" stylename="36 Fatface" name="36 Fatface" filename="../instances/Bodoni-36-Fatface.ufo" postscriptfontname="BodoniModa36-Fatface" stylemapfamilyname="Bodoni* 36 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="9265.16593"/>
@@ -584,7 +588,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 36 Fatface Italic</string>
+              <string>Bodoni* 36 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -595,7 +599,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 48" stylename="48 Book Italic" name="48 Book Italic" filename="instances/Bodoni-48-Book-Italic.ufo" postscriptfontname="BodoniModa48-BookItalic" stylemapfamilyname="Bodoni* 48" stylemapstylename="italic">
+    <instance familyname="Bodoni* 48" stylename="48 Book" name="48 Book" filename="../instances/Bodoni-48-Book.ufo" postscriptfontname="BodoniModa48-Book" stylemapfamilyname="Bodoni* 48" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="9535.29093"/>
@@ -612,7 +616,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 48 Book Italic</string>
+              <string>Bodoni* 48 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -622,7 +626,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 48 Medium" stylename="48 Medium Italic" name="48 Medium Italic" filename="instances/Bodoni-48-Medium-Italic.ufo" postscriptfontname="BodoniModa48-MediumItalic" stylemapfamilyname="Bodoni* 48 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 48 Medium" stylename="48 Medium" name="48 Medium" filename="../instances/Bodoni-48-Medium.ufo" postscriptfontname="BodoniModa48-Medium" stylemapfamilyname="Bodoni* 48 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="9535.29093"/>
@@ -639,7 +643,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 48 Medium Italic</string>
+              <string>Bodoni* 48 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -649,7 +653,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 48" stylename="48 Bold Italic" name="48 Bold Italic" filename="instances/Bodoni-48-Bold-Italic.ufo" postscriptfontname="BodoniModa48-BoldItalic" stylemapfamilyname="Bodoni* 48" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 48" stylename="48 Bold" name="48 Bold" filename="../instances/Bodoni-48-Bold.ufo" postscriptfontname="BodoniModa48-Bold" stylemapfamilyname="Bodoni* 48" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="9535.29093"/>
@@ -666,7 +670,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 48 Bold Italic</string>
+              <string>Bodoni* 48 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -676,7 +680,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 48 Fatface" stylename="48 Fatface Italic" name="48 Fatface Italic" filename="instances/Bodoni-48-Fatface-Italic.ufo" postscriptfontname="BodoniModa48-FatfaceItalic" stylemapfamilyname="Bodoni* 48 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 48 Fatface" stylename="48 Fatface" name="48 Fatface" filename="../instances/Bodoni-48-Fatface.ufo" postscriptfontname="BodoniModa48-Fatface" stylemapfamilyname="Bodoni* 48 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="9535.29093"/>
@@ -693,7 +697,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 48 Fatface Italic</string>
+              <string>Bodoni* 48 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -704,7 +708,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 72" stylename="72 Book Italic" name="72 Book Italic" filename="instances/Bodoni-72-Book-Italic.ufo" postscriptfontname="BodoniModa72-BookItalic" stylemapfamilyname="Bodoni* 72" stylemapstylename="italic">
+    <instance familyname="Bodoni* 72" stylename="72 Book" name="72 Book" filename="../instances/Bodoni-72-Book.ufo" postscriptfontname="BodoniModa72-Book" stylemapfamilyname="Bodoni* 72" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="9805.47278"/>
@@ -721,7 +725,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 72 Book Italic</string>
+              <string>Bodoni* 72 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -731,7 +735,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 72 Medium" stylename="72 Medium Italic" name="72 Medium Italic" filename="instances/Bodoni-72-Medium-Italic.ufo" postscriptfontname="BodoniModa72-MediumItalic" stylemapfamilyname="Bodoni* 72 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 72 Medium" stylename="72 Medium" name="72 Medium" filename="../instances/Bodoni-72-Medium.ufo" postscriptfontname="BodoniModa72-Medium" stylemapfamilyname="Bodoni* 72 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="9805.47278"/>
@@ -748,7 +752,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 72 Medium Italic</string>
+              <string>Bodoni* 72 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -758,7 +762,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 72" stylename="72 Bold Italic" name="72 Bold Italic" filename="instances/Bodoni-72-Bold-Italic.ufo" postscriptfontname="BodoniModa72-BoldItalic" stylemapfamilyname="Bodoni* 72" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 72" stylename="72 Bold" name="72 Bold" filename="../instances/Bodoni-72-Bold.ufo" postscriptfontname="BodoniModa72-Bold" stylemapfamilyname="Bodoni* 72" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="9805.47278"/>
@@ -775,7 +779,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 72 Bold Italic</string>
+              <string>Bodoni* 72 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -785,7 +789,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 72 Fatface" stylename="72 Fatface Italic" name="72 Fatface Italic" filename="instances/Bodoni-72-Fatface-Italic.ufo" postscriptfontname="BodoniModa72-FatfaceItalic" stylemapfamilyname="Bodoni* 72 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 72 Fatface" stylename="72 Fatface" name="72 Fatface" filename="../instances/Bodoni-72-Fatface.ufo" postscriptfontname="BodoniModa72-Fatface" stylemapfamilyname="Bodoni* 72 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="9805.47278"/>
@@ -802,7 +806,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 72 Fatface Italic</string>
+              <string>Bodoni* 72 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -813,7 +817,7 @@
       </lib>
     </instance>
 
-    <instance familyname="Bodoni* 96" stylename="96 Book Italic" name="96 Book Italic" filename="instances/Bodoni-96-Book-Italic.ufo" postscriptfontname="BodoniModa96-BookItalic" stylemapfamilyname="Bodoni* 96" stylemapstylename="italic">
+    <instance familyname="Bodoni* 96" stylename="96 Book" name="96 Book" filename="../instances/Bodoni-96-Book.ufo" postscriptfontname="BodoniModa96-Book" stylemapfamilyname="Bodoni* 96" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical Size" xvalue="10000"/>
@@ -830,7 +834,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 96 Book Italic</string>
+              <string>Bodoni* 96 Book</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -840,7 +844,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 96 Medium" stylename="96 Medium Italic" name="96 Medium Italic" filename="instances/Bodoni-96-Medium-Italic.ufo" postscriptfontname="BodoniModa96-MediumItalic" stylemapfamilyname="Bodoni* 96 Medium" stylemapstylename="italic">
+    <instance familyname="Bodoni* 96 Medium" stylename="96 Medium" name="96 Medium" filename="../instances/Bodoni-96-Medium.ufo" postscriptfontname="BodoniModa96-Medium" stylemapfamilyname="Bodoni* 96 Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="525"/>
         <dimension name="Optical Size" xvalue="10000"/>
@@ -857,7 +861,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 96 Medium Italic</string>
+              <string>Bodoni* 96 Medium</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -867,7 +871,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 96" stylename="96 Bold Italic" name="96 Bold Italic" filename="instances/Bodoni-96-Bold-Italic.ufo" postscriptfontname="BodoniModa96-BoldItalic" stylemapfamilyname="Bodoni* 96" stylemapstylename="bold italic">
+    <instance familyname="Bodoni* 96" stylename="96 Bold" name="96 Bold" filename="../instances/Bodoni-96-Bold.ufo" postscriptfontname="BodoniModa96-Bold" stylemapfamilyname="Bodoni* 96" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical Size" xvalue="10000"/>
@@ -884,7 +888,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 96 Bold Italic</string>
+              <string>Bodoni* 96 Bold</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -894,7 +898,7 @@
         </dict>
       </lib>
     </instance>
-    <instance familyname="Bodoni* 96 Fatface" stylename="96 Fatface Italic" name="96 Fatface Italic" filename="instances/Bodoni-96-Fatface-Italic.ufo" postscriptfontname="BodoniModa96-FatfaceItalic" stylemapfamilyname="Bodoni* 96 Fatface" stylemapstylename="italic">
+    <instance familyname="Bodoni* 96 Fatface" stylename="96 Fatface" name="96 Fatface" filename="../instances/Bodoni-96-Fatface.ufo" postscriptfontname="BodoniModa96-Fatface" stylemapfamilyname="Bodoni* 96 Fatface" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical Size" xvalue="10000"/>
@@ -911,7 +915,7 @@
             </array>
             <array>
               <string>postscriptFullName</string>
-              <string>Bodoni* 96 Fatface Italic</string>
+              <string>Bodoni* 96 Fatface</string>
             </array>
             <array>
               <string>postscriptWeightName</string>
@@ -921,6 +925,5 @@
         </dict>
       </lib>
     </instance>
-
   </instances>
 </designspace>

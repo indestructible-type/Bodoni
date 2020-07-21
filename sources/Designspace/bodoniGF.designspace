@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<designspace format="3">
+
+  <axes>
+      <axis minimum="400" maximum="900" default="400" name="Weight" tag="wght">
+        <map input="400" output="400" />
+        <map input="500" output="525" />
+        <map input="700" output="650" />
+        <map input="900" output="900" />
+      </axis>
+      <axis minimum="6" maximum="96" default="11" name="Optical Size" tag="opsz">
+        <map input="6" output="0" />
+        <map input="11" output="4880" />
+        <map input="16" output="6653.056" />
+        <map input="24" output="7953.67844" />
+        <map input="36" output="9265.16593" />
+        <map input="48" output="9535.29093" />
+        <map input="72" output="9805.47278" />
+        <map input="96" output="10000" />
+      </axis>
+  </axes>
+  <sources>
+    <source familyname="Bodoni" filename="../UFO/Bodoni-06-Book.ufo" name="11" stylename="Default">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <kerning copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="0"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="../UFO/Bodoni-06-Fatface.ufo" name="11F" stylename="Fatface">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="0"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="../UFO/Bodoni-96-Book.ufo" name="96" stylename="Book 96">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="10000"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename="../UFO/Bodoni-96-Fatface.ufo" name="96F" stylename="Fatface 96">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="10000"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename=".././instances/Bodoni-11-Regular.ufo" name="11D" stylename="Default">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+    </source>
+    <source familyname="Bodoni" filename=".././instances/Bodoni-11-Black.ufo" name="11DF" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Bodoni Moda 11" stylename="Regular" name="Regular" filename="../instances/BodoniModa-11-Regular.ufo" postscriptfontname="BodoniModa11-Regular" stylemapfamilyname="Bodoni Moda 11" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 Regular</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>Regular</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance familyname="Bodoni Moda 11 Medium" stylename="Medium" name="Medium" filename="../instances/BodoniModa-11-Medium.ufo" postscriptfontname="BodoniModa11-Medium" stylemapfamilyname="Bodoni Moda 11 Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="525"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 Medium</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>Medium</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance familyname="Bodoni Moda 11" stylename="Bold" name="Bold" filename="../instances/BodoniModa-11-Bold.ufo" postscriptfontname="BodoniModa11-Bold" stylemapfamilyname="Bodoni Moda 11" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 Bold</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance familyname="Bodoni Moda 11 Black" stylename="Black" name="Black" filename="../instances/BodoniModa-11-Black.ufo" postscriptfontname="BodoniModa11-Black" stylemapfamilyname="Bodoni Moda 11 Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 Black</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>Black</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>
