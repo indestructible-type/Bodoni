@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>1500</integer>
     <key>copyright</key>
-    <string>Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type)</string>
+    <string>Copyright 2020 The Bodoni Moda Project Authors (https:github.comindestructible-type)</string>
     <key>descender</key>
     <integer>-400</integer>
     <key>familyName</key>
@@ -17,7 +17,7 @@
     <key>italicAngle</key>
     <real>-13.0</real>
     <key>note</key>
-    <string>created with love by indestructible type*</string>
+    <string></string>
     <key>openTypeHeadCreated</key>
     <string>2016/04/15 23:15:50</string>
     <key>openTypeHheaAscender</key>
@@ -41,11 +41,28 @@
     <key>openTypeNamePreferredFamilyName</key>
     <string>Bodoni* 96</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.2</string>
+    <string>Version 2.3</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>3</integer>
       <integer>0</integer>
+    </array>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>7</integer>
+      <integer>0</integer>
+      <integer>3</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
     </array>
     <key>openTypeOS2Type</key>
     <array/>
@@ -92,11 +109,11 @@
     <key>postscriptWeightName</key>
     <string>Fatface</string>
     <key>styleMapFamilyName</key>
-    <string>Bodoni* 96 Fatface</string>
+    <string>Bodoni* 96 Fatface Italic</string>
     <key>styleMapStyleName</key>
     <string>italic</string>
     <key>styleName</key>
-    <string>Fatface Italic</string>
+    <string>96-Fatface-Italic</string>
     <key>trademark</key>
     <string></string>
     <key>unitsPerEm</key>
@@ -104,7 +121,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>200</integer>
+    <integer>3</integer>
     <key>xHeight</key>
     <integer>920</integer>
   </dict>
