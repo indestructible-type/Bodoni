@@ -41,11 +41,28 @@
     <key>openTypeNamePreferredFamilyName</key>
     <string>Bodoni* 96</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.2</string>
+    <string>Version 2.3</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>3</integer>
       <integer>0</integer>
+    </array>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>7</integer>
+      <integer>0</integer>
+      <integer>3</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
     </array>
     <key>openTypeOS2Type</key>
     <array/>
@@ -104,7 +121,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>200</integer>
+    <integer>3</integer>
     <key>xHeight</key>
     <integer>920</integer>
   </dict>

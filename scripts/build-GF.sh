@@ -168,143 +168,140 @@ fontmake -o ufo -i "96 Black Italic" -m ../sources-GF/Designspace/bodoni-italic.
 echo "Generating TrueType Fonts"
 fontmake -o ttf --output-dir ../fonts/ttf2/ -u ../sources-GF/instances/Bodoni-06-Bold.ufo ../sources-GF/instances/Bodoni-06-Bold-Italic.ufo ../sources-GF/instances/Bodoni-06-Regular.ufo ../sources-GF/instances/Bodoni-06-Italic.ufo ../sources-GF/instances/Bodoni-06-Black.ufo ../sources-GF/instances/Bodoni-06-Black-Italic.ufo ../sources-GF/instances/Bodoni-06-Medium.ufo ../sources-GF/instances/Bodoni-06-Medium-Italic.ufo ../sources-GF/instances/Bodoni-11-Bold.ufo ../sources-GF/instances/Bodoni-11-Bold-Italic.ufo ../sources-GF/instances/Bodoni-11-Regular.ufo ../sources-GF/instances/Bodoni-11-Italic.ufo ../sources-GF/instances/Bodoni-11-Black.ufo ../sources-GF/instances/Bodoni-11-Black-Italic.ufo ../sources-GF/instances/Bodoni-11-Medium.ufo ../sources-GF/instances/Bodoni-11-Medium-Italic.ufo ../sources-GF/instances/Bodoni-16-Bold.ufo ../sources-GF/instances/Bodoni-16-Bold-Italic.ufo ../sources-GF/instances/Bodoni-16-Regular.ufo ../sources-GF/instances/Bodoni-16-Italic.ufo ../sources-GF/instances/Bodoni-16-Black.ufo ../sources-GF/instances/Bodoni-16-Black-Italic.ufo ../sources-GF/instances/Bodoni-16-Medium.ufo ../sources-GF/instances/Bodoni-16-Medium-Italic.ufo ../sources-GF/instances/Bodoni-24-Bold.ufo ../sources-GF/instances/Bodoni-24-Bold-Italic.ufo ../sources-GF/instances/Bodoni-24-Regular.ufo ../sources-GF/instances/Bodoni-24-Italic.ufo ../sources-GF/instances/Bodoni-24-Black.ufo ../sources-GF/instances/Bodoni-24-Black-Italic.ufo ../sources-GF/instances/Bodoni-24-Medium.ufo ../sources-GF/instances/Bodoni-24-Medium-Italic.ufo ../sources-GF/instances/Bodoni-36-Bold.ufo ../sources-GF/instances/Bodoni-36-Bold-Italic.ufo ../sources-GF/instances/Bodoni-36-Regular.ufo ../sources-GF/instances/Bodoni-36-Italic.ufo ../sources-GF/instances/Bodoni-36-Black.ufo ../sources-GF/instances/Bodoni-36-Black-Italic.ufo ../sources-GF/instances/Bodoni-36-Medium.ufo ../sources-GF/instances/Bodoni-36-Medium-Italic.ufo ../sources-GF/instances/Bodoni-48-Bold.ufo ../sources-GF/instances/Bodoni-48-Bold-Italic.ufo ../sources-GF/instances/Bodoni-48-Regular.ufo ../sources-GF/instances/Bodoni-48-Italic.ufo ../sources-GF/instances/Bodoni-48-Black.ufo ../sources-GF/instances/Bodoni-48-Black-Italic.ufo ../sources-GF/instances/Bodoni-48-Medium.ufo ../sources-GF/instances/Bodoni-48-Medium-Italic.ufo ../sources-GF/instances/Bodoni-72-Bold.ufo ../sources-GF/instances/Bodoni-72-Bold-Italic.ufo ../sources-GF/instances/Bodoni-72-Regular.ufo ../sources-GF/instances/Bodoni-72-Italic.ufo ../sources-GF/instances/Bodoni-72-Black.ufo ../sources-GF/instances/Bodoni-72-Black-Italic.ufo ../sources-GF/instances/Bodoni-72-Medium.ufo ../sources-GF/instances/Bodoni-72-Medium-Italic.ufo ../sources-GF/instances/Bodoni-96-Bold.ufo ../sources-GF/instances/Bodoni-96-Bold-Italic.ufo ../sources-GF/instances/Bodoni-96-Regular.ufo ../sources-GF/instances/Bodoni-96-Italic.ufo ../sources-GF/instances/Bodoni-96-Black.ufo ../sources-GF/instances/Bodoni-96-Black-Italic.ufo ../sources-GF/instances/Bodoni-96-Medium.ufo ../sources-GF/instances/Bodoni-96-Medium-Italic.ufo
 
-echo "Generating OpenType Fonts"
-fontmake -o otf --output-dir ../fonts/otf/ -u ../sources-GF/instances/Bodoni-06-Bold.ufo ../sources-GF/instances/Bodoni-06-Bold-Italic.ufo ../sources-GF/instances/Bodoni-06-Regular.ufo ../sources-GF/instances/Bodoni-06-Italic.ufo ../sources-GF/instances/Bodoni-06-Black.ufo ../sources-GF/instances/Bodoni-06-Black-Italic.ufo ../sources-GF/instances/Bodoni-06-Medium.ufo ../sources-GF/instances/Bodoni-06-Medium-Italic.ufo ../sources-GF/instances/Bodoni-11-Bold.ufo ../sources-GF/instances/Bodoni-11-Bold-Italic.ufo ../sources-GF/instances/Bodoni-11-Regular.ufo ../sources-GF/instances/Bodoni-11-Italic.ufo ../sources-GF/instances/Bodoni-11-Black.ufo ../sources-GF/instances/Bodoni-11-Black-Italic.ufo ../sources-GF/instances/Bodoni-11-Medium.ufo ../sources-GF/instances/Bodoni-11-Medium-Italic.ufo ../sources-GF/instances/Bodoni-16-Bold.ufo ../sources-GF/instances/Bodoni-16-Bold-Italic.ufo ../sources-GF/instances/Bodoni-16-Regular.ufo ../sources-GF/instances/Bodoni-16-Italic.ufo ../sources-GF/instances/Bodoni-16-Black.ufo ../sources-GF/instances/Bodoni-16-Black-Italic.ufo ../sources-GF/instances/Bodoni-16-Medium.ufo ../sources-GF/instances/Bodoni-16-Medium-Italic.ufo ../sources-GF/instances/Bodoni-24-Bold.ufo ../sources-GF/instances/Bodoni-24-Bold-Italic.ufo ../sources-GF/instances/Bodoni-24-Regular.ufo ../sources-GF/instances/Bodoni-24-Italic.ufo ../sources-GF/instances/Bodoni-24-Black.ufo ../sources-GF/instances/Bodoni-24-Black-Italic.ufo ../sources-GF/instances/Bodoni-24-Medium.ufo ../sources-GF/instances/Bodoni-24-Medium-Italic.ufo ../sources-GF/instances/Bodoni-36-Bold.ufo ../sources-GF/instances/Bodoni-36-Bold-Italic.ufo ../sources-GF/instances/Bodoni-36-Regular.ufo ../sources-GF/instances/Bodoni-36-Italic.ufo ../sources-GF/instances/Bodoni-36-Black.ufo ../sources-GF/instances/Bodoni-36-Black-Italic.ufo ../sources-GF/instances/Bodoni-36-Medium.ufo ../sources-GF/instances/Bodoni-36-Medium-Italic.ufo ../sources-GF/instances/Bodoni-48-Bold.ufo ../sources-GF/instances/Bodoni-48-Bold-Italic.ufo ../sources-GF/instances/Bodoni-48-Regular.ufo ../sources-GF/instances/Bodoni-48-Italic.ufo ../sources-GF/instances/Bodoni-48-Black.ufo ../sources-GF/instances/Bodoni-48-Black-Italic.ufo ../sources-GF/instances/Bodoni-48-Medium.ufo ../sources-GF/instances/Bodoni-48-Medium-Italic.ufo ../sources-GF/instances/Bodoni-72-Bold.ufo ../sources-GF/instances/Bodoni-72-Bold-Italic.ufo ../sources-GF/instances/Bodoni-72-Regular.ufo ../sources-GF/instances/Bodoni-72-Italic.ufo ../sources-GF/instances/Bodoni-72-Black.ufo ../sources-GF/instances/Bodoni-72-Black-Italic.ufo ../sources-GF/instances/Bodoni-72-Medium.ufo ../sources-GF/instances/Bodoni-72-Medium-Italic.ufo ../sources-GF/instances/Bodoni-96-Bold.ufo ../sources-GF/instances/Bodoni-96-Bold-Italic.ufo ../sources-GF/instances/Bodoni-96-Regular.ufo ../sources-GF/instances/Bodoni-96-Italic.ufo ../sources-GF/instances/Bodoni-96-Black.ufo ../sources-GF/instances/Bodoni-96-Black-Italic.ufo ../sources-GF/instances/Bodoni-96-Medium.ufo ../sources-GF/instances/Bodoni-96-Medium-Italic.ufo
-
 echo "Hot Fixes"
 gftools fix-dsig -f ../fonts/ttf2/*.ttf
 
-mkdir -p ../fonts/ttf
+mkdir -p ../fonts/static
 
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Bold.ttf ../fonts/ttf/Bodoni-06-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Bold-Italic.ttf ../fonts/ttf/Bodoni-06-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Regular.ttf ../fonts/ttf/Bodoni-06-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Italic.ttf ../fonts/ttf/Bodoni-06-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Black.ttf ../fonts/ttf/Bodoni-06-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Black-Italic.ttf ../fonts/ttf/Bodoni-06-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Medium.ttf ../fonts/ttf/Bodoni-06-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-06-Medium-Italic.ttf ../fonts/ttf/Bodoni-06-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Bold.ttf ../fonts/ttf/Bodoni-11-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Bold-Italic.ttf ../fonts/ttf/Bodoni-11-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Regular.ttf ../fonts/ttf/Bodoni-11-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Italic.ttf ../fonts/ttf/Bodoni-11-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Black.ttf ../fonts/ttf/Bodoni-11-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Black-Italic.ttf ../fonts/ttf/Bodoni-11-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Medium.ttf ../fonts/ttf/Bodoni-11-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-11-Medium-Italic.ttf ../fonts/ttf/Bodoni-11-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Bold.ttf ../fonts/ttf/Bodoni-16-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Bold-Italic.ttf ../fonts/ttf/Bodoni-16-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Regular.ttf ../fonts/ttf/Bodoni-16-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Italic.ttf ../fonts/ttf/Bodoni-16-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Black.ttf ../fonts/ttf/Bodoni-16-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Black-Italic.ttf ../fonts/ttf/Bodoni-16-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Medium.ttf ../fonts/ttf/Bodoni-16-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-16-Medium-Italic.ttf ../fonts/ttf/Bodoni-16-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Bold.ttf ../fonts/ttf/Bodoni-24-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Bold-Italic.ttf ../fonts/ttf/Bodoni-24-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Regular.ttf ../fonts/ttf/Bodoni-24-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Italic.ttf ../fonts/ttf/Bodoni-24-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Black.ttf ../fonts/ttf/Bodoni-24-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Black-Italic.ttf ../fonts/ttf/Bodoni-24-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Medium.ttf ../fonts/ttf/Bodoni-24-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-24-Medium-Italic.ttf ../fonts/ttf/Bodoni-24-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Bold.ttf ../fonts/ttf/Bodoni-36-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Bold-Italic.ttf ../fonts/ttf/Bodoni-36-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Regular.ttf ../fonts/ttf/Bodoni-36-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Italic.ttf ../fonts/ttf/Bodoni-36-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Black.ttf ../fonts/ttf/Bodoni-36-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Black-Italic.ttf ../fonts/ttf/Bodoni-36-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Medium.ttf ../fonts/ttf/Bodoni-36-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-36-Medium-Italic.ttf ../fonts/ttf/Bodoni-36-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Bold.ttf ../fonts/ttf/Bodoni-48-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Bold-Italic.ttf ../fonts/ttf/Bodoni-48-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Regular.ttf ../fonts/ttf/Bodoni-48-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Italic.ttf ../fonts/ttf/Bodoni-48-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Black.ttf ../fonts/ttf/Bodoni-48-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Black-Italic.ttf ../fonts/ttf/Bodoni-48-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Medium.ttf ../fonts/ttf/Bodoni-48-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-48-Medium-Italic.ttf ../fonts/ttf/Bodoni-48-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Bold.ttf ../fonts/ttf/Bodoni-72-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Bold-Italic.ttf ../fonts/ttf/Bodoni-72-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Regular.ttf ../fonts/ttf/Bodoni-72-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Italic.ttf ../fonts/ttf/Bodoni-72-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Black.ttf ../fonts/ttf/Bodoni-72-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Black-Italic.ttf ../fonts/ttf/Bodoni-72-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Medium.ttf ../fonts/ttf/Bodoni-72-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-72-Medium-Italic.ttf ../fonts/ttf/Bodoni-72-Medium-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Bold.ttf ../fonts/ttf/Bodoni-96-Bold.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Bold-Italic.ttf ../fonts/ttf/Bodoni-96-Bold-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Regular.ttf ../fonts/ttf/Bodoni-96-Regular.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Italic.ttf ../fonts/ttf/Bodoni-96-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Black.ttf ../fonts/ttf/Bodoni-96-Black.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Black-Italic.ttf ../fonts/ttf/Bodoni-96-Black-Italic.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Medium.ttf ../fonts/ttf/Bodoni-96-Medium.ttf
-ttfautohint -n ../fonts/ttf2/Bodoni-96-Medium-Italic.ttf ../fonts/ttf/Bodoni-96-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Bold.ttf ../fonts/static/Bodoni-06-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Bold-Italic.ttf ../fonts/static/Bodoni-06-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Regular.ttf ../fonts/static/Bodoni-06-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Italic.ttf ../fonts/static/Bodoni-06-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Black.ttf ../fonts/static/Bodoni-06-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Black-Italic.ttf ../fonts/static/Bodoni-06-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Medium.ttf ../fonts/static/Bodoni-06-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-06-Medium-Italic.ttf ../fonts/static/Bodoni-06-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Bold.ttf ../fonts/static/Bodoni-11-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Bold-Italic.ttf ../fonts/static/Bodoni-11-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Regular.ttf ../fonts/static/Bodoni-11-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Italic.ttf ../fonts/static/Bodoni-11-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Black.ttf ../fonts/static/Bodoni-11-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Black-Italic.ttf ../fonts/static/Bodoni-11-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Medium.ttf ../fonts/static/Bodoni-11-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-11-Medium-Italic.ttf ../fonts/static/Bodoni-11-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Bold.ttf ../fonts/static/Bodoni-16-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Bold-Italic.ttf ../fonts/static/Bodoni-16-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Regular.ttf ../fonts/static/Bodoni-16-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Italic.ttf ../fonts/static/Bodoni-16-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Black.ttf ../fonts/static/Bodoni-16-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Black-Italic.ttf ../fonts/static/Bodoni-16-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Medium.ttf ../fonts/static/Bodoni-16-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-16-Medium-Italic.ttf ../fonts/static/Bodoni-16-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Bold.ttf ../fonts/static/Bodoni-24-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Bold-Italic.ttf ../fonts/static/Bodoni-24-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Regular.ttf ../fonts/static/Bodoni-24-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Italic.ttf ../fonts/static/Bodoni-24-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Black.ttf ../fonts/static/Bodoni-24-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Black-Italic.ttf ../fonts/static/Bodoni-24-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Medium.ttf ../fonts/static/Bodoni-24-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-24-Medium-Italic.ttf ../fonts/static/Bodoni-24-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Bold.ttf ../fonts/static/Bodoni-36-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Bold-Italic.ttf ../fonts/static/Bodoni-36-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Regular.ttf ../fonts/static/Bodoni-36-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Italic.ttf ../fonts/static/Bodoni-36-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Black.ttf ../fonts/static/Bodoni-36-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Black-Italic.ttf ../fonts/static/Bodoni-36-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Medium.ttf ../fonts/static/Bodoni-36-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-36-Medium-Italic.ttf ../fonts/static/Bodoni-36-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Bold.ttf ../fonts/static/Bodoni-48-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Bold-Italic.ttf ../fonts/static/Bodoni-48-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Regular.ttf ../fonts/static/Bodoni-48-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Italic.ttf ../fonts/static/Bodoni-48-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Black.ttf ../fonts/static/Bodoni-48-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Black-Italic.ttf ../fonts/static/Bodoni-48-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Medium.ttf ../fonts/static/Bodoni-48-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-48-Medium-Italic.ttf ../fonts/static/Bodoni-48-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Bold.ttf ../fonts/static/Bodoni-72-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Bold-Italic.ttf ../fonts/static/Bodoni-72-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Regular.ttf ../fonts/static/Bodoni-72-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Italic.ttf ../fonts/static/Bodoni-72-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Black.ttf ../fonts/static/Bodoni-72-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Black-Italic.ttf ../fonts/static/Bodoni-72-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Medium.ttf ../fonts/static/Bodoni-72-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-72-Medium-Italic.ttf ../fonts/static/Bodoni-72-Medium-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Bold.ttf ../fonts/static/Bodoni-96-Bold.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Bold-Italic.ttf ../fonts/static/Bodoni-96-Bold-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Regular.ttf ../fonts/static/Bodoni-96-Regular.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Italic.ttf ../fonts/static/Bodoni-96-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Black.ttf ../fonts/static/Bodoni-96-Black.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Black-Italic.ttf ../fonts/static/Bodoni-96-Black-Italic.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Medium.ttf ../fonts/static/Bodoni-96-Medium.ttf
+ttfautohint -n ../fonts/ttf2/Bodoni-96-Medium-Italic.ttf ../fonts/static/Bodoni-96-Medium-Italic.ttf
 
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-06-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-11-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-16-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-24-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-36-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-48-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-72-Medium-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Bold.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Bold-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Regular.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Black.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Black-Italic.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Medium.ttf
-gftools fix-hinting ../fonts/ttf/Bodoni-96-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-06-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-11-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-16-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-24-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-36-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-48-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-72-Medium-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Bold.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Bold-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Regular.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Black.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Black-Italic.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Medium.ttf
+gftools fix-hinting ../fonts/static/Bodoni-96-Medium-Italic.ttf
 
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
@@ -320,141 +317,79 @@ gftools fix-hinting ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf
 rm ../fonts/variable/*.ttf
 mv ../fonts/variable/BodoniModa06[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11[opsz,wght].ttf
 mv ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
+gftools fix-vf-meta ../fonts/variable/*.ttf
+mv ../fonts/variable/BodoniModa11[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11[opsz,wght].ttf
+mv ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
 statmake --designspace ../sources-GF/Designspace/bodoniGF.designspace --stylespace ../sources-GF/Designspace/bodoniGF.stylespace ../fonts/variable/BodoniModa11[opsz,wght].ttf
 statmake --designspace ../sources-GF/Designspace/bodoniGF-italic.designspace --stylespace ../sources-GF/Designspace/bodoniGF-italic.stylespace ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
 
 echo "Cleaning Directory Up"
-rm ../fonts/ttf/*.ttf
+rm ../fonts/static/*.ttf
 
-mv ../fonts/ttf/Bodoni-06-Bold.ttf.fix ../fonts/ttf/BodoniModa06-Bold.ttf
-mv ../fonts/ttf/Bodoni-06-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa06-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-06-Regular.ttf.fix ../fonts/ttf/BodoniModa06-Regular.ttf
-mv ../fonts/ttf/Bodoni-06-Italic.ttf.fix ../fonts/ttf/BodoniModa06-Italic.ttf
-mv ../fonts/ttf/Bodoni-06-Black.ttf.fix ../fonts/ttf/BodoniModa06-Black.ttf
-mv ../fonts/ttf/Bodoni-06-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa06-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-06-Medium.ttf.fix ../fonts/ttf/BodoniModa06-Medium.ttf
-mv ../fonts/ttf/Bodoni-06-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa06-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-11-Bold.ttf.fix ../fonts/ttf/BodoniModa11-Bold.ttf
-mv ../fonts/ttf/Bodoni-11-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa11-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-11-Regular.ttf.fix ../fonts/ttf/BodoniModa11-Regular.ttf
-mv ../fonts/ttf/Bodoni-11-Italic.ttf.fix ../fonts/ttf/BodoniModa11-Italic.ttf
-mv ../fonts/ttf/Bodoni-11-Black.ttf.fix ../fonts/ttf/BodoniModa11-Black.ttf
-mv ../fonts/ttf/Bodoni-11-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa11-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-11-Medium.ttf.fix ../fonts/ttf/BodoniModa11-Medium.ttf
-mv ../fonts/ttf/Bodoni-11-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa11-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-16-Bold.ttf.fix ../fonts/ttf/BodoniModa16-Bold.ttf
-mv ../fonts/ttf/Bodoni-16-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa16-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-16-Regular.ttf.fix ../fonts/ttf/BodoniModa16-Regular.ttf
-mv ../fonts/ttf/Bodoni-16-Italic.ttf.fix ../fonts/ttf/BodoniModa16-Italic.ttf
-mv ../fonts/ttf/Bodoni-16-Black.ttf.fix ../fonts/ttf/BodoniModa16-Black.ttf
-mv ../fonts/ttf/Bodoni-16-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa16-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-16-Medium.ttf.fix ../fonts/ttf/BodoniModa16-Medium.ttf
-mv ../fonts/ttf/Bodoni-16-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa16-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-24-Bold.ttf.fix ../fonts/ttf/BodoniModa24-Bold.ttf
-mv ../fonts/ttf/Bodoni-24-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa24-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-24-Regular.ttf.fix ../fonts/ttf/BodoniModa24-Regular.ttf
-mv ../fonts/ttf/Bodoni-24-Italic.ttf.fix ../fonts/ttf/BodoniModa24-Italic.ttf
-mv ../fonts/ttf/Bodoni-24-Black.ttf.fix ../fonts/ttf/BodoniModa24-Black.ttf
-mv ../fonts/ttf/Bodoni-24-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa24-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-24-Medium.ttf.fix ../fonts/ttf/BodoniModa24-Medium.ttf
-mv ../fonts/ttf/Bodoni-24-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa24-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-36-Bold.ttf.fix ../fonts/ttf/BodoniModa36-Bold.ttf
-mv ../fonts/ttf/Bodoni-36-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa36-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-36-Regular.ttf.fix ../fonts/ttf/BodoniModa36-Regular.ttf
-mv ../fonts/ttf/Bodoni-36-Italic.ttf.fix ../fonts/ttf/BodoniModa36-Italic.ttf
-mv ../fonts/ttf/Bodoni-36-Black.ttf.fix ../fonts/ttf/BodoniModa36-Black.ttf
-mv ../fonts/ttf/Bodoni-36-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa36-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-36-Medium.ttf.fix ../fonts/ttf/BodoniModa36-Medium.ttf
-mv ../fonts/ttf/Bodoni-36-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa36-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-48-Bold.ttf.fix ../fonts/ttf/BodoniModa48-Bold.ttf
-mv ../fonts/ttf/Bodoni-48-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa48-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-48-Regular.ttf.fix ../fonts/ttf/BodoniModa48-Regular.ttf
-mv ../fonts/ttf/Bodoni-48-Italic.ttf.fix ../fonts/ttf/BodoniModa48-Italic.ttf
-mv ../fonts/ttf/Bodoni-48-Black.ttf.fix ../fonts/ttf/BodoniModa48-Black.ttf
-mv ../fonts/ttf/Bodoni-48-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa48-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-48-Medium.ttf.fix ../fonts/ttf/BodoniModa48-Medium.ttf
-mv ../fonts/ttf/Bodoni-48-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa48-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-72-Bold.ttf.fix ../fonts/ttf/BodoniModa72-Bold.ttf
-mv ../fonts/ttf/Bodoni-72-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa72-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-72-Regular.ttf.fix ../fonts/ttf/BodoniModa72-Regular.ttf
-mv ../fonts/ttf/Bodoni-72-Italic.ttf.fix ../fonts/ttf/BodoniModa72-Italic.ttf
-mv ../fonts/ttf/Bodoni-72-Black.ttf.fix ../fonts/ttf/BodoniModa72-Black.ttf
-mv ../fonts/ttf/Bodoni-72-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa72-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-72-Medium.ttf.fix ../fonts/ttf/BodoniModa72-Medium.ttf
-mv ../fonts/ttf/Bodoni-72-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa72-MediumItalic.ttf
-mv ../fonts/ttf/Bodoni-96-Bold.ttf.fix ../fonts/ttf/BodoniModa96-Bold.ttf
-mv ../fonts/ttf/Bodoni-96-Bold-Italic.ttf.fix ../fonts/ttf/BodoniModa96-BoldItalic.ttf
-mv ../fonts/ttf/Bodoni-96-Regular.ttf.fix ../fonts/ttf/BodoniModa96-Regular.ttf
-mv ../fonts/ttf/Bodoni-96-Italic.ttf.fix ../fonts/ttf/BodoniModa96-Italic.ttf
-mv ../fonts/ttf/Bodoni-96-Black.ttf.fix ../fonts/ttf/BodoniModa96-Black.ttf
-mv ../fonts/ttf/Bodoni-96-Black-Italic.ttf.fix ../fonts/ttf/BodoniModa96-BlackItalic.ttf
-mv ../fonts/ttf/Bodoni-96-Medium.ttf.fix ../fonts/ttf/BodoniModa96-Medium.ttf
-mv ../fonts/ttf/Bodoni-96-Medium-Italic.ttf.fix ../fonts/ttf/BodoniModa96-MediumItalic.ttf
-
-mv ../fonts/otf/Bodoni-06-Bold.otf ../fonts/otf/BodoniModa06-Bold.otf
-mv ../fonts/otf/Bodoni-06-Bold-Italic.otf ../fonts/otf/BodoniModa06-BoldItalic.otf
-mv ../fonts/otf/Bodoni-06-Regular.otf ../fonts/otf/BodoniModa06-Regular.otf
-mv ../fonts/otf/Bodoni-06-Italic.otf ../fonts/otf/BodoniModa06-Italic.otf
-mv ../fonts/otf/Bodoni-06-Black.otf ../fonts/otf/BodoniModa06-Black.otf
-mv ../fonts/otf/Bodoni-06-Black-Italic.otf ../fonts/otf/BodoniModa06-BlackItalic.otf
-mv ../fonts/otf/Bodoni-06-Medium.otf ../fonts/otf/BodoniModa06-Medium.otf
-mv ../fonts/otf/Bodoni-06-Medium-Italic.otf ../fonts/otf/BodoniModa06-MediumItalic.otf
-mv ../fonts/otf/Bodoni-11-Bold.otf ../fonts/otf/BodoniModa11-Bold.otf
-mv ../fonts/otf/Bodoni-11-Bold-Italic.otf ../fonts/otf/BodoniModa11-BoldItalic.otf
-mv ../fonts/otf/Bodoni-11-Regular.otf ../fonts/otf/BodoniModa11-Regular.otf
-mv ../fonts/otf/Bodoni-11-Italic.otf ../fonts/otf/BodoniModa11-Italic.otf
-mv ../fonts/otf/Bodoni-11-Black.otf ../fonts/otf/BodoniModa11-Black.otf
-mv ../fonts/otf/Bodoni-11-Black-Italic.otf ../fonts/otf/BodoniModa11-BlackItalic.otf
-mv ../fonts/otf/Bodoni-11-Medium.otf ../fonts/otf/BodoniModa11-Medium.otf
-mv ../fonts/otf/Bodoni-11-Medium-Italic.otf ../fonts/otf/BodoniModa11-MediumItalic.otf
-mv ../fonts/otf/Bodoni-16-Bold.otf ../fonts/otf/BodoniModa16-Bold.otf
-mv ../fonts/otf/Bodoni-16-Bold-Italic.otf ../fonts/otf/BodoniModa16-BoldItalic.otf
-mv ../fonts/otf/Bodoni-16-Regular.otf ../fonts/otf/BodoniModa16-Regular.otf
-mv ../fonts/otf/Bodoni-16-Italic.otf ../fonts/otf/BodoniModa16-Italic.otf
-mv ../fonts/otf/Bodoni-16-Black.otf ../fonts/otf/BodoniModa16-Black.otf
-mv ../fonts/otf/Bodoni-16-Black-Italic.otf ../fonts/otf/BodoniModa16-BlackItalic.otf
-mv ../fonts/otf/Bodoni-16-Medium.otf ../fonts/otf/BodoniModa16-Medium.otf
-mv ../fonts/otf/Bodoni-16-Medium-Italic.otf ../fonts/otf/BodoniModa16-MediumItalic.otf
-mv ../fonts/otf/Bodoni-24-Bold.otf ../fonts/otf/BodoniModa24-Bold.otf
-mv ../fonts/otf/Bodoni-24-Bold-Italic.otf ../fonts/otf/BodoniModa24-BoldItalic.otf
-mv ../fonts/otf/Bodoni-24-Regular.otf ../fonts/otf/BodoniModa24-Regular.otf
-mv ../fonts/otf/Bodoni-24-Italic.otf ../fonts/otf/BodoniModa24-Italic.otf
-mv ../fonts/otf/Bodoni-24-Black.otf ../fonts/otf/BodoniModa24-Black.otf
-mv ../fonts/otf/Bodoni-24-Black-Italic.otf ../fonts/otf/BodoniModa24-BlackItalic.otf
-mv ../fonts/otf/Bodoni-24-Medium.otf ../fonts/otf/BodoniModa24-Medium.otf
-mv ../fonts/otf/Bodoni-24-Medium-Italic.otf ../fonts/otf/BodoniModa24-MediumItalic.otf
-mv ../fonts/otf/Bodoni-36-Bold.otf ../fonts/otf/BodoniModa36-Bold.otf
-mv ../fonts/otf/Bodoni-36-Bold-Italic.otf ../fonts/otf/BodoniModa36-BoldItalic.otf
-mv ../fonts/otf/Bodoni-36-Regular.otf ../fonts/otf/BodoniModa36-Regular.otf
-mv ../fonts/otf/Bodoni-36-Italic.otf ../fonts/otf/BodoniModa36-Italic.otf
-mv ../fonts/otf/Bodoni-36-Black.otf ../fonts/otf/BodoniModa36-Black.otf
-mv ../fonts/otf/Bodoni-36-Black-Italic.otf ../fonts/otf/BodoniModa36-BlackItalic.otf
-mv ../fonts/otf/Bodoni-36-Medium.otf ../fonts/otf/BodoniModa36-Medium.otf
-mv ../fonts/otf/Bodoni-36-Medium-Italic.otf ../fonts/otf/BodoniModa36-MediumItalic.otf
-mv ../fonts/otf/Bodoni-48-Bold.otf ../fonts/otf/BodoniModa48-Bold.otf
-mv ../fonts/otf/Bodoni-48-Bold-Italic.otf ../fonts/otf/BodoniModa48-BoldItalic.otf
-mv ../fonts/otf/Bodoni-48-Regular.otf ../fonts/otf/BodoniModa48-Regular.otf
-mv ../fonts/otf/Bodoni-48-Italic.otf ../fonts/otf/BodoniModa48-Italic.otf
-mv ../fonts/otf/Bodoni-48-Black.otf ../fonts/otf/BodoniModa48-Black.otf
-mv ../fonts/otf/Bodoni-48-Black-Italic.otf ../fonts/otf/BodoniModa48-BlackItalic.otf
-mv ../fonts/otf/Bodoni-48-Medium.otf ../fonts/otf/BodoniModa48-Medium.otf
-mv ../fonts/otf/Bodoni-48-Medium-Italic.otf ../fonts/otf/BodoniModa48-MediumItalic.otf
-mv ../fonts/otf/Bodoni-72-Bold.otf ../fonts/otf/BodoniModa72-Bold.otf
-mv ../fonts/otf/Bodoni-72-Bold-Italic.otf ../fonts/otf/BodoniModa72-BoldItalic.otf
-mv ../fonts/otf/Bodoni-72-Regular.otf ../fonts/otf/BodoniModa72-Regular.otf
-mv ../fonts/otf/Bodoni-72-Italic.otf ../fonts/otf/BodoniModa72-Italic.otf
-mv ../fonts/otf/Bodoni-72-Black.otf ../fonts/otf/BodoniModa72-Black.otf
-mv ../fonts/otf/Bodoni-72-Black-Italic.otf ../fonts/otf/BodoniModa72-BlackItalic.otf
-mv ../fonts/otf/Bodoni-72-Medium.otf ../fonts/otf/BodoniModa72-Medium.otf
-mv ../fonts/otf/Bodoni-72-Medium-Italic.otf ../fonts/otf/BodoniModa72-MediumItalic.otf
-mv ../fonts/otf/Bodoni-96-Bold.otf ../fonts/otf/BodoniModa96-Bold.otf
-mv ../fonts/otf/Bodoni-96-Bold-Italic.otf ../fonts/otf/BodoniModa96-BoldItalic.otf
-mv ../fonts/otf/Bodoni-96-Regular.otf ../fonts/otf/BodoniModa96-Regular.otf
-mv ../fonts/otf/Bodoni-96-Italic.otf ../fonts/otf/BodoniModa96-Italic.otf
-mv ../fonts/otf/Bodoni-96-Black.otf ../fonts/otf/BodoniModa96-Black.otf
-mv ../fonts/otf/Bodoni-96-Black-Italic.otf ../fonts/otf/BodoniModa96-BlackItalic.otf
-mv ../fonts/otf/Bodoni-96-Medium.otf ../fonts/otf/BodoniModa96-Medium.otf
-mv ../fonts/otf/Bodoni-96-Medium-Italic.otf ../fonts/otf/BodoniModa96-MediumItalic.otf
+mv ../fonts/static/Bodoni-06-Bold.ttf.fix ../fonts/static/BodoniModa06-Bold.ttf
+mv ../fonts/static/Bodoni-06-Bold-Italic.ttf.fix ../fonts/static/BodoniModa06-BoldItalic.ttf
+mv ../fonts/static/Bodoni-06-Regular.ttf.fix ../fonts/static/BodoniModa06-Regular.ttf
+mv ../fonts/static/Bodoni-06-Italic.ttf.fix ../fonts/static/BodoniModa06-Italic.ttf
+mv ../fonts/static/Bodoni-06-Black.ttf.fix ../fonts/static/BodoniModa06-Black.ttf
+mv ../fonts/static/Bodoni-06-Black-Italic.ttf.fix ../fonts/static/BodoniModa06-BlackItalic.ttf
+mv ../fonts/static/Bodoni-06-Medium.ttf.fix ../fonts/static/BodoniModa06-Medium.ttf
+mv ../fonts/static/Bodoni-06-Medium-Italic.ttf.fix ../fonts/static/BodoniModa06-MediumItalic.ttf
+mv ../fonts/static/Bodoni-11-Bold.ttf.fix ../fonts/static/BodoniModa11-Bold.ttf
+mv ../fonts/static/Bodoni-11-Bold-Italic.ttf.fix ../fonts/static/BodoniModa11-BoldItalic.ttf
+mv ../fonts/static/Bodoni-11-Regular.ttf.fix ../fonts/static/BodoniModa11-Regular.ttf
+mv ../fonts/static/Bodoni-11-Italic.ttf.fix ../fonts/static/BodoniModa11-Italic.ttf
+mv ../fonts/static/Bodoni-11-Black.ttf.fix ../fonts/static/BodoniModa11-Black.ttf
+mv ../fonts/static/Bodoni-11-Black-Italic.ttf.fix ../fonts/static/BodoniModa11-BlackItalic.ttf
+mv ../fonts/static/Bodoni-11-Medium.ttf.fix ../fonts/static/BodoniModa11-Medium.ttf
+mv ../fonts/static/Bodoni-11-Medium-Italic.ttf.fix ../fonts/static/BodoniModa11-MediumItalic.ttf
+mv ../fonts/static/Bodoni-16-Bold.ttf.fix ../fonts/static/BodoniModa16-Bold.ttf
+mv ../fonts/static/Bodoni-16-Bold-Italic.ttf.fix ../fonts/static/BodoniModa16-BoldItalic.ttf
+mv ../fonts/static/Bodoni-16-Regular.ttf.fix ../fonts/static/BodoniModa16-Regular.ttf
+mv ../fonts/static/Bodoni-16-Italic.ttf.fix ../fonts/static/BodoniModa16-Italic.ttf
+mv ../fonts/static/Bodoni-16-Black.ttf.fix ../fonts/static/BodoniModa16-Black.ttf
+mv ../fonts/static/Bodoni-16-Black-Italic.ttf.fix ../fonts/static/BodoniModa16-BlackItalic.ttf
+mv ../fonts/static/Bodoni-16-Medium.ttf.fix ../fonts/static/BodoniModa16-Medium.ttf
+mv ../fonts/static/Bodoni-16-Medium-Italic.ttf.fix ../fonts/static/BodoniModa16-MediumItalic.ttf
+mv ../fonts/static/Bodoni-24-Bold.ttf.fix ../fonts/static/BodoniModa24-Bold.ttf
+mv ../fonts/static/Bodoni-24-Bold-Italic.ttf.fix ../fonts/static/BodoniModa24-BoldItalic.ttf
+mv ../fonts/static/Bodoni-24-Regular.ttf.fix ../fonts/static/BodoniModa24-Regular.ttf
+mv ../fonts/static/Bodoni-24-Italic.ttf.fix ../fonts/static/BodoniModa24-Italic.ttf
+mv ../fonts/static/Bodoni-24-Black.ttf.fix ../fonts/static/BodoniModa24-Black.ttf
+mv ../fonts/static/Bodoni-24-Black-Italic.ttf.fix ../fonts/static/BodoniModa24-BlackItalic.ttf
+mv ../fonts/static/Bodoni-24-Medium.ttf.fix ../fonts/static/BodoniModa24-Medium.ttf
+mv ../fonts/static/Bodoni-24-Medium-Italic.ttf.fix ../fonts/static/BodoniModa24-MediumItalic.ttf
+mv ../fonts/static/Bodoni-36-Bold.ttf.fix ../fonts/static/BodoniModa36-Bold.ttf
+mv ../fonts/static/Bodoni-36-Bold-Italic.ttf.fix ../fonts/static/BodoniModa36-BoldItalic.ttf
+mv ../fonts/static/Bodoni-36-Regular.ttf.fix ../fonts/static/BodoniModa36-Regular.ttf
+mv ../fonts/static/Bodoni-36-Italic.ttf.fix ../fonts/static/BodoniModa36-Italic.ttf
+mv ../fonts/static/Bodoni-36-Black.ttf.fix ../fonts/static/BodoniModa36-Black.ttf
+mv ../fonts/static/Bodoni-36-Black-Italic.ttf.fix ../fonts/static/BodoniModa36-BlackItalic.ttf
+mv ../fonts/static/Bodoni-36-Medium.ttf.fix ../fonts/static/BodoniModa36-Medium.ttf
+mv ../fonts/static/Bodoni-36-Medium-Italic.ttf.fix ../fonts/static/BodoniModa36-MediumItalic.ttf
+mv ../fonts/static/Bodoni-48-Bold.ttf.fix ../fonts/static/BodoniModa48-Bold.ttf
+mv ../fonts/static/Bodoni-48-Bold-Italic.ttf.fix ../fonts/static/BodoniModa48-BoldItalic.ttf
+mv ../fonts/static/Bodoni-48-Regular.ttf.fix ../fonts/static/BodoniModa48-Regular.ttf
+mv ../fonts/static/Bodoni-48-Italic.ttf.fix ../fonts/static/BodoniModa48-Italic.ttf
+mv ../fonts/static/Bodoni-48-Black.ttf.fix ../fonts/static/BodoniModa48-Black.ttf
+mv ../fonts/static/Bodoni-48-Black-Italic.ttf.fix ../fonts/static/BodoniModa48-BlackItalic.ttf
+mv ../fonts/static/Bodoni-48-Medium.ttf.fix ../fonts/static/BodoniModa48-Medium.ttf
+mv ../fonts/static/Bodoni-48-Medium-Italic.ttf.fix ../fonts/static/BodoniModa48-MediumItalic.ttf
+mv ../fonts/static/Bodoni-72-Bold.ttf.fix ../fonts/static/BodoniModa72-Bold.ttf
+mv ../fonts/static/Bodoni-72-Bold-Italic.ttf.fix ../fonts/static/BodoniModa72-BoldItalic.ttf
+mv ../fonts/static/Bodoni-72-Regular.ttf.fix ../fonts/static/BodoniModa72-Regular.ttf
+mv ../fonts/static/Bodoni-72-Italic.ttf.fix ../fonts/static/BodoniModa72-Italic.ttf
+mv ../fonts/static/Bodoni-72-Black.ttf.fix ../fonts/static/BodoniModa72-Black.ttf
+mv ../fonts/static/Bodoni-72-Black-Italic.ttf.fix ../fonts/static/BodoniModa72-BlackItalic.ttf
+mv ../fonts/static/Bodoni-72-Medium.ttf.fix ../fonts/static/BodoniModa72-Medium.ttf
+mv ../fonts/static/Bodoni-72-Medium-Italic.ttf.fix ../fonts/static/BodoniModa72-MediumItalic.ttf
+mv ../fonts/static/Bodoni-96-Bold.ttf.fix ../fonts/static/BodoniModa96-Bold.ttf
+mv ../fonts/static/Bodoni-96-Bold-Italic.ttf.fix ../fonts/static/BodoniModa96-BoldItalic.ttf
+mv ../fonts/static/Bodoni-96-Regular.ttf.fix ../fonts/static/BodoniModa96-Regular.ttf
+mv ../fonts/static/Bodoni-96-Italic.ttf.fix ../fonts/static/BodoniModa96-Italic.ttf
+mv ../fonts/static/Bodoni-96-Black.ttf.fix ../fonts/static/BodoniModa96-Black.ttf
+mv ../fonts/static/Bodoni-96-Black-Italic.ttf.fix ../fonts/static/BodoniModa96-BlackItalic.ttf
+mv ../fonts/static/Bodoni-96-Medium.ttf.fix ../fonts/static/BodoniModa96-Medium.ttf
+mv ../fonts/static/Bodoni-96-Medium-Italic.ttf.fix ../fonts/static/BodoniModa96-MediumItalic.ttf
 
 rm -rf ../sources-GF
 rm ../fonts/ttf2/*.ttf

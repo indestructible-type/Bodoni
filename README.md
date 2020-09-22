@@ -2,7 +2,7 @@
 ========
 ![Bodoni* Picture](https://indestructibletype.com/assets/BodoniAbout.svg)
 Bodoni* is an original font created by [indestructible type*](https://indestructibletype.com/Home.html). It is inspired by
-the designs of Giambattista Bodoni. This is version 2.1.
+the designs of Giambattista Bodoni. This is version 2.3.
 
 Bodoni* is designed and maintained by [Owen Earl](https://ewonrael.github.io/), who is the creator of the font foundry [indestructible type*](http://indestructible-type.github.io).
 
@@ -31,6 +31,8 @@ Created 6 pt. size and variable font versions.<br>
 Fixed up source files<br>
 <b>2.2</b>
 Small caps & math symbols<br>
+<b>2.3</b>
+Redrawing of italics
 
 Web Use
 -------
