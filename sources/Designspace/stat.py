@@ -7,7 +7,7 @@ UPRIGHT_AXES = [
         name="Optical Size",
         ordering=0,
         values=[
-            dict(value=6, name="06pt"),
+            dict(value=6, name="6pt"),
             dict(value=11, name="11pt"),
             dict(value=16, name="16pt"),
             dict(value=24, name="24pt"),
@@ -22,13 +22,15 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(value=200, name="ExtraLight"),
-            dict(value=300, name="Light"),
-            dict(value=400, name="Regular", flags=0x2),
-            dict(value=500, name="Medium"),
-            dict(value=700, name="Bold"),
-            dict(value=800, name="ExtraBold"),
-            dict(value=900, name="Black"),
+            dict(nominalValue=200, rangeMinValue=200, rangeMaxValue=250, name="ExtraLight"),
+            dict(nominalValue=300, rangeMinValue=250, rangeMaxvalue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxvalue=450, name="Regular", flags=0x2),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxvalue=550, name="Medium"),
+            dict(nominalValue=600, rangeMinValue=550, rangeMaxvalue=650, name="SemiBold"),
+            dict(nominalValue=700, rangeMinValue=650, rangeMaxvalue=750, name="Bold"),
+            dict(nominalValue=800, rangeMinValue=750, rangeMaxvalue=850, name="ExtraBold"),
+            dict(nominalValue=900, rangeMinValue=850, rangeMaxvalue=900, name="Black"),
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
         ],
     ),
     dict(
@@ -45,7 +47,7 @@ ITALIC_AXES = [
         name="Optical Size",
         ordering=0,
         values=[
-            dict(value=6, name="06pt"),
+            dict(value=6, name="6pt"),
             dict(value=11, name="11pt"),
             dict(value=16, name="16pt"),
             dict(value=24, name="24pt"),
@@ -60,13 +62,15 @@ ITALIC_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(value=200, name="ExtraLight"),
-            dict(value=300, name="Light"),
-            dict(value=400, name="Regular", flags=0x2),
-            dict(value=500, name="Medium"),
-            dict(value=700, name="Bold"),
-            dict(value=800, name="ExtraBold"),
-            dict(value=900, name="Black"),
+            dict(nominalValue=200, rangeMinValue=200, rangeMaxValue=250, name="ExtraLight"),
+            dict(nominalValue=300, rangeMinValue=250, rangeMaxvalue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxvalue=450, name="Regular", flags=0x2),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxvalue=550, name="Medium"),
+            dict(nominalValue=600, rangeMinValue=550, rangeMaxvalue=650, name="SemiBold"),
+            dict(nominalValue=700, rangeMinValue=650, rangeMaxvalue=750, name="Bold"),
+            dict(nominalValue=800, rangeMinValue=750, rangeMaxvalue=850, name="ExtraBold"),
+            dict(nominalValue=900, rangeMinValue=850, rangeMaxvalue=900, name="Black"),
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
         ],
     ),
     dict(
