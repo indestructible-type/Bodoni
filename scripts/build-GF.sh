@@ -33,71 +33,71 @@ sed -i 's/UFO\/Bodoni-96-Italic/UFO\/Bodoni-96-Book-Italic/g' ../sources-GF/Desi
 sed -i 's/UFO\/Bodoni-96-Black/UFO\/Bodoni-96-Fatface/g' ../sources-GF/Designspace/bodoni-italic.designspace
 
 echo "Editing Designspace Metadata"
-sed -i 's/stylename\=\"06 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"06 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"06 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"06 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"11 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"11 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"11 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"11 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"16 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"16 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"16 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"16 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"24 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"24 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"24 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"24 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"36 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"36 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"36 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"36 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"48 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"48 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"48 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"48 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"72 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"72 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"72 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"72 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"96 Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"96 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"96 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
-sed -i 's/stylename\=\"96 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"06pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"06pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"06pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"06pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"11pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"11pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"11pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"11pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"16pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"16pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"16pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"16pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"24pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"24pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"24pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"24pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"36pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"36pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"36pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"36pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"48pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"48pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"48pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"48pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"72pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"72pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"72pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"72pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"96pt Regular/stylename\=\"Regular/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"96pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"96pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni.designspace
+sed -i 's/stylename\=\"96pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni.designspace
 
-sed -i 's/stylename\=\"06 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"06 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"06 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"06 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"11 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"11 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"11 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"11 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"16 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"16 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"16 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"16 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"24 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"24 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"24 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"24 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"36 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"36 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"36 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"36 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"48 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"48 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"48 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"48 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"72 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"72 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"72 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"72 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"96 Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"96 Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"96 Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
-sed -i 's/stylename\=\"96 Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"06pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"06pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"06pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"06pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"11pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"11pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"11pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"11pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"16pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"16pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"16pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"16pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"24pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"24pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"24pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"24pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"36pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"36pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"36pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"36pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"48pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"48pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"48pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"48pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"72pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"72pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"72pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"72pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"96pt Italic/stylename\=\"Italic/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"96pt Medium/stylename\=\"Medium/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"96pt Bold/stylename\=\"Bold/g' ../sources-GF/Designspace/bodoni-italic.designspace
+sed -i 's/stylename\=\"96pt Black/stylename\=\"Black/g' ../sources-GF/Designspace/bodoni-italic.designspace
 
 echo "Generating UFO Files"
 fontmake -o ufo -i "06 Regular" -m ../sources-GF/Designspace/bodoni.designspace
@@ -303,6 +303,11 @@ gftools fix-hinting ../fonts/static/Bodoni-96-Black-Italic.ttf
 gftools fix-hinting ../fonts/static/Bodoni-96-Medium.ttf
 gftools fix-hinting ../fonts/static/Bodoni-96-Medium-Italic.ttf
 
+sed -i 's/Bodoni Moda 11pt/Bodoni Moda/g' ../sources-GF/instances/Bodoni-11-Regular.ufo/fontinfo.plist
+sed -i 's/BodoniModa11pt/BodoniModa/g' ../sources-GF/instances/Bodoni-11-Regular.ufo/fontinfo.plist
+sed -i 's/Bodoni Moda 11pt/Bodoni Moda/g' ../sources-GF/instances/Bodoni-11-Italic.ufo/fontinfo.plist
+sed -i 's/BodoniModa11pt/BodoniModa/g' ../sources-GF/instances/Bodoni-11-Italic.ufo/fontinfo.plist
+
 echo "Generating Variable Fonts"
 mkdir -p ../fonts/variable
 fontmake -o variable -m ../sources-GF/Designspace/bodoniGF.designspace --output-path ../fonts/variable/BodoniModa[opsz,wght].ttf
@@ -315,81 +320,82 @@ ttfautohint -n ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf ../fonts/varia
 gftools fix-hinting ../fonts/variable/BodoniModa06[opsz,wght].ttf
 gftools fix-hinting ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf
 rm ../fonts/variable/*.ttf
-mv ../fonts/variable/BodoniModa06[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11[opsz,wght].ttf
-mv ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
+mv ../fonts/variable/BodoniModa06[opsz,wght].ttf.fix ../fonts/variable/BodoniModa[opsz,wght].ttf
+mv ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
 gftools fix-vf-meta ../fonts/variable/*.ttf
-mv ../fonts/variable/BodoniModa11[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11[opsz,wght].ttf
-mv ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
-statmake --designspace ../sources-GF/Designspace/bodoniGF.designspace --stylespace ../sources-GF/Designspace/bodoniGF.stylespace ../fonts/variable/BodoniModa11[opsz,wght].ttf
-statmake --designspace ../sources-GF/Designspace/bodoniGF-italic.designspace --stylespace ../sources-GF/Designspace/bodoniGF-italic.stylespace ../fonts/variable/BodoniModa11-Italic[opsz,wght].ttf
+mv ../fonts/variable/BodoniModa[opsz,wght].ttf.fix ../fonts/variable/BodoniModa[opsz,wght].ttf
+mv ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
+statmake --designspace ../sources-GF/Designspace/bodoniGF.designspace --stylespace ../sources-GF/Designspace/bodoniGF.stylespace ../fonts/variable/BodoniModa[opsz,wght].ttf
+statmake --designspace ../sources-GF/Designspace/bodoniGF-italic.designspace --stylespace ../sources-GF/Designspace/bodoniGF-italic.stylespace ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
+python3 ../sources-GF/Designspace/stat.py
 
 echo "Cleaning Directory Up"
 rm ../fonts/static/*.ttf
 
-mv ../fonts/static/Bodoni-06-Bold.ttf.fix ../fonts/static/BodoniModa06-Bold.ttf
-mv ../fonts/static/Bodoni-06-Bold-Italic.ttf.fix ../fonts/static/BodoniModa06-BoldItalic.ttf
-mv ../fonts/static/Bodoni-06-Regular.ttf.fix ../fonts/static/BodoniModa06-Regular.ttf
-mv ../fonts/static/Bodoni-06-Italic.ttf.fix ../fonts/static/BodoniModa06-Italic.ttf
-mv ../fonts/static/Bodoni-06-Black.ttf.fix ../fonts/static/BodoniModa06-Black.ttf
-mv ../fonts/static/Bodoni-06-Black-Italic.ttf.fix ../fonts/static/BodoniModa06-BlackItalic.ttf
-mv ../fonts/static/Bodoni-06-Medium.ttf.fix ../fonts/static/BodoniModa06-Medium.ttf
-mv ../fonts/static/Bodoni-06-Medium-Italic.ttf.fix ../fonts/static/BodoniModa06-MediumItalic.ttf
-mv ../fonts/static/Bodoni-11-Bold.ttf.fix ../fonts/static/BodoniModa11-Bold.ttf
-mv ../fonts/static/Bodoni-11-Bold-Italic.ttf.fix ../fonts/static/BodoniModa11-BoldItalic.ttf
-mv ../fonts/static/Bodoni-11-Regular.ttf.fix ../fonts/static/BodoniModa11-Regular.ttf
-mv ../fonts/static/Bodoni-11-Italic.ttf.fix ../fonts/static/BodoniModa11-Italic.ttf
-mv ../fonts/static/Bodoni-11-Black.ttf.fix ../fonts/static/BodoniModa11-Black.ttf
-mv ../fonts/static/Bodoni-11-Black-Italic.ttf.fix ../fonts/static/BodoniModa11-BlackItalic.ttf
-mv ../fonts/static/Bodoni-11-Medium.ttf.fix ../fonts/static/BodoniModa11-Medium.ttf
-mv ../fonts/static/Bodoni-11-Medium-Italic.ttf.fix ../fonts/static/BodoniModa11-MediumItalic.ttf
-mv ../fonts/static/Bodoni-16-Bold.ttf.fix ../fonts/static/BodoniModa16-Bold.ttf
-mv ../fonts/static/Bodoni-16-Bold-Italic.ttf.fix ../fonts/static/BodoniModa16-BoldItalic.ttf
-mv ../fonts/static/Bodoni-16-Regular.ttf.fix ../fonts/static/BodoniModa16-Regular.ttf
-mv ../fonts/static/Bodoni-16-Italic.ttf.fix ../fonts/static/BodoniModa16-Italic.ttf
-mv ../fonts/static/Bodoni-16-Black.ttf.fix ../fonts/static/BodoniModa16-Black.ttf
-mv ../fonts/static/Bodoni-16-Black-Italic.ttf.fix ../fonts/static/BodoniModa16-BlackItalic.ttf
-mv ../fonts/static/Bodoni-16-Medium.ttf.fix ../fonts/static/BodoniModa16-Medium.ttf
-mv ../fonts/static/Bodoni-16-Medium-Italic.ttf.fix ../fonts/static/BodoniModa16-MediumItalic.ttf
-mv ../fonts/static/Bodoni-24-Bold.ttf.fix ../fonts/static/BodoniModa24-Bold.ttf
-mv ../fonts/static/Bodoni-24-Bold-Italic.ttf.fix ../fonts/static/BodoniModa24-BoldItalic.ttf
-mv ../fonts/static/Bodoni-24-Regular.ttf.fix ../fonts/static/BodoniModa24-Regular.ttf
-mv ../fonts/static/Bodoni-24-Italic.ttf.fix ../fonts/static/BodoniModa24-Italic.ttf
-mv ../fonts/static/Bodoni-24-Black.ttf.fix ../fonts/static/BodoniModa24-Black.ttf
-mv ../fonts/static/Bodoni-24-Black-Italic.ttf.fix ../fonts/static/BodoniModa24-BlackItalic.ttf
-mv ../fonts/static/Bodoni-24-Medium.ttf.fix ../fonts/static/BodoniModa24-Medium.ttf
-mv ../fonts/static/Bodoni-24-Medium-Italic.ttf.fix ../fonts/static/BodoniModa24-MediumItalic.ttf
-mv ../fonts/static/Bodoni-36-Bold.ttf.fix ../fonts/static/BodoniModa36-Bold.ttf
-mv ../fonts/static/Bodoni-36-Bold-Italic.ttf.fix ../fonts/static/BodoniModa36-BoldItalic.ttf
-mv ../fonts/static/Bodoni-36-Regular.ttf.fix ../fonts/static/BodoniModa36-Regular.ttf
-mv ../fonts/static/Bodoni-36-Italic.ttf.fix ../fonts/static/BodoniModa36-Italic.ttf
-mv ../fonts/static/Bodoni-36-Black.ttf.fix ../fonts/static/BodoniModa36-Black.ttf
-mv ../fonts/static/Bodoni-36-Black-Italic.ttf.fix ../fonts/static/BodoniModa36-BlackItalic.ttf
-mv ../fonts/static/Bodoni-36-Medium.ttf.fix ../fonts/static/BodoniModa36-Medium.ttf
-mv ../fonts/static/Bodoni-36-Medium-Italic.ttf.fix ../fonts/static/BodoniModa36-MediumItalic.ttf
-mv ../fonts/static/Bodoni-48-Bold.ttf.fix ../fonts/static/BodoniModa48-Bold.ttf
-mv ../fonts/static/Bodoni-48-Bold-Italic.ttf.fix ../fonts/static/BodoniModa48-BoldItalic.ttf
-mv ../fonts/static/Bodoni-48-Regular.ttf.fix ../fonts/static/BodoniModa48-Regular.ttf
-mv ../fonts/static/Bodoni-48-Italic.ttf.fix ../fonts/static/BodoniModa48-Italic.ttf
-mv ../fonts/static/Bodoni-48-Black.ttf.fix ../fonts/static/BodoniModa48-Black.ttf
-mv ../fonts/static/Bodoni-48-Black-Italic.ttf.fix ../fonts/static/BodoniModa48-BlackItalic.ttf
-mv ../fonts/static/Bodoni-48-Medium.ttf.fix ../fonts/static/BodoniModa48-Medium.ttf
-mv ../fonts/static/Bodoni-48-Medium-Italic.ttf.fix ../fonts/static/BodoniModa48-MediumItalic.ttf
-mv ../fonts/static/Bodoni-72-Bold.ttf.fix ../fonts/static/BodoniModa72-Bold.ttf
-mv ../fonts/static/Bodoni-72-Bold-Italic.ttf.fix ../fonts/static/BodoniModa72-BoldItalic.ttf
-mv ../fonts/static/Bodoni-72-Regular.ttf.fix ../fonts/static/BodoniModa72-Regular.ttf
-mv ../fonts/static/Bodoni-72-Italic.ttf.fix ../fonts/static/BodoniModa72-Italic.ttf
-mv ../fonts/static/Bodoni-72-Black.ttf.fix ../fonts/static/BodoniModa72-Black.ttf
-mv ../fonts/static/Bodoni-72-Black-Italic.ttf.fix ../fonts/static/BodoniModa72-BlackItalic.ttf
-mv ../fonts/static/Bodoni-72-Medium.ttf.fix ../fonts/static/BodoniModa72-Medium.ttf
-mv ../fonts/static/Bodoni-72-Medium-Italic.ttf.fix ../fonts/static/BodoniModa72-MediumItalic.ttf
-mv ../fonts/static/Bodoni-96-Bold.ttf.fix ../fonts/static/BodoniModa96-Bold.ttf
-mv ../fonts/static/Bodoni-96-Bold-Italic.ttf.fix ../fonts/static/BodoniModa96-BoldItalic.ttf
-mv ../fonts/static/Bodoni-96-Regular.ttf.fix ../fonts/static/BodoniModa96-Regular.ttf
-mv ../fonts/static/Bodoni-96-Italic.ttf.fix ../fonts/static/BodoniModa96-Italic.ttf
-mv ../fonts/static/Bodoni-96-Black.ttf.fix ../fonts/static/BodoniModa96-Black.ttf
-mv ../fonts/static/Bodoni-96-Black-Italic.ttf.fix ../fonts/static/BodoniModa96-BlackItalic.ttf
-mv ../fonts/static/Bodoni-96-Medium.ttf.fix ../fonts/static/BodoniModa96-Medium.ttf
-mv ../fonts/static/Bodoni-96-Medium-Italic.ttf.fix ../fonts/static/BodoniModa96-MediumItalic.ttf
+mv ../fonts/static/Bodoni-06-Bold.ttf.fix ../fonts/static/BodoniModa06pt-Bold.ttf
+mv ../fonts/static/Bodoni-06-Bold-Italic.ttf.fix ../fonts/static/BodoniModa06pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-06-Regular.ttf.fix ../fonts/static/BodoniModa06pt-Regular.ttf
+mv ../fonts/static/Bodoni-06-Italic.ttf.fix ../fonts/static/BodoniModa06pt-Italic.ttf
+mv ../fonts/static/Bodoni-06-Black.ttf.fix ../fonts/static/BodoniModa06pt-Black.ttf
+mv ../fonts/static/Bodoni-06-Black-Italic.ttf.fix ../fonts/static/BodoniModa06pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-06-Medium.ttf.fix ../fonts/static/BodoniModa06pt-Medium.ttf
+mv ../fonts/static/Bodoni-06-Medium-Italic.ttf.fix ../fonts/static/BodoniModa06pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-11-Bold.ttf.fix ../fonts/static/BodoniModa11pt-Bold.ttf
+mv ../fonts/static/Bodoni-11-Bold-Italic.ttf.fix ../fonts/static/BodoniModa11pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-11-Regular.ttf.fix ../fonts/static/BodoniModa11pt-Regular.ttf
+mv ../fonts/static/Bodoni-11-Italic.ttf.fix ../fonts/static/BodoniModa11pt-Italic.ttf
+mv ../fonts/static/Bodoni-11-Black.ttf.fix ../fonts/static/BodoniModa11pt-Black.ttf
+mv ../fonts/static/Bodoni-11-Black-Italic.ttf.fix ../fonts/static/BodoniModa11pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-11-Medium.ttf.fix ../fonts/static/BodoniModa11pt-Medium.ttf
+mv ../fonts/static/Bodoni-11-Medium-Italic.ttf.fix ../fonts/static/BodoniModa11pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-16-Bold.ttf.fix ../fonts/static/BodoniModa16pt-Bold.ttf
+mv ../fonts/static/Bodoni-16-Bold-Italic.ttf.fix ../fonts/static/BodoniModa16pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-16-Regular.ttf.fix ../fonts/static/BodoniModa16pt-Regular.ttf
+mv ../fonts/static/Bodoni-16-Italic.ttf.fix ../fonts/static/BodoniModa16pt-Italic.ttf
+mv ../fonts/static/Bodoni-16-Black.ttf.fix ../fonts/static/BodoniModa16pt-Black.ttf
+mv ../fonts/static/Bodoni-16-Black-Italic.ttf.fix ../fonts/static/BodoniModa16pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-16-Medium.ttf.fix ../fonts/static/BodoniModa16pt-Medium.ttf
+mv ../fonts/static/Bodoni-16-Medium-Italic.ttf.fix ../fonts/static/BodoniModa16pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-24-Bold.ttf.fix ../fonts/static/BodoniModa24pt-Bold.ttf
+mv ../fonts/static/Bodoni-24-Bold-Italic.ttf.fix ../fonts/static/BodoniModa24pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-24-Regular.ttf.fix ../fonts/static/BodoniModa24pt-Regular.ttf
+mv ../fonts/static/Bodoni-24-Italic.ttf.fix ../fonts/static/BodoniModa24pt-Italic.ttf
+mv ../fonts/static/Bodoni-24-Black.ttf.fix ../fonts/static/BodoniModa24pt-Black.ttf
+mv ../fonts/static/Bodoni-24-Black-Italic.ttf.fix ../fonts/static/BodoniModa24pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-24-Medium.ttf.fix ../fonts/static/BodoniModa24pt-Medium.ttf
+mv ../fonts/static/Bodoni-24-Medium-Italic.ttf.fix ../fonts/static/BodoniModa24pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-36-Bold.ttf.fix ../fonts/static/BodoniModa36pt-Bold.ttf
+mv ../fonts/static/Bodoni-36-Bold-Italic.ttf.fix ../fonts/static/BodoniModa36pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-36-Regular.ttf.fix ../fonts/static/BodoniModa36pt-Regular.ttf
+mv ../fonts/static/Bodoni-36-Italic.ttf.fix ../fonts/static/BodoniModa36pt-Italic.ttf
+mv ../fonts/static/Bodoni-36-Black.ttf.fix ../fonts/static/BodoniModa36pt-Black.ttf
+mv ../fonts/static/Bodoni-36-Black-Italic.ttf.fix ../fonts/static/BodoniModa36pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-36-Medium.ttf.fix ../fonts/static/BodoniModa36pt-Medium.ttf
+mv ../fonts/static/Bodoni-36-Medium-Italic.ttf.fix ../fonts/static/BodoniModa36pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-48-Bold.ttf.fix ../fonts/static/BodoniModa48pt-Bold.ttf
+mv ../fonts/static/Bodoni-48-Bold-Italic.ttf.fix ../fonts/static/BodoniModa48pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-48-Regular.ttf.fix ../fonts/static/BodoniModa48pt-Regular.ttf
+mv ../fonts/static/Bodoni-48-Italic.ttf.fix ../fonts/static/BodoniModa48pt-Italic.ttf
+mv ../fonts/static/Bodoni-48-Black.ttf.fix ../fonts/static/BodoniModa48pt-Black.ttf
+mv ../fonts/static/Bodoni-48-Black-Italic.ttf.fix ../fonts/static/BodoniModa48pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-48-Medium.ttf.fix ../fonts/static/BodoniModa48pt-Medium.ttf
+mv ../fonts/static/Bodoni-48-Medium-Italic.ttf.fix ../fonts/static/BodoniModa48pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-72-Bold.ttf.fix ../fonts/static/BodoniModa72pt-Bold.ttf
+mv ../fonts/static/Bodoni-72-Bold-Italic.ttf.fix ../fonts/static/BodoniModa72pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-72-Regular.ttf.fix ../fonts/static/BodoniModa72pt-Regular.ttf
+mv ../fonts/static/Bodoni-72-Italic.ttf.fix ../fonts/static/BodoniModa72pt-Italic.ttf
+mv ../fonts/static/Bodoni-72-Black.ttf.fix ../fonts/static/BodoniModa72pt-Black.ttf
+mv ../fonts/static/Bodoni-72-Black-Italic.ttf.fix ../fonts/static/BodoniModa72pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-72-Medium.ttf.fix ../fonts/static/BodoniModa72pt-Medium.ttf
+mv ../fonts/static/Bodoni-72-Medium-Italic.ttf.fix ../fonts/static/BodoniModa72pt-MediumItalic.ttf
+mv ../fonts/static/Bodoni-96-Bold.ttf.fix ../fonts/static/BodoniModa96pt-Bold.ttf
+mv ../fonts/static/Bodoni-96-Bold-Italic.ttf.fix ../fonts/static/BodoniModa96pt-BoldItalic.ttf
+mv ../fonts/static/Bodoni-96-Regular.ttf.fix ../fonts/static/BodoniModa96pt-Regular.ttf
+mv ../fonts/static/Bodoni-96-Italic.ttf.fix ../fonts/static/BodoniModa96pt-Italic.ttf
+mv ../fonts/static/Bodoni-96-Black.ttf.fix ../fonts/static/BodoniModa96pt-Black.ttf
+mv ../fonts/static/Bodoni-96-Black-Italic.ttf.fix ../fonts/static/BodoniModa96pt-BlackItalic.ttf
+mv ../fonts/static/Bodoni-96-Medium.ttf.fix ../fonts/static/BodoniModa96pt-Medium.ttf
+mv ../fonts/static/Bodoni-96-Medium-Italic.ttf.fix ../fonts/static/BodoniModa96pt-MediumItalic.ttf
 
 rm -rf ../sources-GF
 rm ../fonts/ttf2/*.ttf
