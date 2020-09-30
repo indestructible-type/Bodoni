@@ -116,6 +116,33 @@
         </dict>
       </lib>
     </instance>
+    <instance familyname="Bodoni Moda 11 SemiBold" stylename="SemiBold" name="SemiBold" filename="../instances/BodoniModa-11-SemiBold.ufo" postscriptfontname="BodoniModa11-SemiBold" stylemapfamilyname="Bodoni Moda 11 SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="587.5"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 SemiBold</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>SemiBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
     <instance familyname="Bodoni Moda 11" stylename="Bold" name="Bold" filename="../instances/BodoniModa-11-Bold.ufo" postscriptfontname="BodoniModa11-Bold" stylemapfamilyname="Bodoni Moda 11" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
@@ -138,6 +165,33 @@
             <array>
               <string>postscriptWeightName</string>
               <string>Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance familyname="Bodoni Moda 11 ExtraBold" stylename="ExtraBold" name="ExtraBold" filename="../instances/BodoniModa-11-ExtraBold.ufo" postscriptfontname="BodoniModa11-ExtraBold" stylemapfamilyname="Bodoni Moda 11 ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="775"/>
+        <dimension name="Optical Size" xvalue="4880"/>
+      </location>
+      <kerning />
+      <info />
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>openTypeNamePreferredFamilyName</string>
+              <string>Bodoni Moda 11</string>
+            </array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>Bodoni Moda 11 ExtraBold</string>
+            </array>
+            <array>
+              <string>postscriptWeightName</string>
+              <string>ExtraBold</string>
             </array>
           </array>
         </dict>
