@@ -1,11 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="e" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e" format="1">
   <advance width="1075"/>
   <unicode hex="0065"/>
-  <anchor x="753" y="-9" name="cedilla"/>
-  <anchor x="576" y="0" name="bottom"/>
-  <anchor x="570" y="920" name="top"/>
   <outline>
+    <contour>
+      <point x="727" y="-9" type="move" name="cedilla"/>
+    </contour>
+    <contour>
+      <point x="576" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="570" y="920" type="move" name="top"/>
+    </contour>
     <contour>
       <point x="184" y="520" type="line"/>
       <point x="184" y="524" type="line"/>

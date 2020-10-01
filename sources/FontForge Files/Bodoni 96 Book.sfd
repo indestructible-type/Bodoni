@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1460762150
-ModificationTime: 1588522318
+ModificationTime: 1601572992
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -250,7 +250,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8176 16 4
+WinInfo: 224 16 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1662,8 +1662,8 @@ GlifName: c
 Width: 1013
 VWidth: 2309
 Flags: HMW
-AnchorPoint: "cedilla" 540 0 basechar 0
-AnchorPoint: "bottom" 540 0 basechar 0
+AnchorPoint: "cedilla" 540 -10 basechar 0
+AnchorPoint: "bottom" 540 -10 basechar 0
 AnchorPoint: "top" 560 920 basechar 0
 LayerCount: 2
 Fore
@@ -1730,25 +1730,25 @@ GlifName: e
 Width: 1054
 VWidth: 2309
 Flags: HMW
-AnchorPoint: "cedilla" 666 30 basechar 0
+AnchorPoint: "cedilla" 570 -17 basechar 0
 AnchorPoint: "bottom" 555 0 basechar 0
 AnchorPoint: "top" 535 920 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-229 520 m 5
- 229 524 l 5
- 757 524 l 5
- 759 680 733 936 555 936 c 4
- 357 936 305 688 305 460 c 4
- 305 232 356 -14 574 -14 c 4
- 782 -14 917 120 967 286 c 5
- 971 286 l 5
- 919 112 783 -20 561 -20 c 4
- 299 -20 95 160 95 460 c 4
- 95 760 293 940 555 940 c 4
- 853 940 969 738 969 520 c 5
- 229 520 l 5
+229 520 m 1
+ 229 524 l 1
+ 757 524 l 1
+ 759 680 733 936 555 936 c 0
+ 357 936 305 688 305 460 c 0
+ 305 232 356 -14 574 -14 c 0
+ 782 -14 917 120 967 286 c 1
+ 971 286 l 1
+ 919 112 783 -20 561 -20 c 0
+ 299 -20 95 160 95 460 c 0
+ 95 760 293 940 555 940 c 0
+ 853 940 969 738 969 520 c 1
+ 229 520 l 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 8-1" e.smcp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 7-1" e.smcp
@@ -4172,7 +4172,7 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 128 184 N 1 0 0 1 -8 0 2
+Refer: 128 184 N 1 0 0 1 -23 -10 2
 Refer: 40 99 N 1 0 0 1 0 0 3
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 8-1" ccedilla.smcp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 7-1" ccedilla.smcp
@@ -6179,7 +6179,7 @@ Encoding: 731 731 295
 GlifName: ogonek
 Width: 1099
 Flags: HMW
-AnchorPoint: "cedilla" 563 47 mark 0
+AnchorPoint: "cedilla" 609 84 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6276,10 +6276,10 @@ Encoding: 280 280 300
 GlifName: E_ogonek
 Width: 1165
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
-Refer: 295 731 N 1 0 0 1 393 -47 2
+Refer: 295 731 N 1 0 0 1 307 -84 2
 Refer: 16 69 N 1 0 0 1 0 0 3
 EndChar
 
@@ -6291,7 +6291,7 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 295 731 N 1 0 0 1 103 -17 2
+Refer: 295 731 N 1 0 0 1 -39 -101 2
 Refer: 42 101 N 1 0 0 1 0 0 3
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 7-1" eogonek.smcp
 EndChar
