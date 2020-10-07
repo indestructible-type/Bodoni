@@ -442,19 +442,13 @@ fontmake -o variable -m ../sources-GF/Designspace/bodoniGF.designspace --output-
 fontmake -o variable -m ../sources-GF/Designspace/bodoniGF-italic.designspace --output-path ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
 
 echo "Hot Fixes for Variable Font"
-gftools fix-dsig -f ../fonts/variable/*.ttf
-ttfautohint -n ../fonts/variable/BodoniModa[opsz,wght].ttf ../fonts/variable/BodoniModa06[opsz,wght].ttf
-ttfautohint -n ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf
-gftools fix-hinting ../fonts/variable/BodoniModa06[opsz,wght].ttf
-gftools fix-hinting ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf
+gftools fix-dsig --autofix ../fonts/variable/*.ttf
+gftools fix-nonhinting ../fonts/variable/BodoniModa[opsz,wght].ttf ../fonts/variable/BodoniModa[opsz,wght].ttf.fix
+gftools fix-nonhinting ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf.fix
 rm ../fonts/variable/*.ttf
-mv ../fonts/variable/BodoniModa06[opsz,wght].ttf.fix ../fonts/variable/BodoniModa[opsz,wght].ttf
-mv ../fonts/variable/BodoniModa06-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
-gftools fix-vf-meta ../fonts/variable/*.ttf
 mv ../fonts/variable/BodoniModa[opsz,wght].ttf.fix ../fonts/variable/BodoniModa[opsz,wght].ttf
 mv ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf.fix ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
-statmake --designspace ../sources-GF/Designspace/bodoniGF.designspace --stylespace ../sources-GF/Designspace/bodoniGF.stylespace ../fonts/variable/BodoniModa[opsz,wght].ttf
-statmake --designspace ../sources-GF/Designspace/bodoniGF-italic.designspace --stylespace ../sources-GF/Designspace/bodoniGF-italic.stylespace ../fonts/variable/BodoniModa-Italic[opsz,wght].ttf
+gftools fix-unwanted-tables ../fonts/variable/*.ttf
 python3 ../sources-GF/Designspace/stat.py
 
 echo "Cleaning Directory Up"
