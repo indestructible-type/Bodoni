@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N" format="2">
+  <advance width="1572"/>
+  <unicode hex="004E"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="966" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="1157" y="-20" type="line"/>
+      <point x="1260" y="-20" type="line"/>
+      <point x="1606" y="1500" type="line"/>
+      <point x="1529" y="1500" type="line"/>
+      <point x="1352" y="718" type="line"/>
+      <point x="983" y="1500" type="line"/>
+      <point x="473" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="-80" y="0" type="line"/>
+      <point x="404" y="0" type="line"/>
+      <point x="404" y="73" type="line"/>
+      <point x="-80" y="73" type="line"/>
+    </contour>
+    <contour>
+      <point x="109" y="0" type="line"/>
+      <point x="188" y="0" type="line"/>
+      <point x="527" y="1500" type="line"/>
+      <point x="240" y="1500" type="line"/>
+      <point x="240" y="1427" type="line"/>
+      <point x="438" y="1427" type="line"/>
+    </contour>
+    <contour>
+      <point x="1289" y="1427" type="line"/>
+      <point x="1797" y="1427" type="line"/>
+      <point x="1797" y="1500" type="line"/>
+      <point x="1289" y="1500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
