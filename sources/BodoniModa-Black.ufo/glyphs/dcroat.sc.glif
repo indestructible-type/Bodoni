@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat.sc" format="2">
+  <advance width="1467"/>
+  <anchor x="683" y="0" name="bottom"/>
+  <anchor x="683" y="0" name="cedilla"/>
+  <anchor x="701" y="1020" name="top"/>
+  <outline>
+    <contour>
+      <point x="100" y="514" type="line"/>
+      <point x="780" y="514" type="line"/>
+      <point x="780" y="586" type="line"/>
+      <point x="100" y="586" type="line"/>
+    </contour>
+    <component base="d.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>d.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>d.sc</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
