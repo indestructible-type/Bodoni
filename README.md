@@ -32,7 +32,10 @@ Fixed up source files<br>
 <b>2.2</b>
 Small caps & math symbols<br>
 <b>2.3</b>
-Redrawing of italics
+Redrawing of italics<br>
+<b>2.4</b>
+Mastering and engineering of sources for Google Fonts. 
+(!) Recalibration of the axes mapping = instances may appear a bit different.
 
 Web Use
 -------
