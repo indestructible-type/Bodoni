@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <map input="400" output="400"/>
+      <map input="500" output="470"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+      <map input="800" output="766"/>
+      <map input="900" output="900"/>
+    </axis>
+    <axis tag="opsz" name="Optical size" minimum="6" maximum="96" default="6">
+      <map input="6" output="0"/>
+      <map input="11" output="3030"/>
+      <map input="16" output="5360"/>
+      <map input="24" output="7500"/>
+      <map input="36" output="8880"/>
+      <map input="48" output="9400"/>
+      <map input="72" output="9800"/>
+      <map input="96" output="10000"/>
+    </axis>
+  </axes>
+
+  <sources>
+  
+    <source filename="BodoniModa-Italic.ufo" name="Bodoni Moda Italic" familyname="Bodoni Moda" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </source>
+
+    <source filename="BodoniModa-BlackItalic.ufo" name="Bodoni Moda Black Italic" familyname="Bodoni Moda" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </source>
+
+    <source filename="BodoniModa-96ptItalic.ufo" name="Bodoni Moda 96pt Italic" familyname="Bodoni Moda" stylename="96pt Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </source>
+
+    <source filename="BodoniModa-96ptBlackItalic.ufo" name="Bodoni Moda 96pt Black Italic" familyname="Bodoni Moda" stylename="96pt Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Bodoni Moda 6pt Italic" familyname="Bodoni Moda 6pt" stylename="Italic" filename="instance_ufo/BodoniModa6pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 6pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 6pt Medium Italic" familyname="Bodoni Moda 6pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa6pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 6pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 6pt SemiBold Italic" familyname="Bodoni Moda 6pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa6pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 6pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 6pt Bold Italic" familyname="Bodoni Moda 6pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa6pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 6pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 6pt ExtraBold Italic" familyname="Bodoni Moda 6pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa6pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 6pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 6pt Black Italic" familyname="Bodoni Moda 6pt" stylename="Black Italic" filename="instance_ufo/BodoniModa6pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 6pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="0"/>
+      </location>
+    </instance>
+
+
+
+    <instance name="Bodoni Moda 11pt Italic" familyname="Bodoni Moda 11pt" stylename="Italic" filename="instance_ufo/BodoniModa11pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 11pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 11pt Medium Italic" familyname="Bodoni Moda 11pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa11pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 11pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 11pt SemiBold Italic" familyname="Bodoni Moda 11pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa11pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 11pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 11pt Bold Italic" familyname="Bodoni Moda 11pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa11pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 11pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 11pt ExtraBold Italic" familyname="Bodoni Moda 11pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa11pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 11pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 11pt Black Italic" familyname="Bodoni Moda 11pt" stylename="Black Italic" filename="instance_ufo/BodoniModa11pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 11pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="3030"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 16pt Italic" familyname="Bodoni Moda 16pt" stylename="Italic" filename="instance_ufo/BodoniModa16pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 16pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 16pt Medium Italic" familyname="Bodoni Moda 16pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa16pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 16pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 16pt SemiBold Italic" familyname="Bodoni Moda 16pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa16pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 16pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 16pt Bold Italic" familyname="Bodoni Moda 16pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa16pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 16pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 16pt ExtraBold Italic" familyname="Bodoni Moda 16pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa16pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 16pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 16pt Black Italic" familyname="Bodoni Moda 16pt" stylename="Black Italic" filename="instance_ufo/BodoniModa16pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 16pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="5360"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 24pt Italic" familyname="Bodoni Moda 24pt" stylename="Italic" filename="instance_ufo/BodoniModa24pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 24pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 24pt Medium Italic" familyname="Bodoni Moda 24pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa24pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 24pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 24pt SemiBold Italic" familyname="Bodoni Moda 24pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa24pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 24pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 24pt Bold Italic" familyname="Bodoni Moda 24pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa24pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 24pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 24pt ExtraBold Italic" familyname="Bodoni Moda 24pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa24pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 24pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 24pt Black Italic" familyname="Bodoni Moda 24pt" stylename="Black Italic" filename="instance_ufo/BodoniModa24pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 24pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="7500"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 36pt Italic" familyname="Bodoni Moda 36pt" stylename="Italic" filename="instance_ufo/BodoniModa36pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 36pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 36pt Medium Italic" familyname="Bodoni Moda 36pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa36pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 36pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 36pt SemiBold Italic" familyname="Bodoni Moda 36pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa36pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 36pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 36pt Bold Italic" familyname="Bodoni Moda 36pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa36pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 36pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 36pt ExtraBold Italic" familyname="Bodoni Moda 36pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa36pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 36pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 36pt Black Italic" familyname="Bodoni Moda 36pt" stylename="Black Italic" filename="instance_ufo/BodoniModa36pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 36pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="8880"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 48pt Italic" familyname="Bodoni Moda 48pt" stylename="Italic" filename="instance_ufo/BodoniModa48pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 48pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 48pt Medium Italic" familyname="Bodoni Moda 48pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa48pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 48pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 48pt SemiBold Italic" familyname="Bodoni Moda 48pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa48pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 48pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 48pt Bold Italic" familyname="Bodoni Moda 48pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa48pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 48pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 48pt ExtraBold Italic" familyname="Bodoni Moda 48pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa48pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 48pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 48pt Black Italic" familyname="Bodoni Moda 48pt" stylename="Black Italic" filename="instance_ufo/BodoniModa48pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 48pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="9400"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 72pt Italic" familyname="Bodoni Moda 72pt" stylename="Italic" filename="instance_ufo/BodoniModa72pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 72pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 72pt Medium Italic" familyname="Bodoni Moda 72pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa72pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 72pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 72pt SemiBold Italic" familyname="Bodoni Moda 72pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa72pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 72pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 72pt Bold Italic" familyname="Bodoni Moda 72pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa72pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 72pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 72pt ExtraBold Italic" familyname="Bodoni Moda 72pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa72pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 72pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 72pt Black Italic" familyname="Bodoni Moda 72pt" stylename="Black Italic" filename="instance_ufo/BodoniModa72pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 72pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="9800"/>
+      </location>
+    </instance>
+
+
+    <instance name="Bodoni Moda 96pt Italic" familyname="Bodoni Moda 96pt" stylename="Italic" filename="instance_ufo/BodoniModa96pt-Italic.ufo" stylemapfamilyname="Bodoni Moda 96pt" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 96pt Medium Italic" familyname="Bodoni Moda 96pt" stylename="Medium Italic" filename="instance_ufo/BodoniModa96pt-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda 96pt Medium Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 96pt SemiBold Italic" familyname="Bodoni Moda 96pt" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa96pt-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 96pt SemiBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 96pt Bold Italic" familyname="Bodoni Moda 96pt" stylename="Bold Italic" filename="instance_ufo/BodoniModa96pt-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda 96pt" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 96pt ExtraBold Italic" familyname="Bodoni Moda 96pt" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa96pt-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda 96pt ExtraBold Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="766"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+    <instance name="Bodoni Moda 96pt Black Italic" familyname="Bodoni Moda 96pt" stylename="Black Italic" filename="instance_ufo/BodoniModa96pt-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda 96pt Black Italic" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="10000"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>
