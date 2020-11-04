@@ -9,6 +9,16 @@ axes="opsz,wght"
 ##########################################
 
 echo ".
+GENERATING SOURCES
+."
+fontmake -o ufo -i "Bodoni Moda 11pt Regular" -m $fontName-source.designspace
+fontmake -o ufo -i "Bodoni Moda 11pt Black" -m $fontName-source.designspace
+fontmake -o ufo -i "Bodoni Moda 11pt Italic" -m $fontName_it-source.designspace
+fontmake -o ufo -i "Bodoni Moda 11pt Black Italic" -m $fontName_it-source.designspace
+
+##########################################
+
+echo ".
 GENERATING VARIABLE
 ."
 VF_DIR=../fonts/variable

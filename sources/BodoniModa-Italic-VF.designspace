@@ -10,7 +10,7 @@
       <map input="800" output="766"/>
       <map input="900" output="900"/>
     </axis>
-    <axis tag="opsz" name="Optical size" minimum="6" maximum="96" default="6">
+    <axis tag="opsz" name="Optical size" minimum="6" maximum="96" default="11">
       <map input="6" output="0"/>
       <map input="11" output="4880"/>
       <map input="16" output="6653"/>
@@ -42,6 +42,20 @@
       </location>
     </source>
 
+    <source filename="instance_ufo/BodoniModa11pt-Italic.ufo" name="Bodoni Moda 11pt Italic" familyname="Bodoni Moda" stylename="11pt Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="4880"/>
+      </location>
+    </source>
+
+    <source filename="instance_ufo/BodoniModa11pt-BlackItalic.ufo" name="Bodoni Moda 11pt Black Italic" familyname="Bodoni Moda" stylename="11pt Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="4880"/>
+      </location>
+    </source>
+
     <source filename="BodoniModa-96ptItalic.ufo" name="Bodoni Moda 96pt Italic" familyname="Bodoni Moda" stylename="96pt Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
@@ -63,42 +77,42 @@
     <instance name="Bodoni Moda Italic" familyname="Bodoni Moda" stylename="Italic" filename="instance_ufo/BodoniModa-Italic.ufo" stylemapfamilyname="Bodoni Moda" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
     <instance name="Bodoni Moda Medium Italic" familyname="Bodoni Moda" stylename="Medium Italic" filename="instance_ufo/BodoniModa-MediumItalic.ufo" stylemapfamilyname="Bodoni Moda Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="470"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
     <instance name="Bodoni Moda SemiBold Italic" familyname="Bodoni Moda" stylename="SemiBold Italic" filename="instance_ufo/BodoniModa-SemiBoldItalic.ufo" stylemapfamilyname="Bodoni Moda SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="550"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
     <instance name="Bodoni Moda Bold Italic" familyname="Bodoni Moda" stylename="Bold Italic" filename="instance_ufo/BodoniModa-BoldItalic.ufo" stylemapfamilyname="Bodoni Moda" stylemapstylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="650"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
     <instance name="Bodoni Moda ExtraBold Italic" familyname="Bodoni Moda" stylename="ExtraBold Italic" filename="instance_ufo/BodoniModa-ExtraBoldItalic.ufo" stylemapfamilyname="Bodoni Moda ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="766"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
     <instance name="Bodoni Moda Black Italic" familyname="Bodoni Moda" stylename="Black Italic" filename="instance_ufo/BodoniModa-BlackItalic.ufo" stylemapfamilyname="Bodoni Moda Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
