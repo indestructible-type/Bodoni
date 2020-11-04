@@ -12,18 +12,18 @@
     </axis>
     <axis tag="opsz" name="Optical size" minimum="6" maximum="96" default="6">
       <map input="6" output="0"/>
-      <map input="11" output="3030"/>
-      <map input="16" output="5360"/>
-      <map input="24" output="7500"/>
-      <map input="36" output="8880"/>
-      <map input="48" output="9400"/>
-      <map input="72" output="9800"/>
+      <map input="11" output="4880"/>
+      <map input="16" output="6653"/>
+      <map input="24" output="7953"/>
+      <map input="36" output="9265"/>
+      <map input="48" output="9535"/>
+      <map input="72" output="9805"/>
       <map input="96" output="10000"/>
     </axis>
   </axes>
 
   <sources>
-  
+
     <source filename="BodoniModa-Regular.ufo" name="Bodoni Moda 6pt Regular" familyname="Bodoni Moda 6pt" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
@@ -60,42 +60,42 @@
 
   <instances>
 
-    <instance name="Bodoni Moda 6pt Regular" familyname="Bodoni Moda 6pt" stylename="Regular" filename="instance_ufo/BodoniModa6pt-Regular.ufo" stylemapfamilyname="Bodoni Moda 6pt" stylemapstylename="regular">
+    <instance name="Bodoni Moda 06pt Regular" familyname="Bodoni Moda 06pt" stylename="Regular" filename="instance_ufo/BodoniModa06pt-Regular.ufo" stylemapfamilyname="Bodoni Moda 06pt" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 6pt Medium" familyname="Bodoni Moda 6pt" stylename="Medium" filename="instance_ufo/BodoniModa6pt-Medium.ufo" stylemapfamilyname="Bodoni Moda 6pt Medium" stylemapstylename="regular">
+    <instance name="Bodoni Moda 06pt Medium" familyname="Bodoni Moda 06pt" stylename="Medium" filename="instance_ufo/BodoniModa06pt-Medium.ufo" stylemapfamilyname="Bodoni Moda 06pt Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="470"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 6pt SemiBold" familyname="Bodoni Moda 6pt" stylename="SemiBold" filename="instance_ufo/BodoniModa6pt-SemiBold.ufo" stylemapfamilyname="Bodoni Moda 6pt SemiBold" stylemapstylename="regular">
+    <instance name="Bodoni Moda 06pt SemiBold" familyname="Bodoni Moda 06pt" stylename="SemiBold" filename="instance_ufo/BodoniModa06pt-SemiBold.ufo" stylemapfamilyname="Bodoni Moda 06pt SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="550"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 6pt Bold" familyname="Bodoni Moda 6pt" stylename="Bold" filename="instance_ufo/BodoniModa6pt-Bold.ufo" stylemapfamilyname="Bodoni Moda 6pt" stylemapstylename="bold">
+    <instance name="Bodoni Moda 06pt Bold" familyname="Bodoni Moda 06pt" stylename="Bold" filename="instance_ufo/BodoniModa06pt-Bold.ufo" stylemapfamilyname="Bodoni Moda 06pt" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 6pt ExtraBold" familyname="Bodoni Moda 6pt" stylename="ExtraBold" filename="instance_ufo/BodoniModa6pt-ExtraBold.ufo" stylemapfamilyname="Bodoni Moda 6pt ExtraBold" stylemapstylename="regular">
+    <instance name="Bodoni Moda 06pt ExtraBold" familyname="Bodoni Moda 06pt" stylename="ExtraBold" filename="instance_ufo/BodoniModa06pt-ExtraBold.ufo" stylemapfamilyname="Bodoni Moda 06pt ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="766"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 6pt Black" familyname="Bodoni Moda 6pt" stylename="Black" filename="instance_ufo/BodoniModa6pt-Black.ufo" stylemapfamilyname="Bodoni Moda 6pt Black" stylemapstylename="regular">
+    <instance name="Bodoni Moda 06pt Black" familyname="Bodoni Moda 06pt" stylename="Black" filename="instance_ufo/BodoniModa06pt-Black.ufo" stylemapfamilyname="Bodoni Moda 06pt Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="0"/>

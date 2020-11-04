@@ -34,8 +34,7 @@ Small caps & math symbols<br>
 <b>2.3</b>
 Redrawing of italics<br>
 <b>2.4</b>
-Mastering and engineering of sources for Google Fonts. 
-(!) Recalibration of the axes mapping = instances may appear a bit different.
+Mastering and engineering of sources for Google Fonts. Recalibration of the axes mapping.
 
 Web Use
 -------
@@ -50,11 +49,7 @@ Download the complete source code, either by cloning this repository or download
 
 Download and install fontmake which can be found [here](https://github.com/googlei18n/fontmake).
 
-Run the `fontmake.sh` script found in the "scripts" folder.
-
-This should output two folders, an otf and ttf folder.
-
-Run the `hinting.sh` script found in the "scripts" folder to make hinted versions of the ttf files.
+To build the variable font run the `build.sh` script found in the "sources" folder. To build the static run `build-statics.sh`
 
 Contact
 -------

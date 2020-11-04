@@ -33,7 +33,7 @@ do
 done
 rm $VF_DIR/*gasp*
 
-python stat.py
+python3 stat.py
 
 
 ##########################################

@@ -12,18 +12,18 @@
     </axis>
     <axis tag="opsz" name="Optical size" minimum="6" maximum="96" default="6">
       <map input="6" output="0"/>
-      <map input="11" output="3030"/>
-      <map input="16" output="5360"/>
-      <map input="24" output="7500"/>
-      <map input="36" output="8880"/>
-      <map input="48" output="9400"/>
-      <map input="72" output="9800"/>
+      <map input="11" output="4880"/>
+      <map input="16" output="6653"/>
+      <map input="24" output="7953"/>
+      <map input="36" output="9265"/>
+      <map input="48" output="9535"/>
+      <map input="72" output="9805"/>
       <map input="96" output="10000"/>
     </axis>
   </axes>
 
   <sources>
-  
+
     <source filename="BodoniModa-Regular.ufo" name="Bodoni Moda Regular" familyname="Bodoni Moda" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
