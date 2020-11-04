@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pertenthousand" format="2">
+  <advance width="3880"/>
+  <unicode hex="2031"/>
+  <outline>
+    <contour>
+      <point x="3340" y="-20" type="curve" smooth="yes"/>
+      <point x="3606" y="-20"/>
+      <point x="3820" y="234"/>
+      <point x="3820" y="560" type="curve" smooth="yes"/>
+      <point x="3820" y="766"/>
+      <point x="3706" y="860"/>
+      <point x="3520" y="860" type="curve" smooth="yes"/>
+      <point x="3254" y="860"/>
+      <point x="3040" y="606"/>
+      <point x="3040" y="280" type="curve" smooth="yes"/>
+      <point x="3040" y="74"/>
+      <point x="3154" y="-20"/>
+    </contour>
+    <contour>
+      <point x="3340" y="-16" type="curve" smooth="yes"/>
+      <point x="3272" y="-16"/>
+      <point x="3240" y="96"/>
+      <point x="3240" y="240" type="curve" smooth="yes"/>
+      <point x="3240" y="504"/>
+      <point x="3372" y="856"/>
+      <point x="3520" y="856" type="curve" smooth="yes"/>
+      <point x="3588" y="856"/>
+      <point x="3620" y="708"/>
+      <point x="3620" y="564" type="curve" smooth="yes"/>
+      <point x="3620" y="300"/>
+      <point x="3488" y="-16"/>
+    </contour>
+    <component base="perthousand"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>percent</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>percent</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
