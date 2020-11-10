@@ -32,13 +32,6 @@ else
 		[ -f $font.fix ] && mv $font.fix $font
 		gftools fix-hinting $font
 		[ -f $font.fix ] && mv $font.fix $font
-	done
-	echo ".
-	GENERATING WEBFONTS
-	."
-	ttfs=$(ls $TT_DIR/*.ttf)
-	for font in $ttfs
-	do
 		fonttools ttLib.woff2 compress $font
 	done
 fi
