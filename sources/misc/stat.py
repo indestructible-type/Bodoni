@@ -22,13 +22,12 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450,name="Regular", flags=0x2),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450,name="Regular", flags=0x2, linkedValue=700),
             dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550,name="Medium"),
             dict(nominalValue=600, rangeMinValue=550, rangeMaxValue=650,name="SemiBold"),
             dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=750,name="Bold"),
             dict(nominalValue=800, rangeMinValue=750, rangeMaxValue=850,name="ExtraBold"),
             dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=900,name="Black"),
-            dict(value=400, name="Regular", linkedValue=700) #Regular
         ],
     ),
     dict(
@@ -62,13 +61,12 @@ ITALIC_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450,name="Regular", flags=0x2),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450,name="Regular", flags=0x2, linkedValue=700),
             dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550,name="Medium"),
             dict(nominalValue=600, rangeMinValue=550, rangeMaxValue=650,name="SemiBold"),
             dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=750,name="Bold"),
             dict(nominalValue=800, rangeMinValue=750, rangeMaxValue=850,name="ExtraBold"),
             dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=900,name="Black"),
-            dict(value=400, name="Regular", linkedValue=700) #Regular
         ],
     ),
     dict(
