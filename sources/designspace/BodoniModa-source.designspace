@@ -15,7 +15,7 @@
 
   <sources>
 
-    <source filename="../UFO/BodoniModa-Regular.ufo" name="Bodoni Moda 6pt Regular" familyname="Bodoni Moda 6pt" stylename="Regular">
+    <source filename="../UFO/BodoniModa-6ptRegular.ufo" name="Bodoni Moda 6pt Regular" familyname="Bodoni Moda 6pt" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -26,7 +26,7 @@
       </location>
     </source>
 
-    <source filename="../UFO/BodoniModa-Black.ufo" name="Bodoni Moda Black" familyname="Bodoni Moda" stylename="Black">
+    <source filename="../UFO/BodoniModa-6ptBlack.ufo" name="Bodoni Moda 6pt Black" familyname="Bodoni Moda" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="0"/>
@@ -51,17 +51,17 @@
 
   <instances>
 
-    <instance name="Bodoni Moda 11pt Regular" familyname="Bodoni Moda" stylename="Regular" filename="../instance_ufo/BodoniModa11pt-Regular.ufo" stylemapfamilyname="Bodoni Moda" stylemapstylename="regular">
+    <instance name="Bodoni Moda Regular" familyname="Bodoni Moda" stylename="Regular" filename="../instance_ufo/BodoniModa-Regular.ufo" stylemapfamilyname="Bodoni Moda" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Optical size" xvalue="3030"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 
-    <instance name="Bodoni Moda 11pt Black" familyname="Bodoni Moda 11pt" stylename="Black" filename="../instance_ufo/BodoniModa11pt-Black.ufo" stylemapfamilyname="Bodoni Moda 11pt Black" stylemapstylename="regular">
+    <instance name="Bodoni Moda Black" familyname="Bodoni Moda" stylename="Black" filename="../instance_ufo/BodoniModa-Black.ufo" stylemapfamilyname="Bodoni Moda Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Optical size" xvalue="3030"/>
+        <dimension name="Optical size" xvalue="4880"/>
       </location>
     </instance>
 

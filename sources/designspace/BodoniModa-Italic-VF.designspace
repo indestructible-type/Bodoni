@@ -24,32 +24,32 @@
 
   <sources>
 
-    <source filename="../UFO/BodoniModa-Italic.ufo" name="Bodoni Moda Italic" familyname="Bodoni Moda" stylename="Italic">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="../UFO/BodoniModa-6ptItalic.ufo" name="Bodoni Moda 6pt Italic" familyname="Bodoni Moda" stylename="6pt Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </source>
 
-    <source filename="../UFO/BodoniModa-BlackItalic.ufo" name="Bodoni Moda Black Italic" familyname="Bodoni Moda" stylename="Black Italic">
+    <source filename="../UFO/BodoniModa-6ptBlackItalic.ufo" name="Bodoni Moda 6pt Black Italic" familyname="Bodoni Moda" stylename="6pt Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="0"/>
       </location>
     </source>
 
-    <source filename="../instance_ufo/BodoniModa11pt-Italic.ufo" name="Bodoni Moda 11pt Italic" familyname="Bodoni Moda" stylename="11pt Italic">
+    <source filename="../instance_ufo/BodoniModa-Italic.ufo" name="Bodoni Moda Italic" familyname="Bodoni Moda" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>      
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Optical size" xvalue="4880"/>
       </location>
     </source>
 
-    <source filename="../instance_ufo/BodoniModa11pt-BlackItalic.ufo" name="Bodoni Moda 11pt Black Italic" familyname="Bodoni Moda" stylename="11pt Black Italic">
+    <source filename="../instance_ufo/BodoniModa-BlackItalic.ufo" name="Bodoni Moda Black Italic" familyname="Bodoni Moda" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="4880"/>
