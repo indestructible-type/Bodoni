@@ -11,10 +11,10 @@ axes="opsz,wght"
 echo ".
 GENERATING SOURCES
 ."
-fontmake -o ufo -i "Bodoni Moda 11pt Regular" -m designspace/$fontName-source.designspace
-fontmake -o ufo -i "Bodoni Moda 11pt Black" -m designspace/$fontName-source.designspace
-fontmake -o ufo -i "Bodoni Moda 11pt Italic" -m designspace/$fontName_it-source.designspace
-fontmake -o ufo -i "Bodoni Moda 11pt Black Italic" -m designspace/$fontName_it-source.designspace
+fontmake -o ufo -i "Bodoni Moda Regular" -m designspace/$fontName-source.designspace
+fontmake -o ufo -i "Bodoni Moda Black" -m designspace/$fontName-source.designspace
+fontmake -o ufo -i "Bodoni Moda Italic" -m designspace/$fontName_it-source.designspace
+fontmake -o ufo -i "Bodoni Moda Black Italic" -m designspace/$fontName_it-source.designspace
 
 ##########################################
 
