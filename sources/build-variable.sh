@@ -11,10 +11,10 @@ axes="opsz,wght"
 echo ".
 GENERATING SOURCES
 ."
-fontmake -o ufo -i "Bodoni Moda Regular" -m designspace/$fontName-source.designspace
-fontmake -o ufo -i "Bodoni Moda Black" -m designspace/$fontName-source.designspace
-fontmake -o ufo -i "Bodoni Moda Italic" -m designspace/$fontName_it-source.designspace
-fontmake -o ufo -i "Bodoni Moda Black Italic" -m designspace/$fontName_it-source.designspace
+fontmake -o ufo -i "Bodoni Moda Regular" -m designspace/BodoniModa-source.designspace
+fontmake -o ufo -i "Bodoni Moda Black" -m designspace/BodoniModa-source.designspace
+fontmake -o ufo -i "Bodoni Moda Italic" -m designspace/BodoniModa-Italic-source.designspace
+fontmake -o ufo -i "Bodoni Moda Black Italic" -m designspace/BodoniModa-Italic-source.designspace
 
 ##########################################
 
@@ -25,8 +25,8 @@ VF_DIR=../fonts/variable
 rm -rf $VF_DIR
 mkdir -p $VF_DIR
 
-fontmake -m designspace/$fontName-VF.designspace -o variable --output-path $VF_DIR/$fontName[$axes].ttf
-fontmake -m designspace/$fontName_it-VF.designspace -o variable --output-path $VF_DIR/$fontName_it[$axes].ttf
+fontmake -m designspace/BodoniModa-VF.designspace -o variable --output-path $VF_DIR/$fontName[$axes].ttf
+fontmake -m designspace/BodoniModa-Italic-VF.designspace -o variable --output-path $VF_DIR/$fontName_it[$axes].ttf
 
 ##########################################
 

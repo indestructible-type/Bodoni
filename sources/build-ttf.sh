@@ -14,8 +14,8 @@ TT_DIR=../fonts/ttf
 rm -rf $TT_DIR
 mkdir -p $TT_DIR
 
-fontmake -m designspace/$fontName-static.designspace -i -o ttf --output-dir $TT_DIR
-fontmake -m designspace/$fontName_it-static.designspace -i -o ttf --output-dir $TT_DIR
+fontmake -m designspace/BodoniModa-static.designspace -i -o ttf --output-dir $TT_DIR
+fontmake -m designspace/BodoniModa-Italic-static.designspace -i -o ttf --output-dir $TT_DIR
 
 ##########################################
 

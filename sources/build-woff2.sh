@@ -22,8 +22,8 @@ else
 	echo ".
 	GENERATING TTF SOURCES
 	."
-	fontmake -m designspace/$fontName-static.designspace -i -o ttf --output-dir $TT_DIR
-	fontmake -m designspace/$fontName_it-static.designspace -i -o ttf --output-dir $TT_DIR
+	fontmake -m designspace/BodoniModa-static.designspace -i -o ttf --output-dir $TT_DIR
+	fontmake -m designspace/BodoniModa-Italic-static.designspace -i -o ttf --output-dir $TT_DIR
 	ttfs=$(ls $TT_DIR/*.ttf)
 	for font in $ttfs
 	do
