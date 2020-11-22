@@ -51,7 +51,7 @@ elif grep -q '"Bodoni"' "../build-ttf.sh"; then
   sed -i 's/Bodoni\*/Bodoni Moda/g' ../designspace/BodoniModa-Italic-static.designspace
   sed -i 's/ufo\/Bodoni/ufo\/BodoniModa/g' ../designspace/BodoniModa-Italic-static.designspace
   sed -i 's/Book Italic"/Italic"/g' ../designspace/BodoniModa-Italic-static.designspace
-  sed -i 's/Fatface /Black /g' ../designspace/BodoniModa-Italic-static.designspace
+  sed -i 's/Fatface/Black/g' ../designspace/BodoniModa-Italic-static.designspace
   sed -i 's/Bodoni\*/Bodoni Moda/g' ../designspace/BodoniModa-Italic-VF.designspace
   sed -i 's/Book Italic"/Italic"/g' ../designspace/BodoniModa-Italic-VF.designspace
   sed -i 's/Fatface /Black /g' ../designspace/BodoniModa-Italic-VF.designspace
@@ -61,7 +61,7 @@ elif grep -q '"Bodoni"' "../build-ttf.sh"; then
   sed -i 's/ufo\/Bodoni/ufo\/BodoniModa/g' ../designspace/BodoniModa-static.designspace
   sed -i 's/Fatface/Black/g' ../designspace/BodoniModa-static.designspace
   sed -i 's/Bodoni\*/Bodoni Moda/g' ../designspace/BodoniModa-VF.designspace
-  sed -i 's/Book"/Regular"/g' ../designspace/BodoniModa-VF.designspace
+  sed -i 's/Book/Regular/g' ../designspace/BodoniModa-VF.designspace
   sed -i 's/Fatface"/Black"/g' ../designspace/BodoniModa-VF.designspace
 
   sed -i 's/Book"/Regular"/g' ../designspace/BodoniModa-source.designspace
