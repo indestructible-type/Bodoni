@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v.sc" format="2">
+  <advance width="1198"/>
+  <anchor x="354" y="0" name="bottom"/>
+  <anchor x="612" y="0" name="cedilla"/>
+  <anchor x="675" y="1020" name="top"/>
+  <outline>
+    <contour>
+      <point x="342" y="-29" type="line"/>
+      <point x="346" y="-29" type="line"/>
+      <point x="1047" y="1020" type="line"/>
+      <point x="1042" y="1020" type="line"/>
+      <point x="501" y="210" type="line"/>
+      <point x="336" y="1020" type="line"/>
+      <point x="116" y="1020" type="line"/>
+    </contour>
+    <contour>
+      <point x="25" y="1016" type="line"/>
+      <point x="525" y="1016" type="line"/>
+      <point x="525" y="1020" type="line"/>
+      <point x="25" y="1020" type="line"/>
+    </contour>
+    <contour>
+      <point x="866" y="1016" type="line"/>
+      <point x="1223" y="1016" type="line"/>
+      <point x="1223" y="1020" type="line"/>
+      <point x="866" y="1020" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
