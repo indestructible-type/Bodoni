@@ -20,9 +20,13 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "F479A047-48C9-4D19-A0FD-B440837ED7E5";
 }
 );
-date = "2020-11-03 13:50:55 +0000";
+date = "2020-11-03 13:50:06 +0000";
 familyName = "Bodoni Moda";
 featurePrefixes = (
 {
@@ -159,6 +163,7 @@ sub two.osf by two;
 sub three.osf by three;
 sub four.osf by four;
 sub five.osf by five;
+sub six.osf by six;
 sub seven.osf by seven;
 sub eight.osf by eight;
 sub nine.osf by nine;
@@ -183,6 +188,7 @@ sub two.tosf by two.osf;
 sub three.tosf by three.osf;
 sub four.tosf by four.osf;
 sub five.tosf by five.osf;
+sub six.tosf by six.osf;
 sub seven.tosf by seven.osf;
 sub eight.tosf by eight.osf;
 sub nine.tosf by nine.osf;
@@ -207,6 +213,7 @@ sub two.osf by two.tosf;
 sub three.osf by three.tosf;
 sub four.osf by four.tosf;
 sub five.osf by five.tosf;
+sub six.osf by six.tosf;
 sub seven.osf by seven.tosf;
 sub eight.osf by eight.tosf;
 sub nine.osf by nine.tosf;
@@ -221,6 +228,7 @@ sub two.tf by two.tosf;
 sub three.tf by three.tosf;
 sub four.tf by four.tosf;
 sub five.tf by five.tosf;
+sub six.tf by six.tosf;
 sub seven.tf by seven.tosf;
 sub eight.tf by eight.tosf;
 sub nine.tf by nine.tosf;
@@ -230,6 +238,7 @@ sub two by two.osf;
 sub three by three.osf;
 sub four by four.osf;
 sub five by five.osf;
+sub six by six.osf;
 sub seven by seven.osf;
 sub eight by eight.osf;
 sub nine by nine.osf;
@@ -434,6 +443,7 @@ sub two.osf by two;
 sub three.osf by three;
 sub four.osf by four;
 sub five.osf by five;
+sub six.osf by six;
 sub seven.osf by seven;
 sub eight.osf by eight;
 sub nine.osf by nine;
@@ -443,6 +453,7 @@ sub two.tosf by two;
 sub three.tosf by three;
 sub four.tosf by four;
 sub five.tosf by five;
+sub six.tosf by six;
 sub seven.tosf by seven;
 sub eight.tosf by eight;
 sub nine.tosf by nine;
@@ -476,6 +487,1294 @@ tag = liga;
 }
 );
 fontMaster = (
+{
+axesValues = (
+400,
+6
+);
+customParameters = (
+{
+name = typoAscender;
+value = 2250;
+},
+{
+name = typoDescender;
+value = -800;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2250;
+},
+{
+name = hheaDescender;
+value = -800;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2250;
+},
+{
+name = winDescent;
+value = 800;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -100;
+}
+);
+iconName = Light;
+id = "E7986948-7A43-4A74-AC0C-4472ECCDAB04";
+metricValues = (
+{
+over = 16;
+pos = 1600;
+},
+{
+over = 21;
+pos = 1500;
+},
+{
+over = 21;
+pos = 920;
+},
+{
+over = -31;
+},
+{
+over = -30;
+pos = -500;
+},
+{
+pos = 13;
+},
+{
+over = 21;
+pos = 1020;
+}
+);
+name = "6pt Italic";
+userData = {
+com.schriftgestaltung.layerId = "E7986948-7A43-4A74-AC0C-4472ECCDAB04";
+com.schriftgestaltung.layerOrderInGlyph..notdef = 0;
+com.schriftgestaltung.layerOrderInGlyph..null = 0;
+com.schriftgestaltung.layerOrderInGlyph.A = 1;
+com.schriftgestaltung.layerOrderInGlyph.AE = 1;
+com.schriftgestaltung.layerOrderInGlyph.Aacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Abreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Acircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Adieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Agrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.Amacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Aogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.Aring = 0;
+com.schriftgestaltung.layerOrderInGlyph.Atilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.B = 1;
+com.schriftgestaltung.layerOrderInGlyph.C = 1;
+com.schriftgestaltung.layerOrderInGlyph.CR = 1;
+com.schriftgestaltung.layerOrderInGlyph.Cacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ccaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ccedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ccircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Cdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.D = 1;
+com.schriftgestaltung.layerOrderInGlyph.Dcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Dcroat = 1;
+com.schriftgestaltung.layerOrderInGlyph.Delta = 1;
+com.schriftgestaltung.layerOrderInGlyph.E = 1;
+com.schriftgestaltung.layerOrderInGlyph.Eacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ebreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ecaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ecircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Edieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Edotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Egrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.Emacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Eng = 1;
+com.schriftgestaltung.layerOrderInGlyph.Eogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.Eth = 1;
+com.schriftgestaltung.layerOrderInGlyph.F = 1;
+com.schriftgestaltung.layerOrderInGlyph.G = 1;
+com.schriftgestaltung.layerOrderInGlyph.Gbreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Gcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Gcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Gdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Germandbls = 1;
+com.schriftgestaltung.layerOrderInGlyph.H = 1;
+com.schriftgestaltung.layerOrderInGlyph.Hbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.Hcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.I = 1;
+com.schriftgestaltung.layerOrderInGlyph.IJ = 1;
+com.schriftgestaltung.layerOrderInGlyph.Iacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ibreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Icircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Idieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Idotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Igrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.Imacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Iogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.Itilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.J = 1;
+com.schriftgestaltung.layerOrderInGlyph.J.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.Jcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.K = 1;
+com.schriftgestaltung.layerOrderInGlyph.Kcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.L = 1;
+com.schriftgestaltung.layerOrderInGlyph.Lacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Lcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Lcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ldot = 0;
+com.schriftgestaltung.layerOrderInGlyph.Lslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.M = 1;
+com.schriftgestaltung.layerOrderInGlyph.N = 1;
+com.schriftgestaltung.layerOrderInGlyph.Nacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ncaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ncommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ntilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.O = 1;
+com.schriftgestaltung.layerOrderInGlyph.OE = 1;
+com.schriftgestaltung.layerOrderInGlyph.Oacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Obreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ocircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Odieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ograve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ohungarumlaut = 0;
+com.schriftgestaltung.layerOrderInGlyph.Omacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Omega = 1;
+com.schriftgestaltung.layerOrderInGlyph.Oslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.Otilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.P = 1;
+com.schriftgestaltung.layerOrderInGlyph.Q = 1;
+com.schriftgestaltung.layerOrderInGlyph.R = 1;
+com.schriftgestaltung.layerOrderInGlyph.R.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.Racute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Racute.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rcaron.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.S = 1;
+com.schriftgestaltung.layerOrderInGlyph.Sacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Scaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Scedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.Scircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Scommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.T = 1;
+com.schriftgestaltung.layerOrderInGlyph.Tbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.Tcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Tcedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Thorn = 1;
+com.schriftgestaltung.layerOrderInGlyph.U = 1;
+com.schriftgestaltung.layerOrderInGlyph.Uacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ubreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ucircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Udieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ugrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.Uhungarumlaut = 0;
+com.schriftgestaltung.layerOrderInGlyph.Umacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Uogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.Uring = 0;
+com.schriftgestaltung.layerOrderInGlyph.Utilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.V = 1;
+com.schriftgestaltung.layerOrderInGlyph.W = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wdieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wdotbelow = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wgrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.X = 1;
+com.schriftgestaltung.layerOrderInGlyph.Y = 1;
+com.schriftgestaltung.layerOrderInGlyph.Yacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ycircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ydieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.Ygrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.Z = 1;
+com.schriftgestaltung.layerOrderInGlyph.Zacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.Zcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.Zdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.a = 1;
+com.schriftgestaltung.layerOrderInGlyph.a.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.aacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.aacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.abreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.abreve.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.acircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.acircumflex.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.acute = 0;
+com.schriftgestaltung.layerOrderInGlyph.acutecomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.adieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.adieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ae = 1;
+com.schriftgestaltung.layerOrderInGlyph.ae.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.agrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.agrave.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.amacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.ampersand = 1;
+com.schriftgestaltung.layerOrderInGlyph.aogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.aogonek.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.approxequal = 1;
+com.schriftgestaltung.layerOrderInGlyph.aring = 0;
+com.schriftgestaltung.layerOrderInGlyph.aring.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.asciicircum = 1;
+com.schriftgestaltung.layerOrderInGlyph.asciitilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.asterisk = 1;
+com.schriftgestaltung.layerOrderInGlyph.at = 1;
+com.schriftgestaltung.layerOrderInGlyph.atilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.atilde.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.b = 1;
+com.schriftgestaltung.layerOrderInGlyph.b.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.backslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.bar = 1;
+com.schriftgestaltung.layerOrderInGlyph.braceleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.braceright = 1;
+com.schriftgestaltung.layerOrderInGlyph.bracketleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.bracketright = 1;
+com.schriftgestaltung.layerOrderInGlyph.breve = 0;
+com.schriftgestaltung.layerOrderInGlyph.brevecomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.breveinvertedcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.brokenbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.bullet = 1;
+com.schriftgestaltung.layerOrderInGlyph.bulletoperator = 1;
+com.schriftgestaltung.layerOrderInGlyph.c = 1;
+com.schriftgestaltung.layerOrderInGlyph.c.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.cacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.cacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.caron = 0;
+com.schriftgestaltung.layerOrderInGlyph.caroncomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.ccaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.ccaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ccedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.ccedilla.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ccircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.cdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.cedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.cedillacomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.cent = 1;
+com.schriftgestaltung.layerOrderInGlyph.circumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.circumflexcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.colon = 1;
+com.schriftgestaltung.layerOrderInGlyph.comma = 1;
+com.schriftgestaltung.layerOrderInGlyph.commaaccentcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.commaturnedabovecomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.copyright = 1;
+com.schriftgestaltung.layerOrderInGlyph.currency = 1;
+com.schriftgestaltung.layerOrderInGlyph.curvedStemParagraphSignOrnament = 1;
+com.schriftgestaltung.layerOrderInGlyph.d = 1;
+com.schriftgestaltung.layerOrderInGlyph.d.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.dagger = 1;
+com.schriftgestaltung.layerOrderInGlyph.daggerdbl = 1;
+com.schriftgestaltung.layerOrderInGlyph.dcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.dcaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.dcroat = 1;
+com.schriftgestaltung.layerOrderInGlyph.dcroat.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.degree = 1;
+com.schriftgestaltung.layerOrderInGlyph.dieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.dieresiscomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.divide = 1;
+com.schriftgestaltung.layerOrderInGlyph.divisionslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.dollar = 1;
+com.schriftgestaltung.layerOrderInGlyph.dotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.dotbelowcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.e = 1;
+com.schriftgestaltung.layerOrderInGlyph.e.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.eacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.eacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ebreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.ecaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.ecaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ecircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.ecircumflex.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.edieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.edieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.edotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.egrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.egrave.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.eight = 1;
+com.schriftgestaltung.layerOrderInGlyph.eight.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.eight.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.eight.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.ellipsis = 1;
+com.schriftgestaltung.layerOrderInGlyph.emacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.emdash = 1;
+com.schriftgestaltung.layerOrderInGlyph.emptyset = 1;
+com.schriftgestaltung.layerOrderInGlyph.emquad = 1;
+com.schriftgestaltung.layerOrderInGlyph.emspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.endash = 1;
+com.schriftgestaltung.layerOrderInGlyph.eng = 1;
+com.schriftgestaltung.layerOrderInGlyph.eng.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.enquad = 1;
+com.schriftgestaltung.layerOrderInGlyph.enspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.eogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.eogonek.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.equal = 1;
+com.schriftgestaltung.layerOrderInGlyph.eth = 1;
+com.schriftgestaltung.layerOrderInGlyph.eth.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.euro = 1;
+com.schriftgestaltung.layerOrderInGlyph.exclam = 1;
+com.schriftgestaltung.layerOrderInGlyph.exclamdown = 1;
+com.schriftgestaltung.layerOrderInGlyph.f = 1;
+com.schriftgestaltung.layerOrderInGlyph.f.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.f_f = 1;
+com.schriftgestaltung.layerOrderInGlyph.f_f_i = 1;
+com.schriftgestaltung.layerOrderInGlyph.f_f_l = 1;
+com.schriftgestaltung.layerOrderInGlyph.f_j.liga = 1;
+com.schriftgestaltung.layerOrderInGlyph.fi = 1;
+com.schriftgestaltung.layerOrderInGlyph.figuredash = 1;
+com.schriftgestaltung.layerOrderInGlyph.figurespace = 1;
+com.schriftgestaltung.layerOrderInGlyph.five = 1;
+com.schriftgestaltung.layerOrderInGlyph.five.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.five.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.five.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.fl = 1;
+com.schriftgestaltung.layerOrderInGlyph.florin = 1;
+com.schriftgestaltung.layerOrderInGlyph.four = 1;
+com.schriftgestaltung.layerOrderInGlyph.four.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.four.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.four.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.four.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.fourperemspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.foursuperior = 1;
+com.schriftgestaltung.layerOrderInGlyph.fraction = 1;
+com.schriftgestaltung.layerOrderInGlyph.g = 1;
+com.schriftgestaltung.layerOrderInGlyph.g.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.gbreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.gbreve.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.gcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.gcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.gdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.germandbls = 1;
+com.schriftgestaltung.layerOrderInGlyph.germandbls.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.grave = 0;
+com.schriftgestaltung.layerOrderInGlyph.gravecomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.greater = 1;
+com.schriftgestaltung.layerOrderInGlyph.greaterequal = 1;
+com.schriftgestaltung.layerOrderInGlyph.guillemetleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.guillemetright = 1;
+com.schriftgestaltung.layerOrderInGlyph.guilsinglleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.guilsinglright = 1;
+com.schriftgestaltung.layerOrderInGlyph.h = 1;
+com.schriftgestaltung.layerOrderInGlyph.h.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.hairspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.hbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.hcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.horizontalbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.hungarumlaut = 0;
+com.schriftgestaltung.layerOrderInGlyph.hungarumlautcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.hyphen = 1;
+com.schriftgestaltung.layerOrderInGlyph.hyphentwo = 1;
+com.schriftgestaltung.layerOrderInGlyph.i = 1;
+com.schriftgestaltung.layerOrderInGlyph.i.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.iacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.iacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ibreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.icircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.icircumflex.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.idieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.idieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.idotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.idotless = 1;
+com.schriftgestaltung.layerOrderInGlyph.igrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.igrave.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ij = 1;
+com.schriftgestaltung.layerOrderInGlyph.ij.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.imacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.infinity = 1;
+com.schriftgestaltung.layerOrderInGlyph.integral = 1;
+com.schriftgestaltung.layerOrderInGlyph.interrobang = 1;
+com.schriftgestaltung.layerOrderInGlyph.iogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.itilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.j = 1;
+com.schriftgestaltung.layerOrderInGlyph.j.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.jcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.jdotless = 1;
+com.schriftgestaltung.layerOrderInGlyph.k = 1;
+com.schriftgestaltung.layerOrderInGlyph.k.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.kcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.kgreenlandic = 1;
+com.schriftgestaltung.layerOrderInGlyph.l = 1;
+com.schriftgestaltung.layerOrderInGlyph.l.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.lacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.lacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.lcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.lcaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.lcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.ldot = 0;
+com.schriftgestaltung.layerOrderInGlyph.less = 1;
+com.schriftgestaltung.layerOrderInGlyph.lessequal = 1;
+com.schriftgestaltung.layerOrderInGlyph.logicalnot = 1;
+com.schriftgestaltung.layerOrderInGlyph.longs = 1;
+com.schriftgestaltung.layerOrderInGlyph.longs_t = 1;
+com.schriftgestaltung.layerOrderInGlyph.lozenge = 1;
+com.schriftgestaltung.layerOrderInGlyph.lslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.lslash.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.m = 1;
+com.schriftgestaltung.layerOrderInGlyph.m.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.macron = 0;
+com.schriftgestaltung.layerOrderInGlyph.macroncomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.micro = 1;
+com.schriftgestaltung.layerOrderInGlyph.minus = 1;
+com.schriftgestaltung.layerOrderInGlyph.mu = 1;
+com.schriftgestaltung.layerOrderInGlyph.multiply = 1;
+com.schriftgestaltung.layerOrderInGlyph.n = 1;
+com.schriftgestaltung.layerOrderInGlyph.n.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.nacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.nacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.napostrophe = 1;
+com.schriftgestaltung.layerOrderInGlyph.nbspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.ncaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.ncaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ncommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.nine = 1;
+com.schriftgestaltung.layerOrderInGlyph.nine.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.nine.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.nine.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.nonbreakinghyphen = 1;
+com.schriftgestaltung.layerOrderInGlyph.notequal = 1;
+com.schriftgestaltung.layerOrderInGlyph.ntilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.ntilde.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.numbersign = 1;
+com.schriftgestaltung.layerOrderInGlyph.numero = 1;
+com.schriftgestaltung.layerOrderInGlyph.o = 1;
+com.schriftgestaltung.layerOrderInGlyph.o.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.oacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.oacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.obreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.ocircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.ocircumflex.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.odieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.odieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.oe = 0;
+com.schriftgestaltung.layerOrderInGlyph.oe.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.ogonekcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.ograve = 0;
+com.schriftgestaltung.layerOrderInGlyph.ograve.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut = 0;
+com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.omacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.one = 1;
+com.schriftgestaltung.layerOrderInGlyph.one.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.one.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.one.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.onehalf = 1;
+com.schriftgestaltung.layerOrderInGlyph.onequarter = 1;
+com.schriftgestaltung.layerOrderInGlyph.onesuperior = 1;
+com.schriftgestaltung.layerOrderInGlyph.ordfeminine = 1;
+com.schriftgestaltung.layerOrderInGlyph.ordmasculine = 1;
+com.schriftgestaltung.layerOrderInGlyph.oslash = 1;
+com.schriftgestaltung.layerOrderInGlyph.oslash.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.otilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.otilde.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.overline = 1;
+com.schriftgestaltung.layerOrderInGlyph.p = 1;
+com.schriftgestaltung.layerOrderInGlyph.p.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.paragraph = 1;
+com.schriftgestaltung.layerOrderInGlyph.parenleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.parenright = 1;
+com.schriftgestaltung.layerOrderInGlyph.partialdiff = 1;
+com.schriftgestaltung.layerOrderInGlyph.percent = 1;
+com.schriftgestaltung.layerOrderInGlyph.period = 1;
+com.schriftgestaltung.layerOrderInGlyph.periodcentered = 1;
+com.schriftgestaltung.layerOrderInGlyph.pertenthousand = 0;
+com.schriftgestaltung.layerOrderInGlyph.perthousand = 1;
+com.schriftgestaltung.layerOrderInGlyph.pi = 1;
+com.schriftgestaltung.layerOrderInGlyph.plus = 1;
+com.schriftgestaltung.layerOrderInGlyph.plusminus = 1;
+com.schriftgestaltung.layerOrderInGlyph.product = 1;
+com.schriftgestaltung.layerOrderInGlyph.punctuationspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.q = 1;
+com.schriftgestaltung.layerOrderInGlyph.q.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.question = 1;
+com.schriftgestaltung.layerOrderInGlyph.questiondown = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotedbl = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotedblbase = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotedblleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotedblright = 1;
+com.schriftgestaltung.layerOrderInGlyph.quoteleft = 1;
+com.schriftgestaltung.layerOrderInGlyph.quoteright = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotesinglbase = 1;
+com.schriftgestaltung.layerOrderInGlyph.quotesingle = 1;
+com.schriftgestaltung.layerOrderInGlyph.r = 1;
+com.schriftgestaltung.layerOrderInGlyph.r.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.racute = 0;
+com.schriftgestaltung.layerOrderInGlyph.racute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.radical = 1;
+com.schriftgestaltung.layerOrderInGlyph.rcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.rcaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.rcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.registered = 1;
+com.schriftgestaltung.layerOrderInGlyph.ring = 0;
+com.schriftgestaltung.layerOrderInGlyph.ringcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.rinvertedbreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.s = 1;
+com.schriftgestaltung.layerOrderInGlyph.s.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.sacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.sacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.scaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.scaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.scedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.scedilla.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.scircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.scommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.section = 1;
+com.schriftgestaltung.layerOrderInGlyph.semicolon = 1;
+com.schriftgestaltung.layerOrderInGlyph.seven = 1;
+com.schriftgestaltung.layerOrderInGlyph.seven.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.seven.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.seven.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.six = 1;
+com.schriftgestaltung.layerOrderInGlyph.six.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.sixperemspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.slash = 1;
+com.schriftgestaltung.layerOrderInGlyph.softhyphen = 1;
+com.schriftgestaltung.layerOrderInGlyph.space = 1;
+com.schriftgestaltung.layerOrderInGlyph.sterling = 1;
+com.schriftgestaltung.layerOrderInGlyph.summation = 1;
+com.schriftgestaltung.layerOrderInGlyph.t = 1;
+com.schriftgestaltung.layerOrderInGlyph.t.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.tbar = 1;
+com.schriftgestaltung.layerOrderInGlyph.tbar.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.tcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.tcaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.tcedilla = 0;
+com.schriftgestaltung.layerOrderInGlyph.tcedilla.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.tcommaaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.thinspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.thorn = 1;
+com.schriftgestaltung.layerOrderInGlyph.thorn.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.three = 1;
+com.schriftgestaltung.layerOrderInGlyph.three.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.three.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.three.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.threeperemspace = 1;
+com.schriftgestaltung.layerOrderInGlyph.threequarters = 1;
+com.schriftgestaltung.layerOrderInGlyph.threesuperior = 1;
+com.schriftgestaltung.layerOrderInGlyph.tilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.tildecomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.trademark = 1;
+com.schriftgestaltung.layerOrderInGlyph.two = 1;
+com.schriftgestaltung.layerOrderInGlyph.two.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.two.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.two.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.twosuperior = 1;
+com.schriftgestaltung.layerOrderInGlyph.u = 1;
+com.schriftgestaltung.layerOrderInGlyph.u.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.uacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.uacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ubreve = 0;
+com.schriftgestaltung.layerOrderInGlyph.ucircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.ucircumflex.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.udieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.udieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ugrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.ugrave.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut = 0;
+com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.umacron = 0;
+com.schriftgestaltung.layerOrderInGlyph.underscore = 1;
+com.schriftgestaltung.layerOrderInGlyph.uniF8E8 = 1;
+com.schriftgestaltung.layerOrderInGlyph.uniF8E9 = 1;
+com.schriftgestaltung.layerOrderInGlyph.uogonek = 0;
+com.schriftgestaltung.layerOrderInGlyph.uring = 0;
+com.schriftgestaltung.layerOrderInGlyph.uring.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.utilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.v = 1;
+com.schriftgestaltung.layerOrderInGlyph.v.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.w = 1;
+com.schriftgestaltung.layerOrderInGlyph.w.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.wacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.wcircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.wdieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.wdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.wdotbelow = 0;
+com.schriftgestaltung.layerOrderInGlyph.wgrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.x = 1;
+com.schriftgestaltung.layerOrderInGlyph.x.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.y = 1;
+com.schriftgestaltung.layerOrderInGlyph.y.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.yacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.yacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ycircumflex = 0;
+com.schriftgestaltung.layerOrderInGlyph.ydieresis = 0;
+com.schriftgestaltung.layerOrderInGlyph.ydieresis.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.yen = 1;
+com.schriftgestaltung.layerOrderInGlyph.ygrave = 0;
+com.schriftgestaltung.layerOrderInGlyph.z = 1;
+com.schriftgestaltung.layerOrderInGlyph.z.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.zacute = 0;
+com.schriftgestaltung.layerOrderInGlyph.zacute.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.zcaron = 0;
+com.schriftgestaltung.layerOrderInGlyph.zcaron.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.zdotaccent = 0;
+com.schriftgestaltung.layerOrderInGlyph.zdotaccent.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.zero = 1;
+com.schriftgestaltung.layerOrderInGlyph.zero.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.zero.tf = 1;
+com.schriftgestaltung.layerOrderInGlyph.zero.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.zerowidthspace = 1;
+};
+},
+{
+axesValues = (
+900,
+6
+);
+customParameters = (
+{
+name = typoAscender;
+value = 2250;
+},
+{
+name = typoDescender;
+value = -800;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2250;
+},
+{
+name = hheaDescender;
+value = -800;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2250;
+},
+{
+name = winDescent;
+value = 800;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -100;
+}
+);
+iconName = Bold;
+id = "5A0F1DA2-36F1-48C5-B19D-79E54862F5ED";
+metricValues = (
+{
+over = 16;
+pos = 1600;
+},
+{
+over = 21;
+pos = 1500;
+},
+{
+over = 21;
+pos = 920;
+},
+{
+over = -31;
+},
+{
+over = -30;
+pos = -500;
+},
+{
+pos = 13;
+},
+{
+over = 21;
+pos = 1020;
+}
+);
+name = "6pt Black Italic";
+userData = {
+com.schriftgestaltung.layerId = "5A0F1DA2-36F1-48C5-B19D-79E54862F5ED";
+com.schriftgestaltung.layerOrderInGlyph..notdef = 1;
+com.schriftgestaltung.layerOrderInGlyph..null = 1;
+com.schriftgestaltung.layerOrderInGlyph.A = 0;
+com.schriftgestaltung.layerOrderInGlyph.AE = 0;
+com.schriftgestaltung.layerOrderInGlyph.Aacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Abreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Acircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Adieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Agrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.Amacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Aogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.Aring = 1;
+com.schriftgestaltung.layerOrderInGlyph.Atilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.B = 0;
+com.schriftgestaltung.layerOrderInGlyph.C = 0;
+com.schriftgestaltung.layerOrderInGlyph.CR = 0;
+com.schriftgestaltung.layerOrderInGlyph.Cacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ccaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ccedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ccircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Cdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.D = 0;
+com.schriftgestaltung.layerOrderInGlyph.Dcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Dcroat = 0;
+com.schriftgestaltung.layerOrderInGlyph.Delta = 0;
+com.schriftgestaltung.layerOrderInGlyph.E = 0;
+com.schriftgestaltung.layerOrderInGlyph.Eacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ebreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ecaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ecircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Edieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Edotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Egrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.Emacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Eng = 0;
+com.schriftgestaltung.layerOrderInGlyph.Eogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.Eth = 0;
+com.schriftgestaltung.layerOrderInGlyph.F = 0;
+com.schriftgestaltung.layerOrderInGlyph.G = 0;
+com.schriftgestaltung.layerOrderInGlyph.Gbreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Gcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Gcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Gdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Germandbls = 0;
+com.schriftgestaltung.layerOrderInGlyph.H = 0;
+com.schriftgestaltung.layerOrderInGlyph.Hbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.Hcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.I = 0;
+com.schriftgestaltung.layerOrderInGlyph.IJ = 0;
+com.schriftgestaltung.layerOrderInGlyph.Iacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ibreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Icircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Idieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Idotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Igrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.Imacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Iogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.Itilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.J = 0;
+com.schriftgestaltung.layerOrderInGlyph.J.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.Jcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.K = 0;
+com.schriftgestaltung.layerOrderInGlyph.Kcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.L = 0;
+com.schriftgestaltung.layerOrderInGlyph.Lacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Lcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Lcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ldot = 1;
+com.schriftgestaltung.layerOrderInGlyph.Lslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.M = 0;
+com.schriftgestaltung.layerOrderInGlyph.N = 0;
+com.schriftgestaltung.layerOrderInGlyph.Nacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ncaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ncommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ntilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.O = 0;
+com.schriftgestaltung.layerOrderInGlyph.OE = 0;
+com.schriftgestaltung.layerOrderInGlyph.Oacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Obreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ocircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Odieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ograve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ohungarumlaut = 1;
+com.schriftgestaltung.layerOrderInGlyph.Omacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Omega = 0;
+com.schriftgestaltung.layerOrderInGlyph.Oslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.Otilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.P = 0;
+com.schriftgestaltung.layerOrderInGlyph.Q = 0;
+com.schriftgestaltung.layerOrderInGlyph.R = 0;
+com.schriftgestaltung.layerOrderInGlyph.R.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.Racute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Racute.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rcaron.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.S = 0;
+com.schriftgestaltung.layerOrderInGlyph.Sacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Scaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Scedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.Scircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Scommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.T = 0;
+com.schriftgestaltung.layerOrderInGlyph.Tbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.Tcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Tcedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Thorn = 0;
+com.schriftgestaltung.layerOrderInGlyph.U = 0;
+com.schriftgestaltung.layerOrderInGlyph.Uacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ubreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ucircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Udieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ugrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.Uhungarumlaut = 1;
+com.schriftgestaltung.layerOrderInGlyph.Umacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Uogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.Uring = 1;
+com.schriftgestaltung.layerOrderInGlyph.Utilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.V = 0;
+com.schriftgestaltung.layerOrderInGlyph.W = 0;
+com.schriftgestaltung.layerOrderInGlyph.Wacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wdieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wdotbelow = 1;
+com.schriftgestaltung.layerOrderInGlyph.Wgrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.X = 0;
+com.schriftgestaltung.layerOrderInGlyph.Y = 0;
+com.schriftgestaltung.layerOrderInGlyph.Yacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ycircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ydieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.Ygrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.Z = 0;
+com.schriftgestaltung.layerOrderInGlyph.Zacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.Zcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.Zdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.a = 0;
+com.schriftgestaltung.layerOrderInGlyph.a.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.aacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.aacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.abreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.abreve.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.acircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.acircumflex.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.acute = 1;
+com.schriftgestaltung.layerOrderInGlyph.acutecomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.adieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.adieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ae = 0;
+com.schriftgestaltung.layerOrderInGlyph.ae.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.agrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.agrave.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.amacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.ampersand = 0;
+com.schriftgestaltung.layerOrderInGlyph.aogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.aogonek.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.approxequal = 0;
+com.schriftgestaltung.layerOrderInGlyph.aring = 1;
+com.schriftgestaltung.layerOrderInGlyph.aring.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.asciicircum = 0;
+com.schriftgestaltung.layerOrderInGlyph.asciitilde = 0;
+com.schriftgestaltung.layerOrderInGlyph.asterisk = 0;
+com.schriftgestaltung.layerOrderInGlyph.at = 0;
+com.schriftgestaltung.layerOrderInGlyph.atilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.atilde.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.b = 0;
+com.schriftgestaltung.layerOrderInGlyph.b.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.backslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.bar = 0;
+com.schriftgestaltung.layerOrderInGlyph.braceleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.braceright = 0;
+com.schriftgestaltung.layerOrderInGlyph.bracketleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.bracketright = 0;
+com.schriftgestaltung.layerOrderInGlyph.breve = 1;
+com.schriftgestaltung.layerOrderInGlyph.brevecomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.breveinvertedcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.brokenbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.bullet = 0;
+com.schriftgestaltung.layerOrderInGlyph.bulletoperator = 0;
+com.schriftgestaltung.layerOrderInGlyph.c = 0;
+com.schriftgestaltung.layerOrderInGlyph.c.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.cacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.cacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.caron = 1;
+com.schriftgestaltung.layerOrderInGlyph.caroncomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt = 1;
+com.schriftgestaltung.layerOrderInGlyph.ccaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.ccaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ccedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.ccedilla.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ccircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.cdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.cedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.cedillacomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.cent = 0;
+com.schriftgestaltung.layerOrderInGlyph.circumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.circumflexcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.colon = 0;
+com.schriftgestaltung.layerOrderInGlyph.comma = 0;
+com.schriftgestaltung.layerOrderInGlyph.commaaccentcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.commaturnedabovecomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.copyright = 0;
+com.schriftgestaltung.layerOrderInGlyph.currency = 0;
+com.schriftgestaltung.layerOrderInGlyph.curvedStemParagraphSignOrnament = 0;
+com.schriftgestaltung.layerOrderInGlyph.d = 0;
+com.schriftgestaltung.layerOrderInGlyph.d.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.dagger = 0;
+com.schriftgestaltung.layerOrderInGlyph.daggerdbl = 0;
+com.schriftgestaltung.layerOrderInGlyph.dcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.dcaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.dcroat = 0;
+com.schriftgestaltung.layerOrderInGlyph.dcroat.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.degree = 0;
+com.schriftgestaltung.layerOrderInGlyph.dieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.dieresiscomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.divide = 0;
+com.schriftgestaltung.layerOrderInGlyph.divisionslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.dollar = 0;
+com.schriftgestaltung.layerOrderInGlyph.dotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.dotbelowcomb = 1;
+com.schriftgestaltung.layerOrderInGlyph.e = 0;
+com.schriftgestaltung.layerOrderInGlyph.e.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.eacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.eacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ebreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.ecaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.ecaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ecircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.ecircumflex.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.edieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.edieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.edotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.egrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.egrave.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.eight = 0;
+com.schriftgestaltung.layerOrderInGlyph.eight.osf = 1;
+com.schriftgestaltung.layerOrderInGlyph.eight.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.eight.tosf = 1;
+com.schriftgestaltung.layerOrderInGlyph.ellipsis = 0;
+com.schriftgestaltung.layerOrderInGlyph.emacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.emdash = 0;
+com.schriftgestaltung.layerOrderInGlyph.emptyset = 0;
+com.schriftgestaltung.layerOrderInGlyph.emquad = 0;
+com.schriftgestaltung.layerOrderInGlyph.emspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.endash = 0;
+com.schriftgestaltung.layerOrderInGlyph.eng = 0;
+com.schriftgestaltung.layerOrderInGlyph.eng.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.enquad = 0;
+com.schriftgestaltung.layerOrderInGlyph.enspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.eogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.eogonek.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.equal = 0;
+com.schriftgestaltung.layerOrderInGlyph.eth = 0;
+com.schriftgestaltung.layerOrderInGlyph.eth.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.euro = 0;
+com.schriftgestaltung.layerOrderInGlyph.exclam = 0;
+com.schriftgestaltung.layerOrderInGlyph.exclamdown = 0;
+com.schriftgestaltung.layerOrderInGlyph.f = 0;
+com.schriftgestaltung.layerOrderInGlyph.f.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.f_f = 0;
+com.schriftgestaltung.layerOrderInGlyph.f_f_i = 0;
+com.schriftgestaltung.layerOrderInGlyph.f_f_l = 0;
+com.schriftgestaltung.layerOrderInGlyph.f_j.liga = 0;
+com.schriftgestaltung.layerOrderInGlyph.fi = 0;
+com.schriftgestaltung.layerOrderInGlyph.figuredash = 0;
+com.schriftgestaltung.layerOrderInGlyph.figurespace = 0;
+com.schriftgestaltung.layerOrderInGlyph.five = 0;
+com.schriftgestaltung.layerOrderInGlyph.five.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.five.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.five.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.fl = 0;
+com.schriftgestaltung.layerOrderInGlyph.florin = 0;
+com.schriftgestaltung.layerOrderInGlyph.four = 0;
+com.schriftgestaltung.layerOrderInGlyph.four.alt = 0;
+com.schriftgestaltung.layerOrderInGlyph.four.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.four.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.four.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.fourperemspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.foursuperior = 0;
+com.schriftgestaltung.layerOrderInGlyph.fraction = 0;
+com.schriftgestaltung.layerOrderInGlyph.g = 0;
+com.schriftgestaltung.layerOrderInGlyph.g.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.gbreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.gbreve.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.gcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.gcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.gdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.germandbls = 0;
+com.schriftgestaltung.layerOrderInGlyph.germandbls.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.grave = 1;
+com.schriftgestaltung.layerOrderInGlyph.gravecomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.greater = 0;
+com.schriftgestaltung.layerOrderInGlyph.greaterequal = 0;
+com.schriftgestaltung.layerOrderInGlyph.guillemetleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.guillemetright = 0;
+com.schriftgestaltung.layerOrderInGlyph.guilsinglleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.guilsinglright = 0;
+com.schriftgestaltung.layerOrderInGlyph.h = 0;
+com.schriftgestaltung.layerOrderInGlyph.h.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.hairspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.hbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.hcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.horizontalbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.hungarumlaut = 1;
+com.schriftgestaltung.layerOrderInGlyph.hungarumlautcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.hyphen = 0;
+com.schriftgestaltung.layerOrderInGlyph.hyphentwo = 0;
+com.schriftgestaltung.layerOrderInGlyph.i = 0;
+com.schriftgestaltung.layerOrderInGlyph.i.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.iacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.iacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ibreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.icircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.icircumflex.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.idieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.idieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.idotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.idotless = 0;
+com.schriftgestaltung.layerOrderInGlyph.igrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.igrave.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ij = 0;
+com.schriftgestaltung.layerOrderInGlyph.ij.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.imacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.infinity = 0;
+com.schriftgestaltung.layerOrderInGlyph.integral = 0;
+com.schriftgestaltung.layerOrderInGlyph.interrobang = 0;
+com.schriftgestaltung.layerOrderInGlyph.iogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.itilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.j = 0;
+com.schriftgestaltung.layerOrderInGlyph.j.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.jcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.jdotless = 0;
+com.schriftgestaltung.layerOrderInGlyph.k = 0;
+com.schriftgestaltung.layerOrderInGlyph.k.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.kcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.kgreenlandic = 0;
+com.schriftgestaltung.layerOrderInGlyph.l = 0;
+com.schriftgestaltung.layerOrderInGlyph.l.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.lacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.lacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.lcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.lcaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.lcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.ldot = 1;
+com.schriftgestaltung.layerOrderInGlyph.less = 0;
+com.schriftgestaltung.layerOrderInGlyph.lessequal = 0;
+com.schriftgestaltung.layerOrderInGlyph.logicalnot = 0;
+com.schriftgestaltung.layerOrderInGlyph.longs = 0;
+com.schriftgestaltung.layerOrderInGlyph.longs_t = 0;
+com.schriftgestaltung.layerOrderInGlyph.lozenge = 0;
+com.schriftgestaltung.layerOrderInGlyph.lslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.lslash.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.m = 0;
+com.schriftgestaltung.layerOrderInGlyph.m.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.macron = 1;
+com.schriftgestaltung.layerOrderInGlyph.macroncomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.micro = 0;
+com.schriftgestaltung.layerOrderInGlyph.minus = 0;
+com.schriftgestaltung.layerOrderInGlyph.mu = 0;
+com.schriftgestaltung.layerOrderInGlyph.multiply = 0;
+com.schriftgestaltung.layerOrderInGlyph.n = 0;
+com.schriftgestaltung.layerOrderInGlyph.n.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.nacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.nacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.napostrophe = 0;
+com.schriftgestaltung.layerOrderInGlyph.nbspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.ncaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.ncaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ncommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.nine = 0;
+com.schriftgestaltung.layerOrderInGlyph.nine.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.nine.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.nine.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.nonbreakinghyphen = 0;
+com.schriftgestaltung.layerOrderInGlyph.notequal = 0;
+com.schriftgestaltung.layerOrderInGlyph.ntilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.ntilde.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.numbersign = 0;
+com.schriftgestaltung.layerOrderInGlyph.numero = 0;
+com.schriftgestaltung.layerOrderInGlyph.o = 0;
+com.schriftgestaltung.layerOrderInGlyph.o.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.oacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.oacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.obreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.ocircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.ocircumflex.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.odieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.odieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.oe = 1;
+com.schriftgestaltung.layerOrderInGlyph.oe.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.ogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.ogonekcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.ograve = 1;
+com.schriftgestaltung.layerOrderInGlyph.ograve.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut = 1;
+com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.omacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.one = 0;
+com.schriftgestaltung.layerOrderInGlyph.one.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.one.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.one.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.onehalf = 0;
+com.schriftgestaltung.layerOrderInGlyph.onequarter = 0;
+com.schriftgestaltung.layerOrderInGlyph.onesuperior = 0;
+com.schriftgestaltung.layerOrderInGlyph.ordfeminine = 0;
+com.schriftgestaltung.layerOrderInGlyph.ordmasculine = 0;
+com.schriftgestaltung.layerOrderInGlyph.oslash = 0;
+com.schriftgestaltung.layerOrderInGlyph.oslash.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.otilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.otilde.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.overline = 0;
+com.schriftgestaltung.layerOrderInGlyph.p = 0;
+com.schriftgestaltung.layerOrderInGlyph.p.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.paragraph = 0;
+com.schriftgestaltung.layerOrderInGlyph.parenleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.parenright = 0;
+com.schriftgestaltung.layerOrderInGlyph.partialdiff = 0;
+com.schriftgestaltung.layerOrderInGlyph.percent = 0;
+com.schriftgestaltung.layerOrderInGlyph.period = 0;
+com.schriftgestaltung.layerOrderInGlyph.periodcentered = 0;
+com.schriftgestaltung.layerOrderInGlyph.pertenthousand = 1;
+com.schriftgestaltung.layerOrderInGlyph.perthousand = 0;
+com.schriftgestaltung.layerOrderInGlyph.pi = 0;
+com.schriftgestaltung.layerOrderInGlyph.plus = 0;
+com.schriftgestaltung.layerOrderInGlyph.plusminus = 0;
+com.schriftgestaltung.layerOrderInGlyph.product = 0;
+com.schriftgestaltung.layerOrderInGlyph.punctuationspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.q = 0;
+com.schriftgestaltung.layerOrderInGlyph.q.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.question = 0;
+com.schriftgestaltung.layerOrderInGlyph.questiondown = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotedbl = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotedblbase = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotedblleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotedblright = 0;
+com.schriftgestaltung.layerOrderInGlyph.quoteleft = 0;
+com.schriftgestaltung.layerOrderInGlyph.quoteright = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotesinglbase = 0;
+com.schriftgestaltung.layerOrderInGlyph.quotesingle = 0;
+com.schriftgestaltung.layerOrderInGlyph.r = 0;
+com.schriftgestaltung.layerOrderInGlyph.r.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.racute = 1;
+com.schriftgestaltung.layerOrderInGlyph.racute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.radical = 0;
+com.schriftgestaltung.layerOrderInGlyph.rcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.rcaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.rcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.registered = 0;
+com.schriftgestaltung.layerOrderInGlyph.ring = 1;
+com.schriftgestaltung.layerOrderInGlyph.ringcomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.rinvertedbreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.s = 0;
+com.schriftgestaltung.layerOrderInGlyph.s.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.sacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.sacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.scaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.scaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.scedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.scedilla.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.scircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.scommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.section = 0;
+com.schriftgestaltung.layerOrderInGlyph.semicolon = 0;
+com.schriftgestaltung.layerOrderInGlyph.seven = 0;
+com.schriftgestaltung.layerOrderInGlyph.seven.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.seven.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.seven.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.six = 0;
+com.schriftgestaltung.layerOrderInGlyph.six.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.sixperemspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.slash = 0;
+com.schriftgestaltung.layerOrderInGlyph.softhyphen = 0;
+com.schriftgestaltung.layerOrderInGlyph.space = 0;
+com.schriftgestaltung.layerOrderInGlyph.sterling = 0;
+com.schriftgestaltung.layerOrderInGlyph.summation = 0;
+com.schriftgestaltung.layerOrderInGlyph.t = 0;
+com.schriftgestaltung.layerOrderInGlyph.t.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.tbar = 0;
+com.schriftgestaltung.layerOrderInGlyph.tbar.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.tcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.tcaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.tcedilla = 1;
+com.schriftgestaltung.layerOrderInGlyph.tcedilla.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.tcommaaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.thinspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.thorn = 0;
+com.schriftgestaltung.layerOrderInGlyph.thorn.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.three = 0;
+com.schriftgestaltung.layerOrderInGlyph.three.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.three.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.three.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.threeperemspace = 0;
+com.schriftgestaltung.layerOrderInGlyph.threequarters = 0;
+com.schriftgestaltung.layerOrderInGlyph.threesuperior = 0;
+com.schriftgestaltung.layerOrderInGlyph.tilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.tildecomb = 0;
+com.schriftgestaltung.layerOrderInGlyph.trademark = 0;
+com.schriftgestaltung.layerOrderInGlyph.two = 0;
+com.schriftgestaltung.layerOrderInGlyph.two.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.two.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.two.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.twosuperior = 0;
+com.schriftgestaltung.layerOrderInGlyph.u = 0;
+com.schriftgestaltung.layerOrderInGlyph.u.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.uacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.uacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ubreve = 1;
+com.schriftgestaltung.layerOrderInGlyph.ucircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.ucircumflex.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.udieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.udieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ugrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.ugrave.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut = 1;
+com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.umacron = 1;
+com.schriftgestaltung.layerOrderInGlyph.underscore = 0;
+com.schriftgestaltung.layerOrderInGlyph.uniF8E8 = 0;
+com.schriftgestaltung.layerOrderInGlyph.uniF8E9 = 0;
+com.schriftgestaltung.layerOrderInGlyph.uogonek = 1;
+com.schriftgestaltung.layerOrderInGlyph.uring = 1;
+com.schriftgestaltung.layerOrderInGlyph.uring.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.utilde = 1;
+com.schriftgestaltung.layerOrderInGlyph.v = 0;
+com.schriftgestaltung.layerOrderInGlyph.v.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.w = 0;
+com.schriftgestaltung.layerOrderInGlyph.w.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.wacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.wcircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.wdieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.wdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.wdotbelow = 1;
+com.schriftgestaltung.layerOrderInGlyph.wgrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.x = 0;
+com.schriftgestaltung.layerOrderInGlyph.x.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.y = 0;
+com.schriftgestaltung.layerOrderInGlyph.y.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.yacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.yacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.ycircumflex = 1;
+com.schriftgestaltung.layerOrderInGlyph.ydieresis = 1;
+com.schriftgestaltung.layerOrderInGlyph.ydieresis.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.yen = 0;
+com.schriftgestaltung.layerOrderInGlyph.ygrave = 1;
+com.schriftgestaltung.layerOrderInGlyph.z = 0;
+com.schriftgestaltung.layerOrderInGlyph.z.sc = 0;
+com.schriftgestaltung.layerOrderInGlyph.zacute = 1;
+com.schriftgestaltung.layerOrderInGlyph.zacute.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.zcaron = 1;
+com.schriftgestaltung.layerOrderInGlyph.zcaron.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.zdotaccent = 1;
+com.schriftgestaltung.layerOrderInGlyph.zdotaccent.sc = 1;
+com.schriftgestaltung.layerOrderInGlyph.zero = 0;
+com.schriftgestaltung.layerOrderInGlyph.zero.osf = 0;
+com.schriftgestaltung.layerOrderInGlyph.zero.tf = 0;
+com.schriftgestaltung.layerOrderInGlyph.zero.tosf = 0;
+com.schriftgestaltung.layerOrderInGlyph.zerowidthspace = 0;
+};
+},
 {
 axesValues = (
 400,
@@ -543,7 +1842,7 @@ over = -31;
 },
 {
 over = -30;
-pos = -400;
+pos = -500;
 },
 {
 pos = 13;
@@ -553,19 +1852,7 @@ over = 21;
 pos = 1020;
 }
 );
-name = "96pt Regular";
-stemValues = (
-230,
-230,
-230,
-4,
-230,
-230,
-185,
-160,
-0,
-0
-);
+name = "96pt Italic";
 userData = {
 com.schriftgestaltung.layerId = "F479A047-48C9-4D19-A0FD-B440837ED7E5";
 com.schriftgestaltung.layerOrderInGlyph..notdef = 2;
@@ -1199,7 +2486,7 @@ over = -31;
 },
 {
 over = -30;
-pos = -400;
+pos = -500;
 },
 {
 pos = 13;
@@ -1209,19 +2496,7 @@ over = 21;
 pos = 1020;
 }
 );
-name = "96pt Black";
-stemValues = (
-446,
-420,
-360,
-4,
-0,
-0,
-0,
-0,
-0,
-0
-);
+name = "96pt Black Italic";
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
@@ -1789,1325 +3064,13 @@ com.schriftgestaltung.layerOrderInGlyph.zero.tf = 2;
 com.schriftgestaltung.layerOrderInGlyph.zero.tosf = 2;
 com.schriftgestaltung.layerOrderInGlyph.zerowidthspace = 2;
 };
-},
-{
-axesValues = (
-400,
-6
-);
-customParameters = (
-{
-name = typoAscender;
-value = 2250;
-},
-{
-name = typoDescender;
-value = -800;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 2250;
-},
-{
-name = hheaDescender;
-value = -800;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2250;
-},
-{
-name = winDescent;
-value = 800;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -100;
-}
-);
-iconName = Light;
-id = "E7986948-7A43-4A74-AC0C-4472ECCDAB04";
-metricValues = (
-{
-over = 16;
-pos = 1600;
-},
-{
-over = 21;
-pos = 1500;
-},
-{
-over = 21;
-pos = 920;
-},
-{
-over = -31;
-},
-{
-over = -30;
-pos = -400;
-},
-{
-pos = 13;
-},
-{
-over = 21;
-pos = 1020;
-}
-);
-name = "6pt Regular";
-stemValues = (
-230,
-230,
-230,
-74,
-185,
-160,
-0,
-0,
-0,
-0
-);
-userData = {
-com.schriftgestaltung.layerId = "E7986948-7A43-4A74-AC0C-4472ECCDAB04";
-com.schriftgestaltung.layerOrderInGlyph..notdef = 0;
-com.schriftgestaltung.layerOrderInGlyph..null = 0;
-com.schriftgestaltung.layerOrderInGlyph.A = 1;
-com.schriftgestaltung.layerOrderInGlyph.AE = 1;
-com.schriftgestaltung.layerOrderInGlyph.Aacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Abreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Acircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Adieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Agrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.Amacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Aogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.Aring = 0;
-com.schriftgestaltung.layerOrderInGlyph.Atilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.B = 1;
-com.schriftgestaltung.layerOrderInGlyph.C = 1;
-com.schriftgestaltung.layerOrderInGlyph.CR = 1;
-com.schriftgestaltung.layerOrderInGlyph.Cacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ccaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ccedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ccircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Cdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.D = 1;
-com.schriftgestaltung.layerOrderInGlyph.Dcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Dcroat = 1;
-com.schriftgestaltung.layerOrderInGlyph.Delta = 1;
-com.schriftgestaltung.layerOrderInGlyph.E = 1;
-com.schriftgestaltung.layerOrderInGlyph.Eacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ebreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ecaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ecircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Edieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Edotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Egrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.Emacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Eng = 1;
-com.schriftgestaltung.layerOrderInGlyph.Eogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.Eth = 1;
-com.schriftgestaltung.layerOrderInGlyph.F = 1;
-com.schriftgestaltung.layerOrderInGlyph.G = 1;
-com.schriftgestaltung.layerOrderInGlyph.Gbreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Gcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Gcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Gdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Germandbls = 1;
-com.schriftgestaltung.layerOrderInGlyph.H = 1;
-com.schriftgestaltung.layerOrderInGlyph.Hbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.Hcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.I = 1;
-com.schriftgestaltung.layerOrderInGlyph.IJ = 1;
-com.schriftgestaltung.layerOrderInGlyph.Iacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ibreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Icircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Idieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Idotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Igrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.Imacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Iogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.Itilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.J = 1;
-com.schriftgestaltung.layerOrderInGlyph.J.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.Jcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.K = 1;
-com.schriftgestaltung.layerOrderInGlyph.Kcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.L = 1;
-com.schriftgestaltung.layerOrderInGlyph.Lacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Lcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Lcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ldot = 0;
-com.schriftgestaltung.layerOrderInGlyph.Lslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.M = 1;
-com.schriftgestaltung.layerOrderInGlyph.N = 1;
-com.schriftgestaltung.layerOrderInGlyph.Nacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ncaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ncommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ntilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.O = 1;
-com.schriftgestaltung.layerOrderInGlyph.OE = 1;
-com.schriftgestaltung.layerOrderInGlyph.Oacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Obreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ocircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Odieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ograve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ohungarumlaut = 0;
-com.schriftgestaltung.layerOrderInGlyph.Omacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Omega = 1;
-com.schriftgestaltung.layerOrderInGlyph.Oslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.Otilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.P = 1;
-com.schriftgestaltung.layerOrderInGlyph.Q = 1;
-com.schriftgestaltung.layerOrderInGlyph.R = 1;
-com.schriftgestaltung.layerOrderInGlyph.R.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.Racute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Racute.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rcaron.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.S = 1;
-com.schriftgestaltung.layerOrderInGlyph.Sacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Scaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Scedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.Scircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Scommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.T = 1;
-com.schriftgestaltung.layerOrderInGlyph.Tbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.Tcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Tcedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Thorn = 1;
-com.schriftgestaltung.layerOrderInGlyph.U = 1;
-com.schriftgestaltung.layerOrderInGlyph.Uacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ubreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ucircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Udieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ugrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.Uhungarumlaut = 0;
-com.schriftgestaltung.layerOrderInGlyph.Umacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Uogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.Uring = 0;
-com.schriftgestaltung.layerOrderInGlyph.Utilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.V = 1;
-com.schriftgestaltung.layerOrderInGlyph.W = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wdieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wdotbelow = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wgrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.X = 1;
-com.schriftgestaltung.layerOrderInGlyph.Y = 1;
-com.schriftgestaltung.layerOrderInGlyph.Yacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ycircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ydieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.Ygrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.Z = 1;
-com.schriftgestaltung.layerOrderInGlyph.Zacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.Zcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.Zdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.a = 1;
-com.schriftgestaltung.layerOrderInGlyph.a.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.aacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.aacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.abreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.abreve.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.acircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.acircumflex.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.acute = 0;
-com.schriftgestaltung.layerOrderInGlyph.acutecomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.adieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.adieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ae = 1;
-com.schriftgestaltung.layerOrderInGlyph.ae.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.agrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.agrave.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.amacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.ampersand = 1;
-com.schriftgestaltung.layerOrderInGlyph.aogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.aogonek.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.approxequal = 1;
-com.schriftgestaltung.layerOrderInGlyph.aring = 0;
-com.schriftgestaltung.layerOrderInGlyph.aring.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.asciicircum = 1;
-com.schriftgestaltung.layerOrderInGlyph.asciitilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.asterisk = 1;
-com.schriftgestaltung.layerOrderInGlyph.at = 1;
-com.schriftgestaltung.layerOrderInGlyph.atilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.atilde.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.b = 1;
-com.schriftgestaltung.layerOrderInGlyph.b.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.backslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.bar = 1;
-com.schriftgestaltung.layerOrderInGlyph.braceleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.braceright = 1;
-com.schriftgestaltung.layerOrderInGlyph.bracketleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.bracketright = 1;
-com.schriftgestaltung.layerOrderInGlyph.breve = 0;
-com.schriftgestaltung.layerOrderInGlyph.brevecomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.breveinvertedcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.brokenbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.bullet = 1;
-com.schriftgestaltung.layerOrderInGlyph.bulletoperator = 1;
-com.schriftgestaltung.layerOrderInGlyph.c = 1;
-com.schriftgestaltung.layerOrderInGlyph.c.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.cacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.cacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.caron = 0;
-com.schriftgestaltung.layerOrderInGlyph.caroncomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.ccaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.ccaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ccedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.ccedilla.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ccircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.cdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.cedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.cedillacomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.cent = 1;
-com.schriftgestaltung.layerOrderInGlyph.circumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.circumflexcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.colon = 1;
-com.schriftgestaltung.layerOrderInGlyph.comma = 1;
-com.schriftgestaltung.layerOrderInGlyph.commaaccentcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.commaturnedabovecomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.copyright = 1;
-com.schriftgestaltung.layerOrderInGlyph.currency = 1;
-com.schriftgestaltung.layerOrderInGlyph.curvedStemParagraphSignOrnament = 1;
-com.schriftgestaltung.layerOrderInGlyph.d = 1;
-com.schriftgestaltung.layerOrderInGlyph.d.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.dagger = 1;
-com.schriftgestaltung.layerOrderInGlyph.daggerdbl = 1;
-com.schriftgestaltung.layerOrderInGlyph.dcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.dcaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.dcroat = 1;
-com.schriftgestaltung.layerOrderInGlyph.dcroat.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.degree = 1;
-com.schriftgestaltung.layerOrderInGlyph.dieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.dieresiscomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.divide = 1;
-com.schriftgestaltung.layerOrderInGlyph.divisionslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.dollar = 1;
-com.schriftgestaltung.layerOrderInGlyph.dotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.dotbelowcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.e = 1;
-com.schriftgestaltung.layerOrderInGlyph.e.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.eacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.eacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ebreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.ecaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.ecaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ecircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.ecircumflex.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.edieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.edieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.edotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.egrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.egrave.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.eight = 1;
-com.schriftgestaltung.layerOrderInGlyph.eight.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.eight.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.eight.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.ellipsis = 1;
-com.schriftgestaltung.layerOrderInGlyph.emacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.emdash = 1;
-com.schriftgestaltung.layerOrderInGlyph.emptyset = 1;
-com.schriftgestaltung.layerOrderInGlyph.emquad = 1;
-com.schriftgestaltung.layerOrderInGlyph.emspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.endash = 1;
-com.schriftgestaltung.layerOrderInGlyph.eng = 1;
-com.schriftgestaltung.layerOrderInGlyph.eng.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.enquad = 1;
-com.schriftgestaltung.layerOrderInGlyph.enspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.eogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.eogonek.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.equal = 1;
-com.schriftgestaltung.layerOrderInGlyph.eth = 1;
-com.schriftgestaltung.layerOrderInGlyph.eth.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.euro = 1;
-com.schriftgestaltung.layerOrderInGlyph.exclam = 1;
-com.schriftgestaltung.layerOrderInGlyph.exclamdown = 1;
-com.schriftgestaltung.layerOrderInGlyph.f = 1;
-com.schriftgestaltung.layerOrderInGlyph.f.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.f_f = 1;
-com.schriftgestaltung.layerOrderInGlyph.f_f_i = 1;
-com.schriftgestaltung.layerOrderInGlyph.f_f_l = 1;
-com.schriftgestaltung.layerOrderInGlyph.f_j.liga = 1;
-com.schriftgestaltung.layerOrderInGlyph.fi = 1;
-com.schriftgestaltung.layerOrderInGlyph.figuredash = 1;
-com.schriftgestaltung.layerOrderInGlyph.figurespace = 1;
-com.schriftgestaltung.layerOrderInGlyph.five = 1;
-com.schriftgestaltung.layerOrderInGlyph.five.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.five.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.five.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.fl = 1;
-com.schriftgestaltung.layerOrderInGlyph.florin = 1;
-com.schriftgestaltung.layerOrderInGlyph.four = 1;
-com.schriftgestaltung.layerOrderInGlyph.four.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.four.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.four.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.four.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.fourperemspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.foursuperior = 1;
-com.schriftgestaltung.layerOrderInGlyph.fraction = 1;
-com.schriftgestaltung.layerOrderInGlyph.g = 1;
-com.schriftgestaltung.layerOrderInGlyph.g.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.gbreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.gbreve.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.gcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.gcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.gdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.germandbls = 1;
-com.schriftgestaltung.layerOrderInGlyph.germandbls.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.grave = 0;
-com.schriftgestaltung.layerOrderInGlyph.gravecomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.greater = 1;
-com.schriftgestaltung.layerOrderInGlyph.greaterequal = 1;
-com.schriftgestaltung.layerOrderInGlyph.guillemetleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.guillemetright = 1;
-com.schriftgestaltung.layerOrderInGlyph.guilsinglleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.guilsinglright = 1;
-com.schriftgestaltung.layerOrderInGlyph.h = 1;
-com.schriftgestaltung.layerOrderInGlyph.h.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.hairspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.hbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.hcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.horizontalbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.hungarumlaut = 0;
-com.schriftgestaltung.layerOrderInGlyph.hungarumlautcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.hyphen = 1;
-com.schriftgestaltung.layerOrderInGlyph.hyphentwo = 1;
-com.schriftgestaltung.layerOrderInGlyph.i = 1;
-com.schriftgestaltung.layerOrderInGlyph.i.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.iacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.iacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ibreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.icircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.icircumflex.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.idieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.idieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.idotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.idotless = 1;
-com.schriftgestaltung.layerOrderInGlyph.igrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.igrave.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ij = 1;
-com.schriftgestaltung.layerOrderInGlyph.ij.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.imacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.infinity = 1;
-com.schriftgestaltung.layerOrderInGlyph.integral = 1;
-com.schriftgestaltung.layerOrderInGlyph.interrobang = 1;
-com.schriftgestaltung.layerOrderInGlyph.iogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.itilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.j = 1;
-com.schriftgestaltung.layerOrderInGlyph.j.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.jcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.jdotless = 1;
-com.schriftgestaltung.layerOrderInGlyph.k = 1;
-com.schriftgestaltung.layerOrderInGlyph.k.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.kcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.kgreenlandic = 1;
-com.schriftgestaltung.layerOrderInGlyph.l = 1;
-com.schriftgestaltung.layerOrderInGlyph.l.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.lacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.lacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.lcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.lcaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.lcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.ldot = 0;
-com.schriftgestaltung.layerOrderInGlyph.less = 1;
-com.schriftgestaltung.layerOrderInGlyph.lessequal = 1;
-com.schriftgestaltung.layerOrderInGlyph.logicalnot = 1;
-com.schriftgestaltung.layerOrderInGlyph.longs = 1;
-com.schriftgestaltung.layerOrderInGlyph.longs_t = 1;
-com.schriftgestaltung.layerOrderInGlyph.lozenge = 1;
-com.schriftgestaltung.layerOrderInGlyph.lslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.lslash.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.m = 1;
-com.schriftgestaltung.layerOrderInGlyph.m.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.macron = 0;
-com.schriftgestaltung.layerOrderInGlyph.macroncomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.micro = 1;
-com.schriftgestaltung.layerOrderInGlyph.minus = 1;
-com.schriftgestaltung.layerOrderInGlyph.mu = 1;
-com.schriftgestaltung.layerOrderInGlyph.multiply = 1;
-com.schriftgestaltung.layerOrderInGlyph.n = 1;
-com.schriftgestaltung.layerOrderInGlyph.n.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.nacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.nacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.napostrophe = 1;
-com.schriftgestaltung.layerOrderInGlyph.nbspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.ncaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.ncaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ncommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.nine = 1;
-com.schriftgestaltung.layerOrderInGlyph.nine.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.nine.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.nine.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.nonbreakinghyphen = 1;
-com.schriftgestaltung.layerOrderInGlyph.notequal = 1;
-com.schriftgestaltung.layerOrderInGlyph.ntilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.ntilde.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.numbersign = 1;
-com.schriftgestaltung.layerOrderInGlyph.numero = 1;
-com.schriftgestaltung.layerOrderInGlyph.o = 1;
-com.schriftgestaltung.layerOrderInGlyph.o.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.oacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.oacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.obreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.ocircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.ocircumflex.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.odieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.odieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.oe = 0;
-com.schriftgestaltung.layerOrderInGlyph.oe.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.ogonekcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.ograve = 0;
-com.schriftgestaltung.layerOrderInGlyph.ograve.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut = 0;
-com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.omacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.one = 1;
-com.schriftgestaltung.layerOrderInGlyph.one.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.one.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.one.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.onehalf = 1;
-com.schriftgestaltung.layerOrderInGlyph.onequarter = 1;
-com.schriftgestaltung.layerOrderInGlyph.onesuperior = 1;
-com.schriftgestaltung.layerOrderInGlyph.ordfeminine = 1;
-com.schriftgestaltung.layerOrderInGlyph.ordmasculine = 1;
-com.schriftgestaltung.layerOrderInGlyph.oslash = 1;
-com.schriftgestaltung.layerOrderInGlyph.oslash.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.otilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.otilde.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.overline = 1;
-com.schriftgestaltung.layerOrderInGlyph.p = 1;
-com.schriftgestaltung.layerOrderInGlyph.p.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.paragraph = 1;
-com.schriftgestaltung.layerOrderInGlyph.parenleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.parenright = 1;
-com.schriftgestaltung.layerOrderInGlyph.partialdiff = 1;
-com.schriftgestaltung.layerOrderInGlyph.percent = 1;
-com.schriftgestaltung.layerOrderInGlyph.period = 1;
-com.schriftgestaltung.layerOrderInGlyph.periodcentered = 1;
-com.schriftgestaltung.layerOrderInGlyph.pertenthousand = 0;
-com.schriftgestaltung.layerOrderInGlyph.perthousand = 1;
-com.schriftgestaltung.layerOrderInGlyph.pi = 1;
-com.schriftgestaltung.layerOrderInGlyph.plus = 1;
-com.schriftgestaltung.layerOrderInGlyph.plusminus = 1;
-com.schriftgestaltung.layerOrderInGlyph.product = 1;
-com.schriftgestaltung.layerOrderInGlyph.punctuationspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.q = 1;
-com.schriftgestaltung.layerOrderInGlyph.q.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.question = 1;
-com.schriftgestaltung.layerOrderInGlyph.questiondown = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotedbl = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotedblbase = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotedblleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotedblright = 1;
-com.schriftgestaltung.layerOrderInGlyph.quoteleft = 1;
-com.schriftgestaltung.layerOrderInGlyph.quoteright = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotesinglbase = 1;
-com.schriftgestaltung.layerOrderInGlyph.quotesingle = 1;
-com.schriftgestaltung.layerOrderInGlyph.r = 1;
-com.schriftgestaltung.layerOrderInGlyph.r.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.racute = 0;
-com.schriftgestaltung.layerOrderInGlyph.racute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.radical = 1;
-com.schriftgestaltung.layerOrderInGlyph.rcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.rcaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.rcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.registered = 1;
-com.schriftgestaltung.layerOrderInGlyph.ring = 0;
-com.schriftgestaltung.layerOrderInGlyph.ringcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.rinvertedbreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.s = 1;
-com.schriftgestaltung.layerOrderInGlyph.s.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.sacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.sacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.scaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.scaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.scedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.scedilla.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.scircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.scommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.section = 1;
-com.schriftgestaltung.layerOrderInGlyph.semicolon = 1;
-com.schriftgestaltung.layerOrderInGlyph.seven = 1;
-com.schriftgestaltung.layerOrderInGlyph.seven.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.seven.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.seven.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.six = 1;
-com.schriftgestaltung.layerOrderInGlyph.six.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.sixperemspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.slash = 1;
-com.schriftgestaltung.layerOrderInGlyph.softhyphen = 1;
-com.schriftgestaltung.layerOrderInGlyph.space = 1;
-com.schriftgestaltung.layerOrderInGlyph.sterling = 1;
-com.schriftgestaltung.layerOrderInGlyph.summation = 1;
-com.schriftgestaltung.layerOrderInGlyph.t = 1;
-com.schriftgestaltung.layerOrderInGlyph.t.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.tbar = 1;
-com.schriftgestaltung.layerOrderInGlyph.tbar.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.tcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.tcaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.tcedilla = 0;
-com.schriftgestaltung.layerOrderInGlyph.tcedilla.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.tcommaaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.thinspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.thorn = 1;
-com.schriftgestaltung.layerOrderInGlyph.thorn.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.three = 1;
-com.schriftgestaltung.layerOrderInGlyph.three.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.three.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.three.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.threeperemspace = 1;
-com.schriftgestaltung.layerOrderInGlyph.threequarters = 1;
-com.schriftgestaltung.layerOrderInGlyph.threesuperior = 1;
-com.schriftgestaltung.layerOrderInGlyph.tilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.tildecomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.trademark = 1;
-com.schriftgestaltung.layerOrderInGlyph.two = 1;
-com.schriftgestaltung.layerOrderInGlyph.two.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.two.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.two.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.twosuperior = 1;
-com.schriftgestaltung.layerOrderInGlyph.u = 1;
-com.schriftgestaltung.layerOrderInGlyph.u.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.uacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.uacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ubreve = 0;
-com.schriftgestaltung.layerOrderInGlyph.ucircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.ucircumflex.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.udieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.udieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ugrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.ugrave.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut = 0;
-com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.umacron = 0;
-com.schriftgestaltung.layerOrderInGlyph.underscore = 1;
-com.schriftgestaltung.layerOrderInGlyph.uniF8E8 = 1;
-com.schriftgestaltung.layerOrderInGlyph.uniF8E9 = 1;
-com.schriftgestaltung.layerOrderInGlyph.uogonek = 0;
-com.schriftgestaltung.layerOrderInGlyph.uring = 0;
-com.schriftgestaltung.layerOrderInGlyph.uring.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.utilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.v = 1;
-com.schriftgestaltung.layerOrderInGlyph.v.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.w = 1;
-com.schriftgestaltung.layerOrderInGlyph.w.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.wacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.wcircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.wdieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.wdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.wdotbelow = 0;
-com.schriftgestaltung.layerOrderInGlyph.wgrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.x = 1;
-com.schriftgestaltung.layerOrderInGlyph.x.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.y = 1;
-com.schriftgestaltung.layerOrderInGlyph.y.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.yacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.yacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ycircumflex = 0;
-com.schriftgestaltung.layerOrderInGlyph.ydieresis = 0;
-com.schriftgestaltung.layerOrderInGlyph.ydieresis.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.yen = 1;
-com.schriftgestaltung.layerOrderInGlyph.ygrave = 0;
-com.schriftgestaltung.layerOrderInGlyph.z = 1;
-com.schriftgestaltung.layerOrderInGlyph.z.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.zacute = 0;
-com.schriftgestaltung.layerOrderInGlyph.zacute.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.zcaron = 0;
-com.schriftgestaltung.layerOrderInGlyph.zcaron.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.zdotaccent = 0;
-com.schriftgestaltung.layerOrderInGlyph.zdotaccent.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.zero = 1;
-com.schriftgestaltung.layerOrderInGlyph.zero.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.zero.tf = 1;
-com.schriftgestaltung.layerOrderInGlyph.zero.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.zerowidthspace = 1;
-};
-},
-{
-axesValues = (
-900,
-0
-);
-customParameters = (
-{
-name = typoAscender;
-value = 2250;
-},
-{
-name = typoDescender;
-value = -800;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 2250;
-},
-{
-name = hheaDescender;
-value = -800;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2250;
-},
-{
-name = winDescent;
-value = 800;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -100;
-}
-);
-iconName = Bold;
-id = "5A0F1DA2-36F1-48C5-B19D-79E54862F5ED";
-metricValues = (
-{
-over = 16;
-pos = 1600;
-},
-{
-over = 21;
-pos = 1500;
-},
-{
-over = 21;
-pos = 920;
-},
-{
-over = -31;
-},
-{
-over = -30;
-pos = -400;
-},
-{
-pos = 13;
-},
-{
-over = 21;
-pos = 1020;
-}
-);
-name = "6pt Black";
-stemValues = (
-446,
-446,
-446,
-74,
-446,
-446,
-446,
-446,
-420,
-360
-);
-userData = {
-com.schriftgestaltung.layerId = "5A0F1DA2-36F1-48C5-B19D-79E54862F5ED";
-com.schriftgestaltung.layerOrderInGlyph..notdef = 1;
-com.schriftgestaltung.layerOrderInGlyph..null = 1;
-com.schriftgestaltung.layerOrderInGlyph.A = 0;
-com.schriftgestaltung.layerOrderInGlyph.AE = 0;
-com.schriftgestaltung.layerOrderInGlyph.Aacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Abreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Acircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Adieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Agrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.Amacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Aogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.Aring = 1;
-com.schriftgestaltung.layerOrderInGlyph.Atilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.B = 0;
-com.schriftgestaltung.layerOrderInGlyph.C = 0;
-com.schriftgestaltung.layerOrderInGlyph.CR = 0;
-com.schriftgestaltung.layerOrderInGlyph.Cacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ccaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ccedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ccircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Cdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.D = 0;
-com.schriftgestaltung.layerOrderInGlyph.Dcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Dcroat = 0;
-com.schriftgestaltung.layerOrderInGlyph.Delta = 0;
-com.schriftgestaltung.layerOrderInGlyph.E = 0;
-com.schriftgestaltung.layerOrderInGlyph.Eacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ebreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ecaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ecircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Edieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Edotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Egrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.Emacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Eng = 0;
-com.schriftgestaltung.layerOrderInGlyph.Eogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.Eth = 0;
-com.schriftgestaltung.layerOrderInGlyph.F = 0;
-com.schriftgestaltung.layerOrderInGlyph.G = 0;
-com.schriftgestaltung.layerOrderInGlyph.Gbreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Gcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Gcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Gdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Germandbls = 0;
-com.schriftgestaltung.layerOrderInGlyph.H = 0;
-com.schriftgestaltung.layerOrderInGlyph.Hbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.Hcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.I = 0;
-com.schriftgestaltung.layerOrderInGlyph.IJ = 0;
-com.schriftgestaltung.layerOrderInGlyph.Iacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ibreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Icircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Idieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Idotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Igrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.Imacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Iogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.Itilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.J = 0;
-com.schriftgestaltung.layerOrderInGlyph.J.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.Jcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.K = 0;
-com.schriftgestaltung.layerOrderInGlyph.Kcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.L = 0;
-com.schriftgestaltung.layerOrderInGlyph.Lacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Lcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Lcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ldot = 1;
-com.schriftgestaltung.layerOrderInGlyph.Lslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.M = 0;
-com.schriftgestaltung.layerOrderInGlyph.N = 0;
-com.schriftgestaltung.layerOrderInGlyph.Nacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ncaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ncommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ntilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.O = 0;
-com.schriftgestaltung.layerOrderInGlyph.OE = 0;
-com.schriftgestaltung.layerOrderInGlyph.Oacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Obreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ocircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Odieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ograve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ohungarumlaut = 1;
-com.schriftgestaltung.layerOrderInGlyph.Omacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Omega = 0;
-com.schriftgestaltung.layerOrderInGlyph.Oslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.Otilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.P = 0;
-com.schriftgestaltung.layerOrderInGlyph.Q = 0;
-com.schriftgestaltung.layerOrderInGlyph.R = 0;
-com.schriftgestaltung.layerOrderInGlyph.R.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.Racute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Racute.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rcaron.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rcommaaccent.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Rinvertedbreve.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.S = 0;
-com.schriftgestaltung.layerOrderInGlyph.Sacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Scaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Scedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.Scircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Scommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.T = 0;
-com.schriftgestaltung.layerOrderInGlyph.Tbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.Tcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Tcedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Thorn = 0;
-com.schriftgestaltung.layerOrderInGlyph.U = 0;
-com.schriftgestaltung.layerOrderInGlyph.Uacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ubreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ucircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Udieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ugrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.Uhungarumlaut = 1;
-com.schriftgestaltung.layerOrderInGlyph.Umacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Uogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.Uring = 1;
-com.schriftgestaltung.layerOrderInGlyph.Utilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.V = 0;
-com.schriftgestaltung.layerOrderInGlyph.W = 0;
-com.schriftgestaltung.layerOrderInGlyph.Wacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wdieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wdotbelow = 1;
-com.schriftgestaltung.layerOrderInGlyph.Wgrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.X = 0;
-com.schriftgestaltung.layerOrderInGlyph.Y = 0;
-com.schriftgestaltung.layerOrderInGlyph.Yacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ycircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ydieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.Ygrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.Z = 0;
-com.schriftgestaltung.layerOrderInGlyph.Zacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.Zcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.Zdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.a = 0;
-com.schriftgestaltung.layerOrderInGlyph.a.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.aacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.aacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.abreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.abreve.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.acircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.acircumflex.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.acute = 1;
-com.schriftgestaltung.layerOrderInGlyph.acutecomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.adieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.adieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ae = 0;
-com.schriftgestaltung.layerOrderInGlyph.ae.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.agrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.agrave.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.amacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.ampersand = 0;
-com.schriftgestaltung.layerOrderInGlyph.aogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.aogonek.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.approxequal = 0;
-com.schriftgestaltung.layerOrderInGlyph.aring = 1;
-com.schriftgestaltung.layerOrderInGlyph.aring.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.asciicircum = 0;
-com.schriftgestaltung.layerOrderInGlyph.asciitilde = 0;
-com.schriftgestaltung.layerOrderInGlyph.asterisk = 0;
-com.schriftgestaltung.layerOrderInGlyph.at = 0;
-com.schriftgestaltung.layerOrderInGlyph.atilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.atilde.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.b = 0;
-com.schriftgestaltung.layerOrderInGlyph.b.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.backslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.bar = 0;
-com.schriftgestaltung.layerOrderInGlyph.braceleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.braceright = 0;
-com.schriftgestaltung.layerOrderInGlyph.bracketleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.bracketright = 0;
-com.schriftgestaltung.layerOrderInGlyph.breve = 1;
-com.schriftgestaltung.layerOrderInGlyph.brevecomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.breveinvertedcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.brokenbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.bullet = 0;
-com.schriftgestaltung.layerOrderInGlyph.bulletoperator = 0;
-com.schriftgestaltung.layerOrderInGlyph.c = 0;
-com.schriftgestaltung.layerOrderInGlyph.c.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.cacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.cacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.caron = 1;
-com.schriftgestaltung.layerOrderInGlyph.caroncomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt = 1;
-com.schriftgestaltung.layerOrderInGlyph.ccaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.ccaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ccedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.ccedilla.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ccircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.cdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.cedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.cedillacomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.cent = 0;
-com.schriftgestaltung.layerOrderInGlyph.circumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.circumflexcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.colon = 0;
-com.schriftgestaltung.layerOrderInGlyph.comma = 0;
-com.schriftgestaltung.layerOrderInGlyph.commaaccentcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.commaturnedabovecomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.copyright = 0;
-com.schriftgestaltung.layerOrderInGlyph.currency = 0;
-com.schriftgestaltung.layerOrderInGlyph.curvedStemParagraphSignOrnament = 0;
-com.schriftgestaltung.layerOrderInGlyph.d = 0;
-com.schriftgestaltung.layerOrderInGlyph.d.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.dagger = 0;
-com.schriftgestaltung.layerOrderInGlyph.daggerdbl = 0;
-com.schriftgestaltung.layerOrderInGlyph.dcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.dcaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.dcroat = 0;
-com.schriftgestaltung.layerOrderInGlyph.dcroat.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.degree = 0;
-com.schriftgestaltung.layerOrderInGlyph.dieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.dieresiscomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.divide = 0;
-com.schriftgestaltung.layerOrderInGlyph.divisionslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.dollar = 0;
-com.schriftgestaltung.layerOrderInGlyph.dotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.dotbelowcomb = 1;
-com.schriftgestaltung.layerOrderInGlyph.e = 0;
-com.schriftgestaltung.layerOrderInGlyph.e.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.eacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.eacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ebreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.ecaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.ecaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ecircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.ecircumflex.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.edieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.edieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.edotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.egrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.egrave.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.eight = 0;
-com.schriftgestaltung.layerOrderInGlyph.eight.osf = 1;
-com.schriftgestaltung.layerOrderInGlyph.eight.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.eight.tosf = 1;
-com.schriftgestaltung.layerOrderInGlyph.ellipsis = 0;
-com.schriftgestaltung.layerOrderInGlyph.emacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.emdash = 0;
-com.schriftgestaltung.layerOrderInGlyph.emptyset = 0;
-com.schriftgestaltung.layerOrderInGlyph.emquad = 0;
-com.schriftgestaltung.layerOrderInGlyph.emspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.endash = 0;
-com.schriftgestaltung.layerOrderInGlyph.eng = 0;
-com.schriftgestaltung.layerOrderInGlyph.eng.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.enquad = 0;
-com.schriftgestaltung.layerOrderInGlyph.enspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.eogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.eogonek.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.equal = 0;
-com.schriftgestaltung.layerOrderInGlyph.eth = 0;
-com.schriftgestaltung.layerOrderInGlyph.eth.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.euro = 0;
-com.schriftgestaltung.layerOrderInGlyph.exclam = 0;
-com.schriftgestaltung.layerOrderInGlyph.exclamdown = 0;
-com.schriftgestaltung.layerOrderInGlyph.f = 0;
-com.schriftgestaltung.layerOrderInGlyph.f.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.f_f = 0;
-com.schriftgestaltung.layerOrderInGlyph.f_f_i = 0;
-com.schriftgestaltung.layerOrderInGlyph.f_f_l = 0;
-com.schriftgestaltung.layerOrderInGlyph.f_j.liga = 0;
-com.schriftgestaltung.layerOrderInGlyph.fi = 0;
-com.schriftgestaltung.layerOrderInGlyph.figuredash = 0;
-com.schriftgestaltung.layerOrderInGlyph.figurespace = 0;
-com.schriftgestaltung.layerOrderInGlyph.five = 0;
-com.schriftgestaltung.layerOrderInGlyph.five.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.five.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.five.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.fl = 0;
-com.schriftgestaltung.layerOrderInGlyph.florin = 0;
-com.schriftgestaltung.layerOrderInGlyph.four = 0;
-com.schriftgestaltung.layerOrderInGlyph.four.alt = 0;
-com.schriftgestaltung.layerOrderInGlyph.four.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.four.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.four.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.fourperemspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.foursuperior = 0;
-com.schriftgestaltung.layerOrderInGlyph.fraction = 0;
-com.schriftgestaltung.layerOrderInGlyph.g = 0;
-com.schriftgestaltung.layerOrderInGlyph.g.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.gbreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.gbreve.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.gcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.gcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.gdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.germandbls = 0;
-com.schriftgestaltung.layerOrderInGlyph.germandbls.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.grave = 1;
-com.schriftgestaltung.layerOrderInGlyph.gravecomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.greater = 0;
-com.schriftgestaltung.layerOrderInGlyph.greaterequal = 0;
-com.schriftgestaltung.layerOrderInGlyph.guillemetleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.guillemetright = 0;
-com.schriftgestaltung.layerOrderInGlyph.guilsinglleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.guilsinglright = 0;
-com.schriftgestaltung.layerOrderInGlyph.h = 0;
-com.schriftgestaltung.layerOrderInGlyph.h.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.hairspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.hbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.hcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.horizontalbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.hungarumlaut = 1;
-com.schriftgestaltung.layerOrderInGlyph.hungarumlautcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.hyphen = 0;
-com.schriftgestaltung.layerOrderInGlyph.hyphentwo = 0;
-com.schriftgestaltung.layerOrderInGlyph.i = 0;
-com.schriftgestaltung.layerOrderInGlyph.i.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.iacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.iacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ibreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.icircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.icircumflex.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.idieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.idieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.idotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.idotless = 0;
-com.schriftgestaltung.layerOrderInGlyph.igrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.igrave.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ij = 0;
-com.schriftgestaltung.layerOrderInGlyph.ij.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.imacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.infinity = 0;
-com.schriftgestaltung.layerOrderInGlyph.integral = 0;
-com.schriftgestaltung.layerOrderInGlyph.interrobang = 0;
-com.schriftgestaltung.layerOrderInGlyph.iogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.itilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.j = 0;
-com.schriftgestaltung.layerOrderInGlyph.j.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.jcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.jdotless = 0;
-com.schriftgestaltung.layerOrderInGlyph.k = 0;
-com.schriftgestaltung.layerOrderInGlyph.k.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.kcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.kgreenlandic = 0;
-com.schriftgestaltung.layerOrderInGlyph.l = 0;
-com.schriftgestaltung.layerOrderInGlyph.l.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.lacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.lacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.lcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.lcaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.lcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.ldot = 1;
-com.schriftgestaltung.layerOrderInGlyph.less = 0;
-com.schriftgestaltung.layerOrderInGlyph.lessequal = 0;
-com.schriftgestaltung.layerOrderInGlyph.logicalnot = 0;
-com.schriftgestaltung.layerOrderInGlyph.longs = 0;
-com.schriftgestaltung.layerOrderInGlyph.longs_t = 0;
-com.schriftgestaltung.layerOrderInGlyph.lozenge = 0;
-com.schriftgestaltung.layerOrderInGlyph.lslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.lslash.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.m = 0;
-com.schriftgestaltung.layerOrderInGlyph.m.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.macron = 1;
-com.schriftgestaltung.layerOrderInGlyph.macroncomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.micro = 0;
-com.schriftgestaltung.layerOrderInGlyph.minus = 0;
-com.schriftgestaltung.layerOrderInGlyph.mu = 0;
-com.schriftgestaltung.layerOrderInGlyph.multiply = 0;
-com.schriftgestaltung.layerOrderInGlyph.n = 0;
-com.schriftgestaltung.layerOrderInGlyph.n.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.nacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.nacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.napostrophe = 0;
-com.schriftgestaltung.layerOrderInGlyph.nbspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.ncaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.ncaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ncommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.nine = 0;
-com.schriftgestaltung.layerOrderInGlyph.nine.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.nine.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.nine.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.nonbreakinghyphen = 0;
-com.schriftgestaltung.layerOrderInGlyph.notequal = 0;
-com.schriftgestaltung.layerOrderInGlyph.ntilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.ntilde.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.numbersign = 0;
-com.schriftgestaltung.layerOrderInGlyph.numero = 0;
-com.schriftgestaltung.layerOrderInGlyph.o = 0;
-com.schriftgestaltung.layerOrderInGlyph.o.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.oacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.oacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.obreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.ocircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.ocircumflex.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.odieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.odieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.oe = 1;
-com.schriftgestaltung.layerOrderInGlyph.oe.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.ogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.ogonekcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.ograve = 1;
-com.schriftgestaltung.layerOrderInGlyph.ograve.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut = 1;
-com.schriftgestaltung.layerOrderInGlyph.ohungarumlaut.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.omacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.one = 0;
-com.schriftgestaltung.layerOrderInGlyph.one.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.one.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.one.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.onehalf = 0;
-com.schriftgestaltung.layerOrderInGlyph.onequarter = 0;
-com.schriftgestaltung.layerOrderInGlyph.onesuperior = 0;
-com.schriftgestaltung.layerOrderInGlyph.ordfeminine = 0;
-com.schriftgestaltung.layerOrderInGlyph.ordmasculine = 0;
-com.schriftgestaltung.layerOrderInGlyph.oslash = 0;
-com.schriftgestaltung.layerOrderInGlyph.oslash.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.otilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.otilde.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.overline = 0;
-com.schriftgestaltung.layerOrderInGlyph.p = 0;
-com.schriftgestaltung.layerOrderInGlyph.p.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.paragraph = 0;
-com.schriftgestaltung.layerOrderInGlyph.parenleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.parenright = 0;
-com.schriftgestaltung.layerOrderInGlyph.partialdiff = 0;
-com.schriftgestaltung.layerOrderInGlyph.percent = 0;
-com.schriftgestaltung.layerOrderInGlyph.period = 0;
-com.schriftgestaltung.layerOrderInGlyph.periodcentered = 0;
-com.schriftgestaltung.layerOrderInGlyph.pertenthousand = 1;
-com.schriftgestaltung.layerOrderInGlyph.perthousand = 0;
-com.schriftgestaltung.layerOrderInGlyph.pi = 0;
-com.schriftgestaltung.layerOrderInGlyph.plus = 0;
-com.schriftgestaltung.layerOrderInGlyph.plusminus = 0;
-com.schriftgestaltung.layerOrderInGlyph.product = 0;
-com.schriftgestaltung.layerOrderInGlyph.punctuationspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.q = 0;
-com.schriftgestaltung.layerOrderInGlyph.q.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.question = 0;
-com.schriftgestaltung.layerOrderInGlyph.questiondown = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotedbl = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotedblbase = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotedblleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotedblright = 0;
-com.schriftgestaltung.layerOrderInGlyph.quoteleft = 0;
-com.schriftgestaltung.layerOrderInGlyph.quoteright = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotesinglbase = 0;
-com.schriftgestaltung.layerOrderInGlyph.quotesingle = 0;
-com.schriftgestaltung.layerOrderInGlyph.r = 0;
-com.schriftgestaltung.layerOrderInGlyph.r.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.racute = 1;
-com.schriftgestaltung.layerOrderInGlyph.racute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.radical = 0;
-com.schriftgestaltung.layerOrderInGlyph.rcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.rcaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.rcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.registered = 0;
-com.schriftgestaltung.layerOrderInGlyph.ring = 1;
-com.schriftgestaltung.layerOrderInGlyph.ringcomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.rinvertedbreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.s = 0;
-com.schriftgestaltung.layerOrderInGlyph.s.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.sacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.sacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.scaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.scaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.scedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.scedilla.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.scircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.scommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.section = 0;
-com.schriftgestaltung.layerOrderInGlyph.semicolon = 0;
-com.schriftgestaltung.layerOrderInGlyph.seven = 0;
-com.schriftgestaltung.layerOrderInGlyph.seven.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.seven.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.seven.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.six = 0;
-com.schriftgestaltung.layerOrderInGlyph.six.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.sixperemspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.slash = 0;
-com.schriftgestaltung.layerOrderInGlyph.softhyphen = 0;
-com.schriftgestaltung.layerOrderInGlyph.space = 0;
-com.schriftgestaltung.layerOrderInGlyph.sterling = 0;
-com.schriftgestaltung.layerOrderInGlyph.summation = 0;
-com.schriftgestaltung.layerOrderInGlyph.t = 0;
-com.schriftgestaltung.layerOrderInGlyph.t.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.tbar = 0;
-com.schriftgestaltung.layerOrderInGlyph.tbar.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.tcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.tcaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.tcedilla = 1;
-com.schriftgestaltung.layerOrderInGlyph.tcedilla.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.tcommaaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.thinspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.thorn = 0;
-com.schriftgestaltung.layerOrderInGlyph.thorn.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.three = 0;
-com.schriftgestaltung.layerOrderInGlyph.three.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.three.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.three.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.threeperemspace = 0;
-com.schriftgestaltung.layerOrderInGlyph.threequarters = 0;
-com.schriftgestaltung.layerOrderInGlyph.threesuperior = 0;
-com.schriftgestaltung.layerOrderInGlyph.tilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.tildecomb = 0;
-com.schriftgestaltung.layerOrderInGlyph.trademark = 0;
-com.schriftgestaltung.layerOrderInGlyph.two = 0;
-com.schriftgestaltung.layerOrderInGlyph.two.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.two.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.two.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.twosuperior = 0;
-com.schriftgestaltung.layerOrderInGlyph.u = 0;
-com.schriftgestaltung.layerOrderInGlyph.u.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.uacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.uacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ubreve = 1;
-com.schriftgestaltung.layerOrderInGlyph.ucircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.ucircumflex.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.udieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.udieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ugrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.ugrave.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut = 1;
-com.schriftgestaltung.layerOrderInGlyph.uhungarumlaut.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.umacron = 1;
-com.schriftgestaltung.layerOrderInGlyph.underscore = 0;
-com.schriftgestaltung.layerOrderInGlyph.uniF8E8 = 0;
-com.schriftgestaltung.layerOrderInGlyph.uniF8E9 = 0;
-com.schriftgestaltung.layerOrderInGlyph.uogonek = 1;
-com.schriftgestaltung.layerOrderInGlyph.uring = 1;
-com.schriftgestaltung.layerOrderInGlyph.uring.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.utilde = 1;
-com.schriftgestaltung.layerOrderInGlyph.v = 0;
-com.schriftgestaltung.layerOrderInGlyph.v.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.w = 0;
-com.schriftgestaltung.layerOrderInGlyph.w.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.wacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.wcircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.wdieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.wdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.wdotbelow = 1;
-com.schriftgestaltung.layerOrderInGlyph.wgrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.x = 0;
-com.schriftgestaltung.layerOrderInGlyph.x.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.y = 0;
-com.schriftgestaltung.layerOrderInGlyph.y.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.yacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.yacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.ycircumflex = 1;
-com.schriftgestaltung.layerOrderInGlyph.ydieresis = 1;
-com.schriftgestaltung.layerOrderInGlyph.ydieresis.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.yen = 0;
-com.schriftgestaltung.layerOrderInGlyph.ygrave = 1;
-com.schriftgestaltung.layerOrderInGlyph.z = 0;
-com.schriftgestaltung.layerOrderInGlyph.z.sc = 0;
-com.schriftgestaltung.layerOrderInGlyph.zacute = 1;
-com.schriftgestaltung.layerOrderInGlyph.zacute.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.zcaron = 1;
-com.schriftgestaltung.layerOrderInGlyph.zcaron.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.zdotaccent = 1;
-com.schriftgestaltung.layerOrderInGlyph.zdotaccent.sc = 1;
-com.schriftgestaltung.layerOrderInGlyph.zero = 0;
-com.schriftgestaltung.layerOrderInGlyph.zero.osf = 0;
-com.schriftgestaltung.layerOrderInGlyph.zero.tf = 0;
-com.schriftgestaltung.layerOrderInGlyph.zero.tosf = 0;
-com.schriftgestaltung.layerOrderInGlyph.zerowidthspace = 0;
-};
 }
 );
 glyphs = (
 {
 color = (0,171,232,255);
 glyphname = A;
-lastChange = "2023-10-05 13:59:01 +0000";
+lastChange = "2023-10-06 08:49:31 +0000";
 layers = (
 {
 anchors = (
@@ -40295,7 +40258,7 @@ unicode = 352;
 {
 color = 10;
 glyphname = Scedilla;
-lastChange = "2023-10-05 13:59:28 +0000";
+lastChange = "2023-10-05 13:49:31 +0000";
 layers = (
 {
 background = {
@@ -119694,9 +119657,15 @@ unicode = 380;
 {
 color = (0,171,232,255);
 glyphname = f_f;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (843.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -119953,6 +119922,12 @@ nodes = (
 width = 1687;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (633.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -120209,6 +120184,12 @@ nodes = (
 width = 1267;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (633.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -120465,6 +120446,12 @@ nodes = (
 width = 1267;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (843.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -120725,9 +120712,19 @@ width = 1687;
 {
 color = (0,171,232,255);
 glyphname = f_f_i;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (739.333,0);
+},
+{
+name = caret_2;
+pos = (1478.667,0);
+}
+);
 background = {
 shapes = (
 {
@@ -121024,6 +121021,16 @@ nodes = (
 width = 2218;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (589,0);
+},
+{
+name = caret_2;
+pos = (1178,0);
+}
+);
 background = {
 shapes = (
 {
@@ -121320,6 +121327,16 @@ nodes = (
 width = 1767;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (589,0);
+},
+{
+name = caret_2;
+pos = (1178,0);
+}
+);
 background = {
 shapes = (
 {
@@ -121616,6 +121633,16 @@ nodes = (
 width = 1767;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (755,0);
+},
+{
+name = caret_2;
+pos = (1510,0);
+}
+);
 background = {
 shapes = (
 {
@@ -121916,9 +121943,19 @@ width = 2265;
 {
 color = (0,171,232,255);
 glyphname = f_f_l;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (775.333,0);
+},
+{
+name = caret_2;
+pos = (1550.667,0);
+}
+);
 background = {
 shapes = (
 {
@@ -122229,6 +122266,16 @@ nodes = (
 width = 2326;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (588.333,0);
+},
+{
+name = caret_2;
+pos = (1176.667,0);
+}
+);
 background = {
 shapes = (
 {
@@ -122539,6 +122586,16 @@ nodes = (
 width = 1765;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (588.333,0);
+},
+{
+name = caret_2;
+pos = (1176.667,0);
+}
+);
 background = {
 shapes = (
 {
@@ -122849,6 +122906,16 @@ nodes = (
 width = 1765;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (791.667,0);
+},
+{
+name = caret_2;
+pos = (1583.333,0);
+}
+);
 background = {
 shapes = (
 {
@@ -123163,9 +123230,31 @@ width = 2375;
 {
 color = (0,171,232,255);
 glyphname = f_j.liga;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (286,0);
+},
+{
+name = bottom_2;
+pos = (1069,0);
+},
+{
+name = caret_1;
+pos = (783.5,0);
+},
+{
+name = top_1;
+pos = (655,1600);
+},
+{
+name = top_2;
+pos = (1438,1600);
+}
+);
 background = {
 shapes = (
 {
@@ -123354,6 +123443,28 @@ nodes = (
 width = 1567;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (163,0);
+},
+{
+name = bottom_2;
+pos = (700,0);
+},
+{
+name = caret_1;
+pos = (537.5,0);
+},
+{
+name = top_1;
+pos = (532,1600);
+},
+{
+name = top_2;
+pos = (1069,1600);
+}
+);
 background = {
 shapes = (
 {
@@ -123542,6 +123653,28 @@ nodes = (
 width = 1075;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (160,0);
+},
+{
+name = bottom_2;
+pos = (691,0);
+},
+{
+name = caret_1;
+pos = (531.5,0);
+},
+{
+name = top_1;
+pos = (529,1600);
+},
+{
+name = top_2;
+pos = (1060,1600);
+}
+);
 background = {
 shapes = (
 {
@@ -123730,6 +123863,28 @@ nodes = (
 width = 1063;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (252,0);
+},
+{
+name = bottom_2;
+pos = (967,0);
+},
+{
+name = caret_1;
+pos = (715,0);
+},
+{
+name = top_1;
+pos = (621,1600);
+},
+{
+name = top_2;
+pos = (1336,1600);
+}
+);
 background = {
 shapes = (
 {
@@ -123922,9 +124077,15 @@ width = 1430;
 {
 color = (0,171,232,255);
 glyphname = fi;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (768.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -124107,6 +124268,12 @@ nodes = (
 width = 1537;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (568.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -124289,6 +124456,12 @@ nodes = (
 width = 1137;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (568.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -124471,6 +124644,12 @@ nodes = (
 width = 1137;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (793,0);
+}
+);
 background = {
 shapes = (
 {
@@ -124658,9 +124837,15 @@ unicode = 64257;
 {
 color = (0,171,232,255);
 glyphname = fl;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (824,0);
+}
+);
 background = {
 shapes = (
 {
@@ -124857,6 +125042,12 @@ nodes = (
 width = 1648;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (597.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125053,6 +125244,12 @@ nodes = (
 width = 1195;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (597.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125249,6 +125446,12 @@ nodes = (
 width = 1195;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (848,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125450,9 +125653,15 @@ unicode = 64258;
 {
 color = (0,171,232,255);
 glyphname = longs_t;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-18 14:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (824.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125611,6 +125820,12 @@ nodes = (
 width = 1649;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (590,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125769,6 +125984,12 @@ nodes = (
 width = 1180;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (590,0);
+}
+);
 background = {
 shapes = (
 {
@@ -125927,6 +126148,12 @@ nodes = (
 width = 1180;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (824.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -168142,7 +168369,7 @@ unicode = 56;
 {
 color = (0,171,232,255);
 glyphname = nine;
-lastChange = "2023-10-05 13:59:01 +0000";
+lastChange = "2023-10-06 08:49:31 +0000";
 layers = (
 {
 background = {
@@ -181819,7 +182046,7 @@ unicode = 13;
 {
 color = (0,171,232,255);
 glyphname = .notdef;
-lastChange = "2023-10-05 14:13:38 +0000";
+lastChange = "2023-10-12 13:45:37 +0000";
 layers = (
 {
 background = {
@@ -181975,24 +182202,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(795,794,o),
-(847,790,o),
-(927,822,cs),
-(970,840,o),
-(998,879,o),
-(977,915,cs),
-(955,956,o),
-(908,944,o),
-(872,919,cs),
-(805,865,o),
-(773,830,o),
-(666,768,c),
-(687,733,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (546,636,o),
 (578,672,o),
 (685,734,c),
@@ -182078,6 +182287,24 @@ nodes = (
 (661,885,o),
 (677,876,o),
 (655,751,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(795,794,o),
+(847,790,o),
+(927,822,cs),
+(970,840,o),
+(998,879,o),
+(977,915,cs),
+(955,956,o),
+(908,944,o),
+(872,919,cs),
+(805,865,o),
+(773,830,o),
+(666,768,c),
+(687,733,l)
 );
 }
 );
@@ -182237,24 +182464,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(795,794,o),
-(847,790,o),
-(927,822,cs),
-(970,840,o),
-(998,879,o),
-(977,915,cs),
-(955,956,o),
-(908,943,o),
-(872,919,cs),
-(805,865,o),
-(773,830,o),
-(666,768,c),
-(687,733,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (546,636,o),
 (578,672,o),
 (685,734,c),
@@ -182340,6 +182549,24 @@ nodes = (
 (661,885,o),
 (677,876,o),
 (655,751,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(795,794,o),
+(847,790,o),
+(927,822,cs),
+(970,840,o),
+(998,879,o),
+(977,915,cs),
+(955,956,o),
+(908,943,o),
+(872,919,cs),
+(805,865,o),
+(773,830,o),
+(666,768,c),
+(687,733,l)
 );
 }
 );
@@ -182499,24 +182726,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(795,794,o),
-(847,790,o),
-(927,822,cs),
-(970,840,o),
-(998,879,o),
-(977,915,cs),
-(955,956,o),
-(908,944,o),
-(872,919,cs),
-(805,865,o),
-(773,830,o),
-(666,768,c),
-(687,733,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (546,636,o),
 (578,672,o),
 (685,734,c),
@@ -182602,6 +182811,24 @@ nodes = (
 (661,885,o),
 (677,876,o),
 (655,751,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(795,794,o),
+(847,790,o),
+(927,822,cs),
+(970,840,o),
+(998,879,o),
+(977,915,cs),
+(955,956,o),
+(908,944,o),
+(872,919,cs),
+(805,865,o),
+(773,830,o),
+(666,768,c),
+(687,733,l)
 );
 }
 );
@@ -182761,24 +182988,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(795,794,o),
-(847,790,o),
-(927,822,cs),
-(970,840,o),
-(998,879,o),
-(977,915,cs),
-(955,956,o),
-(908,944,o),
-(872,919,cs),
-(805,865,o),
-(773,830,o),
-(666,768,c),
-(687,733,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (546,636,o),
 (578,672,o),
 (685,734,c),
@@ -182864,6 +183073,24 @@ nodes = (
 (661,885,o),
 (677,876,o),
 (655,751,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(795,794,o),
+(847,790,o),
+(927,822,cs),
+(970,840,o),
+(998,879,o),
+(977,915,cs),
+(955,956,o),
+(908,944,o),
+(872,919,cs),
+(805,865,o),
+(773,830,o),
+(666,768,c),
+(687,733,l)
 );
 }
 );
@@ -223292,7 +223519,7 @@ unicode = 731;
 {
 color = (0,171,232,255);
 glyphname = uniF8E8;
-lastChange = "2023-10-05 14:15:00 +0000";
+lastChange = "2023-10-12 13:19:07 +0000";
 layers = (
 {
 anchors = (
@@ -224220,7 +224447,7 @@ unicode = 63720;
 {
 color = (0,171,232,255);
 glyphname = uniF8E9;
-lastChange = "2023-10-05 14:15:00 +0000";
+lastChange = "2023-10-12 13:19:07 +0000";
 layers = (
 {
 anchors = (
@@ -225115,7 +225342,7 @@ axesValues = (
 instanceInterpolations = {
 "F479A047-48C9-4D19-A0FD-B440837ED7E5" = 1;
 };
-name = Regular;
+name = Italic;
 },
 {
 axesValues = (
@@ -225126,7 +225353,7 @@ instanceInterpolations = {
 "C8A05DAB-080B-4AF9-9351-1A1E2A671399" = 0.2;
 "F479A047-48C9-4D19-A0FD-B440837ED7E5" = 0.8;
 };
-name = Medium;
+name = "Medium Italic";
 weightClass = 500;
 },
 {
@@ -225138,7 +225365,7 @@ instanceInterpolations = {
 "C8A05DAB-080B-4AF9-9351-1A1E2A671399" = 0.4;
 "F479A047-48C9-4D19-A0FD-B440837ED7E5" = 0.6;
 };
-name = SemiBold;
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -225151,7 +225378,7 @@ instanceInterpolations = {
 "F479A047-48C9-4D19-A0FD-B440837ED7E5" = 0.4;
 };
 isBold = 1;
-name = Bold;
+name = "Bold Italic";
 weightClass = 700;
 },
 {
@@ -225163,7 +225390,7 @@ instanceInterpolations = {
 "C8A05DAB-080B-4AF9-9351-1A1E2A671399" = 0.8;
 "F479A047-48C9-4D19-A0FD-B440837ED7E5" = 0.2;
 };
-name = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = 800;
 },
 {
@@ -225174,7 +225401,7 @@ axesValues = (
 instanceInterpolations = {
 "C8A05DAB-080B-4AF9-9351-1A1E2A671399" = 1;
 };
-name = Black;
+name = "Black Italic";
 weightClass = 900;
 }
 );
@@ -225253,42 +225480,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
-}
-);
-settings = {
-disablesNiceNames = 1;
-};
-stems = (
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-horizontal = 1;
-name = hStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem0;
 }
 );
 unitsPerEm = 2000;
