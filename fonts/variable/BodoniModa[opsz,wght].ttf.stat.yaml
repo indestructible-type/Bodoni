@@ -1,0 +1,86 @@
+BodoniModa-Italic[opsz,wght].ttf:
+- name: Optical size
+  tag: opsz
+  values:
+  - name: 6pt
+    value: 6
+  - name: 11pt
+    value: 11
+  - name: 16pt
+    value: 16
+  - name: 24pt
+    value: 24
+  - name: 36pt
+    value: 36
+  - name: 48pt
+    value: 48
+  - name: 72pt
+    value: 72
+  - name: 96pt
+    value: 96
+- name: Weight
+  tag: wght
+  values:
+  - flags: 2
+    linkedValue: 700
+    name: Regular
+    value: 400
+  - name: Medium
+    value: 500
+  - name: SemiBold
+    value: 600
+  - name: Bold
+    value: 700
+  - name: ExtraBold
+    value: 800
+  - name: Black
+    value: 900
+- name: Italic
+  tag: ital
+  values:
+  - name: Italic
+    value: 1
+BodoniModa[opsz,wght].ttf:
+- name: Optical size
+  tag: opsz
+  values:
+  - name: 6pt
+    value: 6
+  - name: 11pt
+    value: 11
+  - name: 16pt
+    value: 16
+  - name: 24pt
+    value: 24
+  - name: 36pt
+    value: 36
+  - name: 48pt
+    value: 48
+  - name: 72pt
+    value: 72
+  - name: 96pt
+    value: 96
+- name: Weight
+  tag: wght
+  values:
+  - flags: 2
+    linkedValue: 700
+    name: Regular
+    value: 400
+  - name: Medium
+    value: 500
+  - name: SemiBold
+    value: 600
+  - name: Bold
+    value: 700
+  - name: ExtraBold
+    value: 800
+  - name: Black
+    value: 900
+- name: Italic
+  tag: ital
+  values:
+  - flags: 2
+    linkedValue: 1
+    name: Roman
+    value: 0
