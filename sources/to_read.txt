@@ -1,0 +1,2 @@
+In order to export the fonts correctly, and not cause any regressions, we had to set up a new build process. This process must generate a regular master and a black master (in both Upright and Italic) from instances. If you want to contribute, you can delete them, and keep only the 6pt and 96pt masters.
+The font onboarder will generate them again for export.
